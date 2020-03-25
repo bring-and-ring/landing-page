@@ -1,4 +1,4 @@
-import { IonTitle, IonToolbar } from '@ionic/react'
+import { IonHeader, IonTitle, IonToolbar } from '@ionic/react'
 import * as React from 'react'
 
 interface HeaderProps {
@@ -6,9 +6,11 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ title }) => (
-  <IonToolbar>
-    <IonTitle to="/">{title}</IonTitle>
-  </IonToolbar>
+  <IonHeader>
+    <IonToolbar>
+      <IonTitle to="/">{title}</IonTitle>
+    </IonToolbar>
+  </IonHeader>
 )
 
 export default Header
