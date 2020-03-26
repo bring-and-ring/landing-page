@@ -11,9 +11,17 @@ export type EntryProps = {
   body: string
   btn: string
   link: string
+  sponsorsTitle: string
+  sponsors: [
+    {
+      link: string
+      src: string
+      alt: string
+    }
+  ]
 }
 
-const Entry: React.FC<EntryProps> = ({ title, slug, body, btn }) => {
+const Entry: React.FC<EntryProps> = ({ title, slug, body, btn, sponsorsTitle, sponsors }) => {
   return (
     <div className={`${styles.wrap} md`}>
       <div className={styles.content}>
@@ -36,6 +44,20 @@ const Entry: React.FC<EntryProps> = ({ title, slug, body, btn }) => {
         <div className={styles.visualMain}>
           <MainImage />
         </div>
+      </div>
+      <div className={styles.sponsors}>
+        <Typography size="h4" elem="h4">
+          {sponsorsTitle}
+        </Typography>
+        <ul className={styles.sponsorsList}>
+          {sponsors.map(({ link, src, alt }) => (
+            <li key={src} className={styles.sponsorsListItem}>
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <img src={src} alt={alt} />
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   )
