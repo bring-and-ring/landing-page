@@ -4,6 +4,7 @@ import Container from '../components/Container'
 import Page from '../components/Page'
 import IndexLayout from '../layouts'
 import Entry, { EntryProps } from '../sections/entry/Entry'
+import Second from '../sections/second/Second'
 
 const entryI18n: EntryProps = {
   title: 'Kontaktlos einkaufen für Risikogruppen.',
@@ -31,6 +32,7 @@ const IndexPage = () => (
   <IndexLayout>
     <Page>
       <Entry {...entryI18n} />
+      <Second />
       <Container>
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
