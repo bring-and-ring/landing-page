@@ -24,6 +24,7 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
+    "@bring-n-ring/components": "0.0.5",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
     "@ionic/react": "^5.0.5",

@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+import '@bring-n-ring/components/base.css'
+import '@bring-n-ring/components/fonts.css'
