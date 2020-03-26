@@ -23,12 +23,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 12px;
   width: 100%;
   height: 100%;
 }
 
 .content > * {
-  border-radius: 12px;
+  mask: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 360 722' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cg id='iPhone-X' serif:id='iPhone X'%3E%3Cpath d='M55.779,22.201C38.011,22.201 23.707,36.505 23.707,54.273L23.707,667.469C23.707,685.237 38.011,699.541 55.779,699.541L304.221,699.541C321.989,699.541 336.293,685.237 336.293,667.469L336.293,54.273C336.293,36.505 321.989,22.201 304.221,22.201L272.848,22.201C269.909,22.201 267.49,24.62 267.49,27.559L267.49,30.025C267.49,39.679 259.72,47.451 250.066,47.451L109.934,47.451C100.28,47.451 92.51,39.679 92.51,30.025L92.51,27.559C92.51,24.62 90.091,22.201 87.152,22.201L55.779,22.201Z'/%3E%3C/g%3E%3C/svg%3E%0A");
   position: relative;
 }
