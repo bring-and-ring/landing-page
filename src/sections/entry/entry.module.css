@@ -10,7 +10,7 @@
 .visual {
 }
 
-@media (min-width: var(--test)) {
+@media (min-width: var(--media-size-xl)) {
   .title {
     font-size: 80px;
   }
