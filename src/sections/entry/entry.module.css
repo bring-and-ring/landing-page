@@ -1,0 +1,13 @@
+.wrap {
+  min-height: 100vh;
+  background: var(--color-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 820px) {
+  .title {
+    font-size: 80px;
+  }
+}
