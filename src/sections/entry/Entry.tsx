@@ -1,44 +1,43 @@
 import * as React from 'react'
-import { Typography, Spacer } from '@bring-n-ring/components'
-import Img from 'gatsby-image'
-import { graphql, StaticQuery } from 'gatsby'
+import { Typography, Spacer, IonButton } from '@bring-n-ring/components'
+import '@bring-n-ring/components/css/ion-button.css'
 import styles from './entry.module.css'
+import { MainImage, SideImage } from './components'
+import Container from '../../components/Container'
 
 export type EntryProps = {
   title: string
+  slug: string
+  body: string
+  btn: string
+  link: string
 }
 
-const Entry: React.FC<EntryProps> = ({ title }) => {
+const Entry: React.FC<EntryProps> = ({ title, slug, body, btn }) => {
   return (
-    <StaticQuery
-      query={graphql`
-        query {
-          file(relativePath: { eq: "images/entry-mocks.png" }) {
-            childImageSharp {
-              fixed(width: 125, height: 125) {
-                ...GatsbyImageSharpFixed
-              }
-            }
-          }
-        }
-      `}
-      render={data => {
-        return (
-          <div className={styles.wrap}>
-            <Spacer type="within" multiply={5}>
-              <div className={styles.content}>
-                <Typography className={styles.title} color="primary" size="h1">
-                  {title}
-                </Typography>
-              </div>
-              <div className={styles.visual}>
-                <Img fixed={data.file.childImageSharp.fixed} />
-              </div>
-            </Spacer>
-          </div>
-        )
-      }}
-    />
+    <div className={`${styles.wrap} md`}>
+      <div className={styles.content}>
+        <Typography className={styles.title} color="primary" size="h1">
+          {title}
+        </Typography>
+        <Typography className={styles.subTitle} size="h4">
+          {slug}
+        </Typography>
+        <Typography className={styles.body} size="p">
+          {body}
+        </Typography>
+        <IonButton>{btn}</IonButton>
+      </div>
+      <div className={styles.visual}>
+        <div className={styles.visualDeco} />
+        <div className={styles.visualSide}>
+          <SideImage />
+        </div>
+        <div className={styles.visualMain}>
+          <MainImage />
+        </div>
+      </div>
+    </div>
   )
 }
 
