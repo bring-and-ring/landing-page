@@ -4,7 +4,6 @@ import '@bring-n-ring/components/css/ion-button.css'
 import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
 import { MainImage, SideImage } from './components'
-import Container from '../../components/Container'
 
 export type EntryProps = {
   title: string
@@ -13,16 +12,13 @@ export type EntryProps = {
   btnText: string
   linkText: string
   sponsorsTitle: string
-  sponsors: [
-    {
-      link: string
-      src: string
-      alt: string
-    }
-  ]
+  sponsors: Array<{
+    src: string
+    alt: string
+  }>
 }
 
-const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors }) => {
+export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors }) => {
   return (
     <div className={`${styles.wrap} md`}>
       <div className={styles.content}>
@@ -57,9 +53,7 @@ const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, spo
         <ul className={styles.sponsorsList}>
           {sponsors.map(({ link, src, alt }) => (
             <li key={src} className={styles.sponsorsListItem}>
-              <a href={link} target="_blank" rel="noopener noreferrer">
-                <img src={src} alt={alt} />
-              </a>
+              <img src={src} alt={alt} />
             </li>
           ))}
         </ul>
@@ -67,5 +61,3 @@ const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, spo
     </div>
   )
 }
-
-export default Entry
