@@ -15,7 +15,7 @@ const Entry: React.FC<EntryProps> = ({ title }) => {
         query {
           file(relativePath: { eq: "images/entry-mocks.png" }) {
             childImageSharp {
-              fixed(width: 800, height: 800) {
+              fixed(width: 125, height: 125) {
                 ...GatsbyImageSharpFixed
               }
             }

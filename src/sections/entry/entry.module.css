@@ -6,7 +6,11 @@
   align-items: center;
 }
 
-@media (min-width: 820px) {
+.content,
+.visual {
+}
+
+@media (min-width: var(--test)) {
   .title {
     font-size: 80px;
   }
