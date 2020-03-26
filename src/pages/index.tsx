@@ -10,8 +10,8 @@ const entryI18n: EntryProps = {
   slug: 'sicher. bargeldlos. einfach.',
   body:
     'Du willst helfen? Ein paar Euro in der Krise dazu verdienen? Leben retten? Dann melde dich jetzt an und werde bringer oder lass bringen',
-  btn: 'Beta-Tester werden',
-  link: 'as',
+  btnText: 'Beta-Tester werden',
+  linkText: 'mehr erfahrn',
   sponsorsTitle: 'Bekannt aus:',
   sponsors: [
     {

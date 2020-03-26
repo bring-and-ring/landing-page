@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Typography, Spacer, IonButton } from '@bring-n-ring/components'
 import '@bring-n-ring/components/css/ion-button.css'
+import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
 import { MainImage, SideImage } from './components'
 import Container from '../../components/Container'
@@ -9,8 +10,8 @@ export type EntryProps = {
   title: string
   slug: string
   body: string
-  btn: string
-  link: string
+  btnText: string
+  linkText: string
   sponsorsTitle: string
   sponsors: [
     {
@@ -21,7 +22,7 @@ export type EntryProps = {
   ]
 }
 
-const Entry: React.FC<EntryProps> = ({ title, slug, body, btn, sponsorsTitle, sponsors }) => {
+const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors }) => {
   return (
     <div className={`${styles.wrap} md`}>
       <div className={styles.content}>
@@ -34,7 +35,11 @@ const Entry: React.FC<EntryProps> = ({ title, slug, body, btn, sponsorsTitle, sp
         <Typography className={styles.body} size="p">
           {body}
         </Typography>
-        <IonButton>{btn}</IonButton>
+        <div className={styles.alignCenter}>
+          <IonButton>{btnText}</IonButton>
+          <Spacer multiply={2} />
+          <IonRouterLink>{linkText}</IonRouterLink>
+        </div>
       </div>
       <div className={styles.visual}>
         <div className={styles.visualDeco} />
