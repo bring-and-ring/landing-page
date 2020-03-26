@@ -45,6 +45,11 @@
   grid-row-gap: calc(var(--base-spacing) * 2);
 }
 
+.alignCenter {
+  display: inline-block;
+  text-align: center;
+}
+
 .sponsorsListItem {
   background: var(--color--background);
 }
