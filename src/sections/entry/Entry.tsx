@@ -12,7 +12,7 @@ export type EntryProps = {
   btnText: string
   linkText: string
   sponsorsTitle: string
-  btnProps: HTMLButtonElement
+  btnProps: HTMLDivElement
   linkProps: HTMLAnchorElement
   sponsors: Array<{
     src: string

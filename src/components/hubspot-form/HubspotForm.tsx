@@ -1,4 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, FC } from 'react'
+import { IonIcon } from '@ionic/react'
+import { close } from 'ionicons/icons'
+import { Typography } from '@bring-n-ring/components'
 import styles from './hubspot-form.module.css'
 
 declare global {
@@ -7,11 +10,14 @@ declare global {
   }
 }
 
-export type HubspotForm = {
+export type HubspotFormProps = {
   visible: boolean
+  title: string
+  body: string
+  onClose?: () => {}
 }
 
-export const HubspotForm: FC<HubspotForm> = ({ children, visible }) => {
+export const HubspotForm: FC<HubspotFormProps> = ({ title, visible, body, onClose = () => {} }) => {
   const [hbspt, setHbspt] = useState<any>(null)
   useEffect(() => {
     const script = document.createElement('script')
@@ -38,7 +44,12 @@ export const HubspotForm: FC<HubspotForm> = ({ children, visible }) => {
   }, [hbspt])
   return (
     <div className={`${styles.wrap} ${visible ? styles.visible : ''}`}>
-      <div id="HubspotHook" />
+      <div className={styles.content}>
+        <Typography size="h1">{title}</Typography>
+        <Typography size="p">{body}</Typography>
+        <IonIcon onClick={onClose} icon={close} className={styles.closeIcon} />
+        <div id="HubspotHook" className={styles.form} />
+      </div>
     </div>
   )
 }

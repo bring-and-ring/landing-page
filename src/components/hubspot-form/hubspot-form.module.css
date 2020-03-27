@@ -10,8 +10,31 @@
   align-items: center;
   justify-content: center;
   visibility: hidden;
+  overflow: scroll;
 }
-
+.content {
+  max-width: 700px;
+}
 .visible {
   visibility: visible;
+}
+
+.closeIcon {
+  position: absolute;
+  top: calc(var(--base-spacing) * 4);
+  right: calc(var(--base-spacing) * 4);
+  transform: scale(2);
+}
+@media (min-width: 767px) {
+  .wrap {
+    padding: calc(var(--base-spacing) * 5);
+  }
+  .closeIcon {
+    top: calc(var(--base-spacing) * 8);
+    right: calc(var(--base-spacing) * 8);
+    transform: scale(3);
+  }
+  .form {
+    width: 600px;
+  }
 }
