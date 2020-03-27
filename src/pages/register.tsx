@@ -9,8 +9,7 @@ import { HubspotForm } from '../components/hubspot-form/HubspotForm'
 const IndexPage = () => (
   <IndexLayout>
     <Page>
-      <Entry {...entryData} />
-      <Insta {...instaData} />
+      <HubspotForm />
     </Page>
   </IndexLayout>
 )
