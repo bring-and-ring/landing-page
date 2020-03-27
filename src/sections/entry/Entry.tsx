@@ -14,13 +14,23 @@ export type EntryProps = {
   sponsorsTitle: string
   btnProps: HTMLDivElement
   linkProps: HTMLAnchorElement
-  sponsors: Array<{
+  sponsors?: Array<{
     src: string
     alt: string
   }>
 }
 
-export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors, btnProps, linkProps }) => {
+export const Entry: React.FC<EntryProps> = ({
+  title,
+  slug,
+  body,
+  btnText,
+  linkText,
+  sponsorsTitle,
+  sponsors = [],
+  btnProps,
+  linkProps
+}) => {
   return (
     <div className={`${styles.wrap} md`}>
       <div className={styles.content}>
@@ -49,11 +59,14 @@ export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkTe
         </div>
       </div>
       <div className={styles.sponsors}>
-        <Typography size="h4" elem="h4">
-          {sponsorsTitle}
-        </Typography>
+        {sponsors.length && (
+          <Typography size="h4" elem="h4">
+            {sponsorsTitle}
+          </Typography>
+        )}
+
         <ul className={styles.sponsorsList}>
-          {sponsors.map(({ link, src, alt }) => (
+          {sponsors.map(({ src, alt }) => (
             <li key={src} className={styles.sponsorsListItem}>
               <img src={src} alt={alt} />
             </li>
