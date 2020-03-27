@@ -115,8 +115,6 @@
 
 @media (min-width: 1200px) {
   .wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 0 calc(var(--base-spacing) * 15);
   }
   .content {
@@ -148,8 +146,6 @@
 
 @media (min-width: 1430px) {
   .wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 0 calc(var(--base-spacing) * 20);
   }
   .sponsors {

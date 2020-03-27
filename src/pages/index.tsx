@@ -1,21 +1,15 @@
-import { IonButton } from '@ionic/react'
 import * as React from 'react'
-import Container from '../components/Container'
 import Page from '../components/Page'
 import IndexLayout from '../layouts'
-import { Entry } from '../sections'
+import { Entry, Insta } from '../sections'
 import entryData from '../content/home/sections/entry.yaml'
+import instaData from '../content/home/sections/insta.yaml'
 
 const IndexPage = () => (
   <IndexLayout>
     <Page>
       <Entry {...entryData} />
-      <Container>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <IonButton color="secondary">Primary</IonButton>
-      </Container>
+      <Insta {...instaData} />
     </Page>
   </IndexLayout>
 )

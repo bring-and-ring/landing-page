@@ -19,6 +19,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `booooooom`
+      }
+    },
+    {
       resolve: 'gatsby-plugin-pathdata',
       options: {
         matchNodeType: 'MarkdownRemark',
