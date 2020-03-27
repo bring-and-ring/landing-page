@@ -4,3 +4,7 @@
   --media-size-xl: 1200px;
   --media-size-xxl: 1430px;
 }
+
+ion-content {
+  --ion-background-color: var(--color-background);
+}

@@ -1,0 +1,32 @@
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+.iconBack,
+.iconForward {
+  position: absolute;
+  top: calc(50% - 10px);
+  transform: scale(2);
+  z-index: 1000;
+}
+
+.iconBack {
+  left: -40px;
+}
+.iconForward {
+  left: 350px;
+}
+
+.slide {
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.slideActive {
+  opacity: 1;
+}
+
+ion-slide {
+  width: 40% !important;
+}
