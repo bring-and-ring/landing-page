@@ -12,13 +12,15 @@ export type EntryProps = {
   btnText: string
   linkText: string
   sponsorsTitle: string
+  btnProps: HTMLButtonElement
+  linkProps: HTMLAnchorElement
   sponsors: Array<{
     src: string
     alt: string
   }>
 }
 
-export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors }) => {
+export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkText, sponsorsTitle, sponsors, btnProps, linkProps }) => {
   return (
     <div className={`${styles.wrap} md`}>
       <div className={styles.content}>
@@ -32,9 +34,9 @@ export const Entry: React.FC<EntryProps> = ({ title, slug, body, btnText, linkTe
           {body}
         </Typography>
         <div className={styles.alignCenter}>
-          <IonButton>{btnText}</IonButton>
+          <IonButton {...btnProps}>{btnText}</IonButton>
           <Spacer multiply={2} />
-          <IonRouterLink>{linkText}</IonRouterLink>
+          <IonRouterLink {...linkProps}>{linkText}</IonRouterLink>
         </div>
       </div>
       <div className={styles.visual}>

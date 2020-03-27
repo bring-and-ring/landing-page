@@ -1,4 +1,17 @@
 .wrap {
-  height: 400px;
-  width: 500px;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--ion-background-color);
+  padding: calc(var(--base-spacing) * 2);
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
 }

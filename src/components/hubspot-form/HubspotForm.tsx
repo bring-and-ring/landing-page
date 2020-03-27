@@ -1,4 +1,4 @@
-import React, { useEffect, useState, createRef } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './hubspot-form.module.css'
 
 declare global {
@@ -6,7 +6,12 @@ declare global {
     hbspt: any
   }
 }
-export const HubspotForm: React.FC = ({ children }) => {
+
+export type HubspotForm = {
+  visible: boolean
+}
+
+export const HubspotForm: FC<HubspotForm> = ({ children, visible }) => {
   const [hbspt, setHbspt] = useState<any>(null)
   useEffect(() => {
     const script = document.createElement('script')
@@ -24,8 +29,6 @@ export const HubspotForm: React.FC = ({ children }) => {
   }, [])
   useEffect(() => {
     if (hbspt) {
-      console.log('aaaa')
-
       hbspt.forms.create({
         portalId: '7385167',
         target: '#HubspotHook',
@@ -33,5 +36,9 @@ export const HubspotForm: React.FC = ({ children }) => {
       })
     }
   }, [hbspt])
-  return <div id="HubspotHook" className={styles.wrap} />
+  return (
+    <div className={`${styles.wrap} ${visible ? styles.visible : ''}`}>
+      <div id="HubspotHook" />
+    </div>
+  )
 }
