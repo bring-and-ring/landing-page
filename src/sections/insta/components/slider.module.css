@@ -12,21 +12,23 @@
 }
 
 .iconBack {
-  left: -40px;
+  left: 40px;
 }
 .iconForward {
-  left: 350px;
+  right: 40px;
+}
+
+.slider {
+  align-items: center; /* add this will all relevant prefixes */
 }
 
 .slide {
   opacity: 0.3;
   transition: opacity 0.2s;
+  width: 100% !important;
+  align-self: center;
 }
 
 .slideActive {
   opacity: 1;
-}
-
-ion-slide {
-  width: 40% !important;
 }

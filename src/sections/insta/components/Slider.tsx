@@ -2,6 +2,7 @@ import * as React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import { IonSlides, IonSlide, IonIcon } from '@ionic/react'
 import { arrowBack, arrowForward } from 'ionicons/icons'
+import { createRef } from 'react'
 import styles from './slider.module.css'
 
 const slideOpts = {
@@ -14,6 +15,13 @@ const slideOpts = {
 }
 
 export const Slider: React.FC = () => {
+  const $slider = createRef()
+  const onNext = () => {
+    $slider.current.slideNext()
+  }
+  const onPrev = () => {
+    $slider.current.slidePrev()
+  }
   return (
     <StaticQuery
       query={graphql`
@@ -40,15 +48,15 @@ export const Slider: React.FC = () => {
       render={data => {
         return (
           <div className={styles.wrap}>
-            <IonSlides className={styles.slider} options={slideOpts}>
+            <IonSlides ref={$slider} className={styles.slider} options={slideOpts}>
               {data.allInstaNode.edges.map(({ node }) => (
                 <IonSlide key={node.caption} className={styles.slide}>
                   <img src={node.thumbnails[4].src} alt={node.caption} />
                 </IonSlide>
               ))}
             </IonSlides>
-            <IonIcon className={styles.iconBack} color="primary" icon={arrowBack} />
-            <IonIcon className={styles.iconForward} color="primary" icon={arrowForward} />
+            <IonIcon onClick={onNext} className={styles.iconBack} color="primary" icon={arrowBack} />
+            <IonIcon onClick={onPrev} className={styles.iconForward} color="primary" icon={arrowForward} />
           </div>
         )
       }}
