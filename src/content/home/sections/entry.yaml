@@ -6,18 +6,18 @@ body: Du willst helfen? Ein paar Euro in der Krise dazu verdienen? Leben retten?
 btnText: Beta-Tester werden
 linkText: mehr erfahrn
 sponsorsTitle: 'Bekannt aus:'
-sponsors:
-  - src: https://i.ibb.co/YX9Wffc/stroer.png
-    alt: stroer
-  - src: https://i.ibb.co/fDssVDb/jung-v-matt.png
-    alt: jung-v-matt
-  - src: https://i.ibb.co/cXV07fJ/heimat.png
-    alt: heimat
-  - src: https://i.ibb.co/z2W1KqM/fischer-appelt.png
-    alt: fischer-appelt
-  - src: https://i.ibb.co/hY3cZzY/knodel.png
-    alt: knodel
-  - src: https://i.ibb.co/xDStVsB/flix-mobility.png
-    alt: flix-mobility
-  - src: https://i.ibb.co/85jfsLd/arvantis.png
-    alt: arvantis
+# sponsors:
+#   - src: https://i.ibb.co/YX9Wffc/stroer.png
+#     alt: stroer
+#   - src: https://i.ibb.co/fDssVDb/jung-v-matt.png
+#     alt: jung-v-matt
+#   - src: https://i.ibb.co/cXV07fJ/heimat.png
+#     alt: heimat
+#   - src: https://i.ibb.co/z2W1KqM/fischer-appelt.png
+#     alt: fischer-appelt
+#   - src: https://i.ibb.co/hY3cZzY/knodel.png
+#     alt: knodel
+#   - src: https://i.ibb.co/xDStVsB/flix-mobility.png
+#     alt: flix-mobility
+#   - src: https://i.ibb.co/85jfsLd/arvantis.png
+#     alt: arvantis

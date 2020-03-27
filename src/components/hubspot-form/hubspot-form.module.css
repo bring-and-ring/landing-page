@@ -1,0 +1,40 @@
+.wrap {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--ion-background-color);
+  padding: calc(var(--base-spacing) * 2);
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  overflow: scroll;
+}
+.content {
+  max-width: 700px;
+}
+.visible {
+  visibility: visible;
+}
+
+.closeIcon {
+  position: absolute;
+  top: calc(var(--base-spacing) * 4);
+  right: calc(var(--base-spacing) * 4);
+  transform: scale(2);
+}
+@media (min-width: 767px) {
+  .wrap {
+    padding: calc(var(--base-spacing) * 5);
+  }
+  .closeIcon {
+    top: calc(var(--base-spacing) * 8);
+    right: calc(var(--base-spacing) * 8);
+    transform: scale(3);
+  }
+  .form {
+    width: 600px;
+  }
+}
