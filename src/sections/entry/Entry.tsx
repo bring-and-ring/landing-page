@@ -59,7 +59,7 @@ export const Entry: React.FC<EntryProps> = ({
         </div>
       </div>
       <div className={styles.sponsors}>
-        {sponsors.length && (
+        {sponsors.length >= 1 && (
           <Typography size="h4" elem="h4">
             {sponsorsTitle}
           </Typography>

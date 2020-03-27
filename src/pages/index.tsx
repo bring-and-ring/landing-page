@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, createRef } from 'react'
 import Page from '../components/Page'
 import IndexLayout from '../layouts'
 import { Entry, Insta, OurMission } from '../sections'
@@ -16,11 +16,17 @@ const IndexPage = () => {
   const onClickHideForm = () => {
     setFormVisible(false)
   }
+  const $second = createRef()
+  const scrollToSecond = () => {
+    $second.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' })
+  }
   return (
     <IndexLayout>
       <Page>
-        <Entry btnProps={{ onclick: onClickShowForm }} {...entryData} />
-        <Insta {...instaData} />
+        <Entry linkProps={{ onclick: scrollToSecond }} btnProps={{ onclick: onClickShowForm }} {...entryData} />
+        <div ref={$second}>
+          <Insta {...instaData} />
+        </div>
         <OurMission {...ourMission} />
         <HubspotForm onClose={onClickHideForm} title={content.formTitle} body={content.formBody} visible={formVisible} />
       </Page>
