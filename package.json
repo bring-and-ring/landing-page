@@ -18,7 +18,8 @@
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "start": "npm run dev",
     "test": "npm run type-check && npm run lint",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "postinstall": "patch-package"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -27,7 +28,7 @@
     "@bring-n-ring/components": "0.0.5",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
-    "@ionic/react": "^5.0.5",
+    "@ionic/react": "^5.0.7",
     "babel-plugin-styled-components": "^1.10.1",
     "classnames": "^2.2.6",
     "gatsby": "^2.10.0",
@@ -72,6 +73,7 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
     "gh-pages": "^2.0.1",
+    "patch-package": "^6.2.1",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3"
   }

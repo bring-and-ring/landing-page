@@ -1,0 +1,15 @@
+diff --git a/node_modules/@ionic/react/dist/index.esm.js b/node_modules/@ionic/react/dist/index.esm.js
+index cf48678..3aa0c51 100644
+--- a/node_modules/@ionic/react/dist/index.esm.js
++++ b/node_modules/@ionic/react/dist/index.esm.js
+@@ -969,7 +969,9 @@ addIcons({
+ });
+ // TODO: defineCustomElements() is asyncronous
+ // We need to use the promise
+-defineCustomElements(window);
++if (typeof window !== 'undefined') {
++    defineCustomElements(window);
++}
+ 
+ export { CreateAnimation, DefaultIonLifeCycleContext, IonActionSheet, IonAlert, IonApp, IonAvatar, IonBackButton, IonBackdrop, IonBadge, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCheckbox, IonChip, IonCol, IonContent, IonDatetime, IonFab, IonFabButton, IonFabList, IonFooter, IonGrid, IonHeader, IonIcon, IonImg, IonInfiniteScroll, IonInfiniteScrollContent, IonInput, IonItem, IonItemDivider, IonItemGroup, IonItemOption, IonItemOptions, IonItemSliding, IonLabel, IonLifeCycleContext, IonList, IonListHeader, IonLoading, IonMenu, IonMenuButton, IonMenuToggle, IonModal, IonNav, IonNote, IonPage, IonPicker, IonPickerColumn, IonPopover, IonProgressBar, IonRadio, IonRadioGroup, IonRange, IonRefresher, IonRefresherContent, IonReorder, IonReorderGroup, IonRippleEffect, IonRouterLink, IonRouterOutlet, IonRow, IonSearchbar, IonSegment, IonSegmentButton, IonSelect, IonSelectOption, IonSelectPopover, IonSkeletonText, IonSlide, IonSlides, IonSpinner, IonSplitPane, IonTab, IonTabBar, IonTabButton, IonTabs, IonText, IonTextarea, IonThumbnail, IonTitle, IonToast, IonToggle, IonToolbar, IonVirtualScroll, NavContext, getConfig, getPlatforms, isPlatform, useIonViewDidEnter, useIonViewDidLeave, useIonViewWillEnter, useIonViewWillLeave, withIonLifeCycle };
+ //# sourceMappingURL=index.esm.js.map
