@@ -48,7 +48,9 @@ export const Entry: React.FC<EntryProps> = ({
         <div className={styles.alignCenter}>
           <IonButton {...btnProps}>{btnText}</IonButton>
           <Spacer multiply={2} />
-          <IonRouterLink {...linkProps}>{linkText}</IonRouterLink>
+          <IonRouterLink className={styles.link} {...linkProps}>
+            {linkText}
+          </IonRouterLink>
         </div>
       </div>
       <div className={styles.visual}>
