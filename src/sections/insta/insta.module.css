@@ -17,6 +17,7 @@
 
 .content {
   margin-bottom: calc(var(--base-spacing) * 6);
+  z-index: 100;
 }
 
 .title {

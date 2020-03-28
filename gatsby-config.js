@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'bring & ring',
-    description: 'Website for bring & ring.',
+    description: 'Kontaklos einkaufen für Risikogruppen',
     keywords: 'bring, ring, corona, neighbour, supermarket',
     siteUrl: 'https://bringandring.de',
     author: {
