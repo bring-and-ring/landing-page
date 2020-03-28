@@ -50,13 +50,17 @@
   border-radius: calc(var(--base-spacing) * 5);
 }
 
-.icon-left {
+.icon-left,
+.icon-right {
+  cursor: pointer;
   transform: scale(2);
+}
+
+.icon-left {
   float: left;
 }
 
 .icon-right {
-  transform: scale(2);
   float: right;
 }
 

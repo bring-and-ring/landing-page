@@ -3,18 +3,19 @@
   width: 100%;
 }
 
-.iconBack,
-.iconForward {
+.iconLeft,
+.iconRight {
   position: absolute;
   top: calc(50% - 10px);
   transform: scale(2);
   z-index: 1000;
+  cursor: pointer;
 }
 
-.iconBack {
+.iconLeft {
   left: 40px;
 }
-.iconForward {
+.iconRight {
   right: 40px;
 }
 

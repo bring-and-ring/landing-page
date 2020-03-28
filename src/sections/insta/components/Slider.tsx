@@ -1,7 +1,7 @@
-import * as React from 'react'
+import { IonIcon, IonSlide, IonSlides } from '@ionic/react'
 import { graphql, StaticQuery } from 'gatsby'
-import { IonSlides, IonSlide, IonIcon } from '@ionic/react'
 import { arrowBack, arrowForward } from 'ionicons/icons'
+import * as React from 'react'
 import { createRef } from 'react'
 import styles from './slider.module.css'
 
@@ -53,8 +53,8 @@ export const Slider: React.FC = () => {
                 </IonSlide>
               ))}
             </IonSlides>
-            <IonIcon onClick={onNext} className={styles.iconBack} color="primary" icon={arrowBack} />
-            <IonIcon onClick={onPrev} className={styles.iconForward} color="primary" icon={arrowForward} />
+            <IonIcon onClick={onPrev} className={styles.iconLeft} color="primary" icon={arrowBack} />
+            <IonIcon onClick={onNext} className={styles.iconRight} color="primary" icon={arrowForward} />
           </div>
         )
       }}
