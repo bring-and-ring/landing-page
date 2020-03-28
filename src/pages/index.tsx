@@ -1,5 +1,6 @@
 import React, { createRef, useState } from 'react'
 import Footer from '../components/footer/Footer'
+import Fab from '../components/fab/Fab'
 import { HubspotForm } from '../components/hubspot-form/HubspotForm'
 import Page from '../components/Page'
 import appDescriptionData from '../content/home/sections/app-description.yaml'
@@ -27,6 +28,7 @@ const IndexPage = () => {
   return (
     <IndexLayout>
       <Page>
+        <Fab />
         <Entry linkProps={{ onclick: scrollToSecond }} btnProps={{ onclick: onClickShowForm }} {...entryData} />
         <div ref={$second}>
           <AppDescription {...appDescriptionData} btnProps={{ onclick: onClickShowForm }} />

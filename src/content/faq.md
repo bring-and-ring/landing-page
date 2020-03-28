@@ -52,4 +52,4 @@ Sollte es ein Problem geben, kümmern wir vom Team uns um eine gemeinschaftliche
 
 ##Wie finanziert sich die Plattform?
 
-Ein Team aus Ehrenamtlichen hat mit Anschubfinanzierung privater Spender und
+Ein Team aus Ehrenamtlichen hat mit der Unterstützung privater Spender diese Plattform ins Leben gerufen, um einen Beitrag zur Coronakrise zu leisten. Die Plattform ist nicht gewinnorientiert, sondern möchte lediglich einen Beitrag leisten.

@@ -1,6 +1,6 @@
 ---
 title: Kämpfe mit uns gegen Corona!
-btnText: Beta-Tester werden
+btnText: Werde Beta-Tester
 faqText: zu den FAQs
 slides:
   - src: /slides/slide1.json
@@ -10,7 +10,7 @@ slides:
   - src: /slides/slide2.json
     alt: Schritt 2
     title: Schritt 2
-    description: 'Kein Problem! Ein freiwilliger #Bringer ist spontan in der Nähe. Er bestätigt deinen Auftrag und bringt dir alles mit.'
+    description: 'Kein Problem! Ein freiwilliger #Bringer ist spontan in der Nähe, bestätigt deinen Auftrag und bringt dir alles mit.'
   - src: /slides/slide3.json
     alt: Schritt 3
     title: Schritt 3

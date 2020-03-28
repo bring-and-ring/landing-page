@@ -1,0 +1,12 @@
+.container {
+  height: 40px;
+  width: 110px;
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  border-bottom-left-radius: 30px;
+  padding-left: 25px;
+  line-height: 40px;
+}
