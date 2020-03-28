@@ -1,0 +1,45 @@
+.head {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  padding: calc(var(--base-spacing));
+}
+
+.headCircle {
+  position: absolute;
+  background: var(--ion-color-secondary);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  top: -70%;
+  left: -70%;
+  display: none;
+}
+
+.headLogo {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+@media (min-width: 767px) {
+  .head {
+    position: absolute;
+    padding: calc(var(--base-spacing) * 4);
+  }
+  .headCircle {
+    display: block;
+  }
+  .headLogo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1430px) {
+  .headLogo {
+    width: 60px;
+    height: 60px;
+  }
+}

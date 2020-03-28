@@ -14,7 +14,7 @@ declare global {
 
 export type HubspotFormProps = {
   visible: boolean
-  onClose?: () => {}
+  onClose?: () => void
 }
 
 export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = () => {} }) => {

@@ -3,11 +3,12 @@ import { graphql } from 'gatsby'
 import { Typography } from '@bring-n-ring/components'
 
 import Footer from '../components/footer/Footer'
+import { Head } from '../components/head/Head'
 import { HubspotForm } from '../components/hubspot-form/HubspotForm'
 import footerProps from '../content/footer.yml'
 
 import Page from '../components/Page'
-import Container from '../components/Container'
+import Container from '../components/container/Container'
 import IndexLayout from '../layouts'
 
 interface PageTemplateProps {
@@ -44,6 +45,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
   return (
     <IndexLayout>
       <Page>
+        <Head />
         <Container>
           <Typography color="primary" size="h1">
             {data.markdownRemark.frontmatter.title}
@@ -51,8 +53,8 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           {/* eslint-disable-next-line react/no-danger */}
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           <HubspotForm onClose={onClickHideForm} visible={formVisible} />
-          <Footer {...footerProps} btnProps={{ onclick: onClickShowForm }} />
         </Container>
+        <Footer {...footerProps} btnProps={{ onclick: onClickShowForm }} />
       </Page>
     </IndexLayout>
   )
