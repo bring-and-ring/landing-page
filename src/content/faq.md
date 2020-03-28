@@ -19,6 +19,9 @@ Freiwillige, die spontan einen Einkauf oder einen Gang zu Apotheken übernehmen,
 
 Grundsätzlich kann jeder einen Einkaufszettel aufgeben, der selbst gerade nicht aus dem Haus kann oder sollte. Jeder zusammengelegte Einkauf vermeidet Kontakte. Dennoch richtet sich Bring&Ring primär an Risikogruppen, Alleinerziehende, Corona-Infizierte oder Menschen unter Quarantäne, Menschen in systemrelevanten Berufen (z.B. Krankenpflegern) und vielen mehr. Wir möchten einen Beitrag zur Corona Krise leisten.
 
+##Wo gibt es Bring&Ring?
+Die Plattform funktioniert deutschlandweit. Melde dich an und schau nach, wer in deinem Ort schon dabei ist. Du kennst Initiativen, die Bring&Ring nutzen können? Dann lade sie ein, die App zu nutzen und mitzumachen. Dann gibt es sie bald überall!
+
 ##Was bedeutet spontan helfen?
 
 Jede Anfrage von einem Ringer hat ein Ablaufdatum, das bedeutet, es sind nur aktuelle Hilfegesuche online. Das bedeutet, dass #Bringer einfach in der App sehen, wer gerade im Umfeld etwas benötigt. Das lässt sich auf viele Alltagssituationen anwenden. Bist du gerade im Supermarkt, im Drogeriemarkt in der Apotheke und willst helfen? Einfach einloggen und schauen, wem du etwas mitbringen kannst.

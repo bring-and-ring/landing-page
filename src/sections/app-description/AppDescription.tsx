@@ -1,6 +1,7 @@
 import { Typography } from '@bring-n-ring/components'
 import { IonButton, IonContent, IonIcon, IonSlide, IonSlides } from '@ionic/react'
 import { arrowBack, arrowForward } from 'ionicons/icons'
+import * as lottie from 'lottie-web'
 import * as React from 'react'
 import Phone from '../../components/phone/Phone'
 import styles from './app-description.module.css'
@@ -34,6 +35,28 @@ export type AppDescriptionProps = {
 const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, slides, btnProps }) => {
   const sliderPhone = React.createRef<HTMLIonSlidesElement>()
   const sliderDescription = React.createRef<HTMLIonSlidesElement>()
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let animations: any[] = []
+
+  const playAnimations = async () => {
+    if (sliderPhone.current) {
+      animations.forEach(anaimation => anaimation.stop())
+      animations[await sliderPhone.current.getActiveIndex()].play()
+    }
+  }
+
+  const createAnimation = (container: HTMLElement, path: string) => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
+    return lottie.loadAnimation({
+      container,
+      renderer: 'svg',
+      loop: false,
+      autoplay: false,
+      path
+    })
+  }
+
   const onNext = () => {
     if (sliderPhone.current) {
       sliderPhone.current.slideNext()
@@ -54,6 +77,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
     if (sliderDescription.current && sliderPhone.current) {
       sliderDescription.current.slideTo(await sliderPhone.current.getActiveIndex())
     }
+    playAnimations()
   }
 
   const descriptionSlideChanged = async () => {
@@ -82,13 +106,19 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
         <Phone>
           <IonContent>
             <IonSlides options={slideOptsPhone} key="demo-phone" ref={sliderPhone} onIonSlideDidChange={phoneSlideChanged}>
-              {slides.map(slide => (
-                <IonSlide className={styles.phoneSlide} key={slide.alt}>
-                  <div className={styles.phoneSlide}>
-                    <img src={slide.src} alt={slide.alt} className={styles.phoneSlide} />
-                  </div>
-                </IonSlide>
-              ))}
+              {slides.map((slide, index) => {
+                animations = []
+                return (
+                  <IonSlide className={styles.phoneSlide} key={styles.title}>
+                    <div
+                      className={styles.phoneSlide}
+                      ref={element => {
+                        if (element) animations[index] = createAnimation(element, slide.src)
+                      }}
+                    />
+                  </IonSlide>
+                )
+              })}
             </IonSlides>
           </IonContent>
         </Phone>
