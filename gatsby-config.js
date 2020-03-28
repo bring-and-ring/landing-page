@@ -21,7 +21,27 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `booooooom`
+        username: `bringandring`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.svg$/
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Bring and ring`,
+        short_name: `Bring and ring`,
+        start_url: `/`,
+        background_color: `##FAF8F7`,
+        theme_color: `##4DCB8B`,
+        display: `standalone`,
+        icon: `src/content/images/logos/logo-white.png`
       }
     },
     {

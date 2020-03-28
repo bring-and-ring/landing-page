@@ -6,6 +6,7 @@ import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
 import { SideImage } from './components'
 import { MainImage } from '../../components/MainImage'
+import Logo from '../../content/images/logos/logo.svg'
 
 export type EntryProps = {
   title: string
@@ -35,6 +36,10 @@ export const Entry: React.FC<EntryProps> = ({
 }) => {
   return (
     <div className={`${styles.wrap} md`}>
+      <div className={styles.head}>
+        <div className={styles.headCircle} />
+        <Logo className={styles.headLogo} />
+      </div>
       <div className={styles.content}>
         <Typography className={styles.title} color="primary" size="h1">
           {title}
