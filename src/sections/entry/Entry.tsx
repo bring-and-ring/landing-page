@@ -4,7 +4,8 @@ import '@bring-n-ring/components/css/ion-button.css'
 import '@bring-n-ring/components/css/typography.css'
 import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
-import { MainImage, SideImage } from './components'
+import { SideImage } from './components'
+import { MainImage } from '../../components/MainImage'
 import Logo from '../../content/images/logos/logo.svg'
 
 export type EntryProps = {
