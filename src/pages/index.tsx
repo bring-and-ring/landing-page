@@ -35,8 +35,8 @@ const IndexPage = () => {
         </div>
         <Insta {...instaData} />
         <OurMission {...ourMission} />
-        <HubspotForm onClose={onClickHideForm} title={content.formTitle} body={content.formBody} visible={formVisible} />
-        <Footer {...footerProps} btnProps={{ onclick: onClickShowForm }} />
+        <HubspotForm onClose={onClickHideForm} visible={formVisible} />
+        <Footer btnProps={{ onclick: onClickShowForm }} />
       </Page>
     </IndexLayout>
   )

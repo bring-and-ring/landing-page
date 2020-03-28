@@ -33,8 +33,12 @@
   display: inline;
 }
 
-.listItem:first-child {
-  margin-right: calc(var(--base-spacing) * 4);
+.listItem {
+  margin-right: calc(var(--base-spacing) * 1);
+}
+
+.listItem:last-child {
+  margin-right: 0;
 }
 
 .listLink {

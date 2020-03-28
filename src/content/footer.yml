@@ -6,3 +6,5 @@ menuItems:
     text: Kontakt
   - href: /impressum
     text: Impressum & Datenschutz
+  - href: /faq
+    text: FAQ
