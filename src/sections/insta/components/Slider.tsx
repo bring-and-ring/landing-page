@@ -29,8 +29,6 @@ export const Slider: React.FC = () => {
           allInstaNode {
             edges {
               node {
-                caption
-                # Only available with the public api scraper
                 thumbnails {
                   src
                   config_width
@@ -49,9 +47,9 @@ export const Slider: React.FC = () => {
         return (
           <div className={styles.wrap}>
             <IonSlides ref={$slider} className={styles.slider} options={slideOpts}>
-              {data.allInstaNode.edges.map(({ node }) => (
-                <IonSlide key={node.caption} className={styles.slide}>
-                  <img src={node.thumbnails[4].src} alt={node.caption} />
+              {data.allInstaNode.edges.map(({ node }, index) => (
+                <IonSlide key={index} className={styles.slide}>
+                  <img src={node.thumbnails[4].src} alt="" />
                 </IonSlide>
               ))}
             </IonSlides>
