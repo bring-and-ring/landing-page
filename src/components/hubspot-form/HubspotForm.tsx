@@ -9,6 +9,7 @@ import content from '../../content/form.yml'
 declare global {
   interface Window {
     hbspt: any
+    dataLayer: Array<any>
   }
 }
 
@@ -50,7 +51,14 @@ export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = () => {} 
         portalId: '7385167',
         target: '#HubspotHook',
         formId: 'af15f5bd-1ed5-44f7-af09-06f9d99923be',
-        onFormSubmit: () => {}
+        onFormSubmit: () => {
+          if (!window.dataLayer) {
+            window.dataLayer = []
+          }
+          window.dataLayer.push({
+            eventName: 'betaSubscription'
+          })
+        }
       })
     }
   }, [hbspt])
