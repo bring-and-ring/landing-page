@@ -15,6 +15,10 @@
   margin: 0 auto;
 }
 
+.content {
+  margin-bottom: calc(var(--base-spacing) * 6);
+}
+
 .title {
   font-size: 40px;
   margin-bottom: -12px;
@@ -32,8 +36,8 @@
 @media (min-width: 767px) {
   .wrap {
     display: grid;
-    grid-template-columns: 0.7fr 1.3fr;
-    column-gap: calc(var(--base-spacing) * 10);
+    grid-template-columns: 0.9fr 1.1fr;
+    column-gap: calc(var(--base-spacing) * 5);
     padding: calc(var(--base-spacing) * 10);
     padding-right: 0;
     max-width: 1800px;

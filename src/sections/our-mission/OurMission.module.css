@@ -10,9 +10,9 @@
 @media (min-width: 767px) {
   .grid {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100%;
-    grid-column-gap: 10%;
+    grid-column-gap: calc(var(--base-spacing) * 6);
   }
 }
 
@@ -94,8 +94,7 @@
 
 @media (min-width: 767px) {
   .gridItemRight {
-    justify-self: end;
-    align-self: end;
+    align-self: center;
   }
 
   .right {
@@ -105,6 +104,13 @@
 
   .sponsorGrid {
     height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridItemRight {
+    justify-self: end;
+    align-self: end;
   }
 }
 

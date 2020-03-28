@@ -13,7 +13,6 @@
   position: relative;
   max-width: 300px;
   margin: 0 auto;
-  padding: calc(var(--base-spacing) * 10);
 }
 .contentText {
   position: relative;
@@ -26,6 +25,7 @@
   top: calc(var(--base-spacing) * 3);
   width: 200%;
   left: -100%;
+  top: -10px;
   height: 400px;
   border-radius: calc(var(--base-spacing) * 5);
 }
@@ -67,6 +67,14 @@
 }
 
 @media (min-width: 767px) {
+  .content {
+    max-width: 600px;
+    margin-bottom: calc(var(--base-spacing) * 15);
+  }
+  .contentDeco {
+    top: -30px;
+    height: 300px;
+  }
   .description,
   .phone {
     display: inline-block;
@@ -79,13 +87,17 @@
 @media (min-width: 1023px) {
   .wrap {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
+    padding: calc(var(--base-spacing) * 5) calc(var(--base-spacing) * 15);
+    grid-template-columns: 1.5fr 1.5fr 0.8fr;
     column-gap: calc(var(--base-spacing) * 5);
     background: var(--ion-background-color);
     align-items: center;
   }
+  .content {
+    margin: 0;
+  }
   .contentDeco {
-    height: 90%;
+    height: 100%;
   }
   .phone {
     max-width: 100%;
@@ -99,5 +111,9 @@
   }
 }
 
-@media (min-width: var(--media-size-xxl)) {
+@media (min-width: 1023px) {
+  .wrap {
+    padding: calc(var(--base-spacing) * 5) calc(var(--base-spacing) * 15);
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
 }

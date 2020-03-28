@@ -13,10 +13,10 @@
 }
 
 .iconLeft {
-  left: 40px;
+  left: -15px;
 }
 .iconRight {
-  right: 40px;
+  right: -15px;
 }
 
 .slider {
@@ -32,4 +32,13 @@
 
 .slideActive {
   opacity: 1;
+}
+
+@media (min-width: 767px) {
+  .iconLeft {
+    left: 40px;
+  }
+  .iconRight {
+    right: 40px;
+  }
 }

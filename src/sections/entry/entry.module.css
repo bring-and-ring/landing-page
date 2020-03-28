@@ -87,6 +87,8 @@
     grid-template-columns: 1fr 1fr;
     padding: 0 calc(var(--base-spacing) * 10);
     max-width: 1800px;
+    min-height: 700px;
+    padding-top: calc(var(--base-spacing) * 20);
   }
   .content {
     max-width: 100%;
@@ -114,8 +116,18 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .wrap {
+    min-height: 700px;
+    padding: 0 calc(var(--base-spacing) * 15);
+  }
+  .content {
+    margin: 0;
+  }
+}
 @media (min-width: 1200px) {
   .wrap {
+    min-height: 100vh;
     padding: 0 calc(var(--base-spacing) * 15);
   }
 
