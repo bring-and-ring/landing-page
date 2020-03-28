@@ -1,8 +1,33 @@
 diff --git a/node_modules/@ionic/react/dist/index.esm.js b/node_modules/@ionic/react/dist/index.esm.js
-index cf48678..3aa0c51 100644
+index cf48678..66a9f77 100644
 --- a/node_modules/@ionic/react/dist/index.esm.js
 +++ b/node_modules/@ionic/react/dist/index.esm.js
-@@ -969,7 +969,9 @@ addIcons({
+@@ -258,13 +258,17 @@ const getClassName = (classList, newProps, oldProps) => {
+  * Checks if an event is supported in the current execution environment.
+  * @license Modernizr 3.0.0pre (Custom Build) | MIT
+  */
+-const isCoveredByReact = (eventNameSuffix, doc = document) => {
+-    const eventName = 'on' + eventNameSuffix;
+-    let isSupported = eventName in doc;
+-    if (!isSupported) {
+-        const element = doc.createElement('div');
+-        element.setAttribute(eventName, 'return;');
+-        isSupported = typeof element[eventName] === 'function';
++const isCoveredByReact = (eventNameSuffix, doc) => {
++    let isSupported = false
++    if (!doc && typeof document !== 'undefined') {
++        doc = document
++        const eventName = 'on' + eventNameSuffix;
++        isSupported = eventName in doc;
++        if (!isSupported) {
++            const element = doc.createElement('div');
++            element.setAttribute(eventName, 'return;');
++            isSupported = typeof element[eventName] === 'function';
++        }
+     }
+     return isSupported;
+ };
+@@ -969,7 +973,9 @@ addIcons({
  });
  // TODO: defineCustomElements() is asyncronous
  // We need to use the promise
