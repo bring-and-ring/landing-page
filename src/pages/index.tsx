@@ -2,6 +2,7 @@ import React, { useState, createRef } from 'react'
 import Page from '../components/Page'
 import IndexLayout from '../layouts'
 import { Entry, Insta, OurMission } from '../sections'
+import Footer from '../components/footer/Footer'
 import entryData from '../content/home/sections/entry.yaml'
 import instaData from '../content/home/sections/insta.yaml'
 import ourMission from '../content/home/sections/our-mission.yaml'
@@ -18,6 +19,8 @@ const IndexPage = () => {
   }
   const $second = createRef()
   const scrollToSecond = () => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
     $second.current.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' })
   }
   return (
@@ -29,6 +32,7 @@ const IndexPage = () => {
         </div>
         <OurMission {...ourMission} />
         <HubspotForm onClose={onClickHideForm} title={content.formTitle} body={content.formBody} visible={formVisible} />
+        <Footer />
       </Page>
     </IndexLayout>
   )
