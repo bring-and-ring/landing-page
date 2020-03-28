@@ -26,7 +26,7 @@ const Footer: React.FC<FooterProps> = ({ btnProps = {} }) => (
         </IonButton>
         <ul className={styles.list}>
           {footerContent.menuItems.map(({ href, text }) => (
-            <li className={styles.listItem}>
+            <li className={styles.listItem} key={href}>
               <a href={href} className={styles.listLink}>
                 {text}
               </a>

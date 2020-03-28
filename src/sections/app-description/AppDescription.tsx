@@ -109,7 +109,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
               {slides.map((slide, index) => {
                 animations = []
                 return (
-                  <IonSlide className={styles.phoneSlide} key={styles.src}>
+                  <IonSlide className={styles.phoneSlide} key={slide.src}>
                     <div
                       className={styles.phoneSlide}
                       ref={element => {

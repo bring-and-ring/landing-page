@@ -4,7 +4,7 @@
   background: var(--color-background);
   justify-content: center;
   align-items: center;
-  padding: calc(var(--base-spacing) * 3);
+  padding: calc(var(--base-spacing) * 8) calc(var(--base-spacing) * 3) calc(var(--base-spacing) * 3);
   max-width: 300px;
   margin: 0 auto;
 }
