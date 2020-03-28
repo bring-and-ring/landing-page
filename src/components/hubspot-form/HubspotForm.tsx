@@ -9,6 +9,7 @@ import content from '../../content/form.yml'
 declare global {
   interface Window {
     hbspt: any
+    dataLayer: Array<any>
   }
 }
 
@@ -32,13 +33,32 @@ export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = () => {} 
         clearInterval(checkHubspotLoaded)
       }
     }, 200)
+
+    // hack for hubspot throwing weird jQuery errors from
+    // https://community.hubspot.com/t5/APIs-Integrations/Form-callback-throws-unrelated-jquery-error/m-p/232121
+    // I knwo you feel like you should, but do not remove
+    window.jQuery =
+      window.jQuery ||
+      (() => ({
+        // these are all methods required by HubSpot
+        change: () => {},
+        trigger: () => {}
+      }))
   }, [])
   useEffect(() => {
     if (hbspt) {
       hbspt.forms.create({
         portalId: '7385167',
         target: '#HubspotHook',
-        formId: 'af15f5bd-1ed5-44f7-af09-06f9d99923be'
+        formId: 'af15f5bd-1ed5-44f7-af09-06f9d99923be',
+        onFormSubmit: () => {
+          if (!window.dataLayer) {
+            window.dataLayer = []
+          }
+          window.dataLayer.push({
+            eventName: 'betaSubscription'
+          })
+        }
       })
     }
   }, [hbspt])
