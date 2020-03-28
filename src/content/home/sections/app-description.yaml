@@ -1,0 +1,20 @@
+---
+title: Kämpfe mit uns gegen Corona!
+btnText: Beta-Tester werden
+slides:
+  - src: /slides/Slide 1.svg
+    alt: Schritt 1
+    title: Schritt 1
+    description: '#Ring ring - Schreibe deinen Einkaufszettel, wenn du gerade selbst nicht einkaufen kannst'
+  - src: /slides/Slide 2.svg
+    alt: Schritt 2
+    title: Schritt 2
+    description: 'Kein Problem! Ein freiwilliger #Bringer ist spontan in der Nähe. Er bestätigt deinen Auftrag und bringt dir alles mit.'
+  - src: /slides/Slide 3.svg
+    alt: Schritt 3
+    title: Schritt 3
+    description: 'Der #Bringer stellt den Einkauf bei dir ab – kontaktlos.'
+  - src: /slides/Slide 4.svg
+    alt: Schritt 4
+    title: Schritt 4
+    description: 'Alles da? Bestätige & die Zahlung wird freigegeben. Bedanke dich mit einem Trinkgeld, das der #Bringer auch spenden kann.'

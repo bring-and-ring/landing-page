@@ -1,11 +1,8 @@
 left:
   title: Unsere Mission
-  subTitle: „Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.“
-  body: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
+  body: 'Jeder Kontakt ist ein Risiko – ob vorerkrankt oder nicht. In dieser kritischen Situation wollen wir europaweit sichere Einkaufshilfe ermöglichen. Wir ergänzen die freiwilligen Nachbarschaftshilfe eine Plattform, die den Prozess zwischen #Ringer und #Bringer in die Hand nimmt. So wollen wir gemeinsam mit euch Corona niederringen! '
 right:
   title: Wir sagen Danke
-  body: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
-  sponsorIntroduction: Unsere Partner
   sponsors:
     - src: https://i.ibb.co/YX9Wffc/stroer.png
       alt: stroer

@@ -1,5 +1,5 @@
-import * as React from 'react'
 import { Typography } from '@bring-n-ring/components'
+import * as React from 'react'
 import styles from './OurMission.module.css'
 
 type Props = {
@@ -38,7 +38,7 @@ export const OurMission: React.FC<Props> = ({ left, right }) => {
           <Typography className={styles.title} color="primary" size="h1">
             {right.title}
           </Typography>
-          <Typography size="p">{right.sponsorIntroduction}:</Typography>
+          <Typography size="p">{right.sponsorIntroduction}</Typography>
           <div className={styles.sponsorGrid}>
             {right.sponsors.map(sponsor => (
               <div key={sponsor.src}>
