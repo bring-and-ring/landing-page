@@ -1,11 +1,12 @@
 ---
 title: Kämpfe mit uns gegen Corona!
 btnText: Beta-Tester werden
+faqText: zu den FAQs
 slides:
   - src: /slides/slide1.json
     alt: Schritt 1
     title: Schritt 1
-    description: '#Ring ring - Schreibe deinen Einkaufszettel, wenn du gerade selbst nicht einkaufen kannst'
+    description: '#Ring ring - Schreibe deinen Einkaufszettel, wenn du gerade selbst nicht einkaufen kannst.'
   - src: /slides/slide2.json
     alt: Schritt 2
     title: Schritt 2

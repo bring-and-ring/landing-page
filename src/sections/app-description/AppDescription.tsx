@@ -21,6 +21,7 @@ export type AppDescriptionProps = {
   title: string
   body: string
   btnText: string
+  faqText: string
   slides: [
     {
       src: string
@@ -32,7 +33,7 @@ export type AppDescriptionProps = {
   btnProps: HTMLDivElement
 }
 
-const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, slides, btnProps }) => {
+const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, slides, faqText, btnProps }) => {
   const sliderPhone = React.createRef<HTMLIonSlidesElement>()
   const sliderDescription = React.createRef<HTMLIonSlidesElement>()
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -134,6 +135,10 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
                 <Typography className={styles.body} size="p">
                   {slide.description}
                 </Typography>
+                <br />
+                <a className={styles.faqLink} href="/faq">
+                  {faqText}
+                </a>
               </div>
             </IonSlide>
           ))}
