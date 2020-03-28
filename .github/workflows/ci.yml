@@ -1,0 +1,23 @@
+name: 'Deploy'
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: npm ci
+      - name: Build gatsby project
+        run: npm run build
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
