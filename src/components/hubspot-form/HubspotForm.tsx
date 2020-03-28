@@ -1,8 +1,9 @@
 import React, { useEffect, useState, FC } from 'react'
 import { IonIcon } from '@ionic/react'
 import { close } from 'ionicons/icons'
-import { Typography } from '@bring-n-ring/components'
+import { Typography, Spacer } from '@bring-n-ring/components'
 import styles from './hubspot-form.module.css'
+import '@bring-n-ring/components/css/spacer.css'
 
 declare global {
   interface Window {
@@ -45,8 +46,9 @@ export const HubspotForm: FC<HubspotFormProps> = ({ title, visible, body, onClos
   return (
     <div className={`${styles.wrap} ${visible ? styles.visible : ''}`}>
       <div className={styles.content}>
-        <Typography size="h1">{title}</Typography>
-        <Typography size="p">{body}</Typography>
+        <Typography size="h4">{title}</Typography>
+        <Typography size="p" dangerouslySetInnerHTML={{ __html: body }} />
+        <Spacer multiply={4} />
         <IonIcon onClick={onClose} icon={close} className={styles.closeIcon} />
         <div id="HubspotHook" className={styles.form} />
       </div>
