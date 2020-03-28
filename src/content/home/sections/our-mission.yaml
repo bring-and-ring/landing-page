@@ -4,17 +4,17 @@ left:
 right:
   title: Wir sagen Danke
   sponsors:
-    - src: https://i.ibb.co/f9XFycW/netrocks.png
+    - src: /partner/netrocks.png
       alt: netrocks
-    - src: https://i.ibb.co/fDssVDb/jung-v-matt.png
+    - src: /partner/jung-v-matt.png
       alt: jung-v-matt
-    - src: https://i.ibb.co/cXV07fJ/heimat.png
+    - src: /partner/heimat.png
       alt: heimat
-    - src: https://i.ibb.co/z2W1KqM/fischer-appelt.png
+    - src: /partner/fischer-appelt.png
       alt: fischer-appelt
-    - src: https://i.ibb.co/hY3cZzY/knodel.png
+    - src: /partner/knodel.png
       alt: knodel
-    - src: https://i.ibb.co/xDStVsB/flix-mobility.png
+    - src: /partner/flix-mobility.png
       alt: flix-mobility
-    - src: https://i.ibb.co/85jfsLd/arvantis.png
+    - src: /partner/arvantis.png
       alt: arvantis
