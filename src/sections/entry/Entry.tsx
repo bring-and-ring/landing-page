@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Typography, Spacer, IonButton } from '@bring-n-ring/components'
 import '@bring-n-ring/components/css/ion-button.css'
+import '@bring-n-ring/components/css/typography.css'
 import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
 import { MainImage, SideImage } from './components'
@@ -37,9 +38,7 @@ export const Entry: React.FC<EntryProps> = ({
         <Typography className={styles.title} color="primary" size="h1">
           {title}
         </Typography>
-        <Typography className={styles.subTitle} size="h4">
-          {slug}
-        </Typography>
+        <Typography size="h4">{slug}</Typography>
         <Typography className={styles.body} size="p">
           {body}
         </Typography>

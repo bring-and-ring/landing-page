@@ -15,11 +15,6 @@
   margin: 0 auto;
 }
 
-.title {
-  font-size: 40px;
-  margin-bottom: -12px;
-}
-
 .visualDeco {
   position: absolute;
   top: calc(var(--base-spacing) * 3);
@@ -161,13 +156,7 @@
     border-radius: calc(var(--base-spacing) * 5);
   }
 
-  .body {
-    font-size: calc(var(--base-spacing) * 4);
-  }
   .visual {
     max-width: 300px;
-  }
-  .title {
-    font-size: 70px;
   }
 }

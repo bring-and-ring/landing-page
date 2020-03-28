@@ -7,11 +7,6 @@
   grid-column-gap: calc(var(--base-spacing) * 10);
 }
 
-.title {
-  font-size: 40px;
-  margin-bottom: -12px;
-}
-
 @media (min-width: 767px) {
   .grid {
     display: grid;
@@ -30,9 +25,6 @@
 @media (min-width: 1430px) {
   .grid {
     height: 500px;
-  }
-  .title {
-    font-size: 70px;
   }
 }
 

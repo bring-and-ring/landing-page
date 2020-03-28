@@ -24,10 +24,10 @@ export const OurMission: React.FC<Props> = ({ left, right }) => {
     <div className={styles.grid}>
       <div className={styles.gridItemLeft}>
         <div className={styles.left}>
-          <Typography className={styles.title} color="primary" size="h1">
+          <Typography color="primary" size="h1">
             {left.title}
           </Typography>
-          <Typography color="primary" size="h4">
+          <Typography color="primary" size="h5">
             {left.subTitle}
           </Typography>
           <Typography size="p">{left.body}</Typography>
