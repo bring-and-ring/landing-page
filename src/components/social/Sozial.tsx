@@ -8,7 +8,7 @@ const Sozial: React.FC = () => (
     <a href="https://www.instagram.com/bringandring/" className={styles.link}>
       <IonIcon className={styles.icon} color="secondary" icon={logoInstagram} size="large" />
     </a>
-    <a href="https://www.facebook.com/bringandring" className={styles.link}>
+    <a href="https://www.facebook.com/BringandRing-104577077864229" className={styles.link}>
       <IonIcon className={styles.icon} color="secondary" icon={logoFacebook} size="large" />
     </a>
     <a href="https://www.linkedin.com/company/bring-ring" className={styles.link}>
