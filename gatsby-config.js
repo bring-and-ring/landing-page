@@ -25,6 +25,18 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Bring and ring`,
+        short_name: `Bring and ring`,
+        start_url: `/`,
+        background_color: `##FAF8F7`,
+        theme_color: `##4DCB8B`,
+        display: `standalone`,
+        icon: `src/content/images/logos/logo-white.png`
+      }
+    },
+    {
       resolve: 'gatsby-plugin-pathdata',
       options: {
         matchNodeType: 'MarkdownRemark',
