@@ -1,9 +1,10 @@
-import * as React from 'react'
-import { IonFooter, IonButton } from '@ionic/react'
 import { Typography } from '@bring-n-ring/components'
-import styles from './Footer.module.css'
-import { MainImage } from '../MainImage'
+import { IonButton, IonFooter } from '@ionic/react'
+import * as React from 'react'
 import footerContent from '../../content/footer.yml'
+import { MainImage } from '../MainImage'
+import Sozial from '../social/Sozial'
+import styles from './Footer.module.css'
 
 export type FooterProps = {
   btnProps?: HTMLDivElement
@@ -34,7 +35,9 @@ const Footer: React.FC<FooterProps> = ({ btnProps = {} }) => (
         </ul>
       </div>
 
-      <div className={styles.social}>social</div>
+      <div className={styles.social}>
+        <Sozial />
+      </div>
     </div>
   </IonFooter>
 )
