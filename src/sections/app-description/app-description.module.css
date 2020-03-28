@@ -45,9 +45,7 @@
 .description {
   max-width: 300px;
   margin: 0 auto;
-  background: var(--ion-color-medium);
   padding: calc(var(--base-spacing) * 10);
-  border-radius: calc(var(--base-spacing) * 5);
 }
 
 .icon-left,

@@ -20,7 +20,7 @@ export const Insta: React.FC<InstaProps> = ({ title, body }) => {
         <Typography className={styles.body} size="p">
           {body}
         </Typography>
-        <Sozial />
+        <Sozial color="primary" />
       </div>
       <div className={styles.visual}>
         <Slider />

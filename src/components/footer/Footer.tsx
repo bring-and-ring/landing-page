@@ -36,7 +36,7 @@ const Footer: React.FC<FooterProps> = ({ btnProps = {} }) => (
       </div>
 
       <div className={styles.social}>
-        <Sozial />
+        <Sozial color="secondary" />
       </div>
     </div>
   </IonFooter>
