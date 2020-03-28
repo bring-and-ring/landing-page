@@ -13,7 +13,7 @@ const slideOptsPhone = {
   slideActiveClass: styles.phoneSlider
 }
 const slideOpts = {
-  initialSlide: 1,
+  initialSlide: 0,
   speed: 400
 }
 
@@ -109,7 +109,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
               {slides.map((slide, index) => {
                 animations = []
                 return (
-                  <IonSlide className={styles.phoneSlide} key={styles.title}>
+                  <IonSlide className={styles.phoneSlide} key={styles.src}>
                     <div
                       className={styles.phoneSlide}
                       ref={element => {
