@@ -1,8 +1,9 @@
-import * as React from 'react'
 import { Typography } from '@bring-n-ring/components'
 import '@bring-n-ring/components/css/ion-button.css'
-import styles from './insta.module.css'
+import * as React from 'react'
+import Sozial from '../../components/social/Sozial'
 import { Slider } from './components/Slider'
+import styles from './insta.module.css'
 
 export type InstaProps = {
   title: string
@@ -19,6 +20,7 @@ export const Insta: React.FC<InstaProps> = ({ title, body }) => {
         <Typography className={styles.body} size="p">
           {body}
         </Typography>
+        <Sozial />
       </div>
       <div className={styles.visual}>
         <Slider />
