@@ -1,12 +1,11 @@
 .wrap {
   position: fixed;
-  display: flex;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   background: var(--ion-background-color);
-  padding: calc(var(--base-spacing) * 2);
+  padding: calc(var(--base-spacing) * 4);
   align-items: center;
   justify-content: center;
   visibility: hidden;
@@ -25,8 +24,11 @@
   right: calc(var(--base-spacing) * 4);
   transform: scale(2);
 }
+
 @media (min-width: 767px) {
   .wrap {
+    display: flex;
+
     padding: calc(var(--base-spacing) * 5);
   }
   .closeIcon {
