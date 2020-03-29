@@ -4,6 +4,7 @@ module.exports = {
     description: 'Kontaklos einkaufen für Risikogruppen',
     keywords: 'bring, ring, corona, neighbour, supermarket',
     siteUrl: 'https://bringandring.de',
+    image: 'https://i.ibb.co/vPZwgvV/site-share-image.jpg"',
     author: {
       name: 'Bring & Ring',
       url: 'https://bringandring.de',

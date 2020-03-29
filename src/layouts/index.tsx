@@ -26,6 +26,7 @@ interface StaticQueryProps {
       title: string
       description: string
       keywords: string
+      image: string
     }
   }
 }
@@ -38,6 +39,8 @@ const IndexLayout: React.FC = ({ children }) => (
           siteMetadata {
             title
             description
+            image
+            siteUrl
           }
         }
       }
@@ -49,7 +52,11 @@ const IndexLayout: React.FC = ({ children }) => (
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: data.site.siteMetadata.description },
-              { name: 'keywords', content: data.site.siteMetadata.keywords }
+              { name: 'keywords', content: data.site.siteMetadata.keywords },
+              { name: 'og:image', content: data.site.siteMetadata.image },
+              { name: 'og:title', content: data.site.siteMetadata.title },
+              { name: 'og:description', content: data.site.siteMetadata.description },
+              { name: 'og:url', content: data.site.siteMetadata.siteUrl }
             ]}
           />
           {/* <Header title={data.site.siteMetadata.title} /> */}
