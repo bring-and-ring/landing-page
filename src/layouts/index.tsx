@@ -53,10 +53,10 @@ const IndexLayout: React.FC = ({ children }) => (
             meta={[
               { name: 'description', content: data.site.siteMetadata.description },
               { name: 'keywords', content: data.site.siteMetadata.keywords },
-              { name: 'og:image', content: data.site.siteMetadata.image },
-              { name: 'og:title', content: data.site.siteMetadata.title },
-              { name: 'og:description', content: data.site.siteMetadata.description },
-              { name: 'og:url', content: data.site.siteMetadata.siteUrl }
+              { property: 'og:image', content: data.site.siteMetadata.image },
+              { property: 'og:title', content: data.site.siteMetadata.title },
+              { property: 'og:description', content: data.site.siteMetadata.description },
+              { property: 'og:url', content: data.site.siteMetadata.siteUrl }
             ]}
           />
           {/* <Header title={data.site.siteMetadata.title} /> */}
