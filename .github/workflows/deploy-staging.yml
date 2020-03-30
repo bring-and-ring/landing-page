@@ -1,0 +1,25 @@
+name: 'deploy-staging'
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: npm ci
+      - name: Build gatsby project
+        run: BUILD_ENV=staging npm run build
+      - name: Build gatsby project
+        run: >
+          sed -i '3i "site": "bring-and-ring-staging",' ./firebase.json
+      - name: Deploy to Firebase staging
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting:bring-and-ring-staging
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

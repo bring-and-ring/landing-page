@@ -16,7 +16,6 @@ import { graphql, StaticQuery } from 'gatsby'
 import 'modern-normalize'
 import * as React from 'react'
 import Helmet from 'react-helmet'
-import Header from '../components/Header'
 import LayoutMain from '../components/LayoutMain'
 import '../styles/global.css'
 
@@ -56,7 +55,9 @@ const IndexLayout: React.FC = ({ children }) => (
               { property: 'og:image', content: data.site.siteMetadata.image },
               { property: 'og:title', content: data.site.siteMetadata.title },
               { property: 'og:description', content: data.site.siteMetadata.description },
-              { property: 'og:url', content: data.site.siteMetadata.siteUrl }
+              { property: 'og:url', content: data.site.siteMetadata.siteUrl },
+              // disable robots on staging
+              process.env.BUILD_ENV === 'staging' ? { name: 'robots', content: 'noindex' } : {}
             ]}
           />
           {/* <Header title={data.site.siteMetadata.title} /> */}

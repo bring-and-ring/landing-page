@@ -1,4 +1,4 @@
-name: 'Deploy'
+name: 'deploy-prod'
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
         run: npm ci
       - name: Build gatsby project
         run: npm run build
-      - name: Deploy to Firebase
+      - name: Deploy to Firebase production
         uses: w9jds/firebase-action@master
         with:
           args: deploy

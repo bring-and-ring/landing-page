@@ -1,6 +1,7 @@
-'use strict'
-
 const path = require('path')
+// use same webpack coming from gatsby
+// eslint-disable-next-line import/no-extraneous-dependencies
+const webpack = require('webpack')
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -81,5 +82,17 @@ exports.createPages = async ({ graphql, actions }) => {
         slug
       }
     })
+  })
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  console.log(process.env.BUILD_ENV)
+
+  actions.setWebpackConfig({
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env.BUILD_ENV': JSON.stringify(process.env.BUILD_ENV)
+      })
+    ]
   })
 }
