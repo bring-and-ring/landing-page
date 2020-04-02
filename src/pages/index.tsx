@@ -13,7 +13,7 @@ import AppDescription from '../sections/app-description/AppDescription'
 
 const IndexPage = () => {
   const [formVisible, setFormVisible] = useState(false)
-  const onClickShowForm = e => {
+  const onClickShowForm = () => {
     setFormVisible(true)
   }
   const onClickHideForm = () => {

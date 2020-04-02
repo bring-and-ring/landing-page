@@ -5,11 +5,12 @@ import { Typography, Spacer } from '@bring-n-ring/components'
 import styles from './hubspot-form.module.css'
 import '@bring-n-ring/components/css/spacer.css'
 import content from '../../content/form.yml'
+import { noop } from '../../fns/noop'
 
 declare global {
   interface Window {
-    hbspt: any
-    dataLayer: Array<any>
+    hbspt: {}
+    dataLayer: Array<{ [key: string]: string }>
   }
 }
 
@@ -18,8 +19,8 @@ export type HubspotFormProps = {
   onClose?: () => void
 }
 
-export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = () => {} }) => {
-  const [hbspt, setHbspt] = useState<any>(null)
+export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = noop }) => {
+  const [hbspt, setHbspt] = useState<{} | null>(null)
   useEffect(() => {
     const script = document.createElement('script')
     script.src = '//js.hsforms.net/forms/shell.js'
@@ -36,13 +37,13 @@ export const HubspotForm: FC<HubspotFormProps> = ({ visible, onClose = () => {} 
 
     // hack for hubspot throwing weird jQuery errors from
     // https://community.hubspot.com/t5/APIs-Integrations/Form-callback-throws-unrelated-jquery-error/m-p/232121
-    // I knwo you feel like you should, but do not remove
+    // I know you feel like you should, but do not remove
     window.jQuery =
       window.jQuery ||
       (() => ({
         // these are all methods required by HubSpot
-        change: () => {},
-        trigger: () => {}
+        change: noop,
+        trigger: noop
       }))
   }, [])
   useEffect(() => {

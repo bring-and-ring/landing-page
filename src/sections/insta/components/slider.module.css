@@ -24,7 +24,6 @@
 }
 
 .slide {
-  opacity: 0.3;
   transition: opacity 0.2s;
   width: 100% !important;
   align-self: center;

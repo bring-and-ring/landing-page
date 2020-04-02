@@ -35,7 +35,7 @@ interface PageTemplateProps {
 
 const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
   const [formVisible, setFormVisible] = React.useState(false)
-  const onClickShowForm = e => {
+  const onClickShowForm = () => {
     setFormVisible(true)
   }
   const onClickHideForm = () => {

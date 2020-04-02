@@ -17,7 +17,7 @@ export const MainImage: React.FC = () => {
           }
         }
       `}
-      render={data => {
+      render={(data) => {
         return <Img fluid={data.file.childImageSharp.fluid} />
       }}
     />

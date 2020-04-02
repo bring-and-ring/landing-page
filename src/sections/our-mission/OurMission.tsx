@@ -40,7 +40,7 @@ export const OurMission: React.FC<Props> = ({ left, right }) => {
           </Typography>
           <Typography size="p">{right.sponsorIntroduction}</Typography>
           <div className={styles.sponsorGrid}>
-            {right.sponsors.map(sponsor => (
+            {right.sponsors.map((sponsor) => (
               <div key={sponsor.src}>
                 <img src={sponsor.src} alt={sponsor.alt} />
               </div>

@@ -43,12 +43,12 @@ export const Slider: React.FC = () => {
           }
         }
       `}
-      render={data => {
+      render={(data) => {
         return (
           <div className={styles.wrap}>
             <IonSlides ref={$slider} className={styles.slider} options={slideOpts}>
-              {data.allInstaNode.edges.map(({ node }, index) => (
-                <IonSlide key={index} className={styles.slide}>
+              {data.allInstaNode.edges.map(({ node }) => (
+                <IonSlide key={node.thumbnails[4].src} className={styles.slide}>
                   <img src={node.thumbnails[4].src} alt="" />
                 </IonSlide>
               ))}

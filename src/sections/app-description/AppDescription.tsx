@@ -41,7 +41,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
 
   const playAnimations = async () => {
     if (sliderPhone.current) {
-      animations.forEach(anaimation => anaimation.stop())
+      animations.forEach((anaimation) => anaimation.stop())
       animations[await sliderPhone.current.getActiveIndex()].play()
     }
   }
@@ -113,7 +113,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
                   <IonSlide className={styles.phoneSlide} key={slide.src}>
                     <div
                       className={styles.phoneSlide}
-                      ref={element => {
+                      ref={(element) => {
                         if (element) animations[index] = createAnimation(element, slide.src)
                       }}
                     />
@@ -126,7 +126,7 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
       </div>
       <div className={styles.description}>
         <IonSlides options={slideOpts} key="demo-decription" ref={sliderDescription} onIonSlideDidChange={descriptionSlideChanged}>
-          {slides.map(slide => (
+          {slides.map((slide) => (
             <IonSlide key={slide.title}>
               <div>
                 <Typography className={styles.title} size="h2">

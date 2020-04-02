@@ -35,6 +35,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         name: 'layout',
         value: layout || ''
       })
+      break
+    }
+    default: {
+      //
     }
   }
 }
@@ -58,7 +62,6 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   if (allMarkdown.errors) {
-    console.error(allMarkdown.errors)
     throw new Error(allMarkdown.errors)
   }
 
@@ -86,8 +89,6 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 exports.onCreateWebpackConfig = ({ actions }) => {
-  console.log(process.env.BUILD_ENV)
-
   actions.setWebpackConfig({
     plugins: [
       new webpack.DefinePlugin({
