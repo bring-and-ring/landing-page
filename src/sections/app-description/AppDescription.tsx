@@ -58,6 +58,15 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
     })
   }
 
+  // hotfix for slider not starting on page load
+  // FIX ME
+  React.useEffect(() => {
+    setTimeout(() => {
+      sliderPhone.current.update()
+      sliderDescription.current.update()
+    }, 300)
+  }, [])
+
   const onNext = () => {
     if (sliderPhone.current) {
       sliderPhone.current.slideNext()

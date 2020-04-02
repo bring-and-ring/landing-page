@@ -22,6 +22,13 @@ export const Slider: React.FC = () => {
   const onPrev = () => {
     $slider.current.slidePrev()
   }
+  // hotfix for slider not starting on page load
+  // FIX ME
+  React.useEffect(() => {
+    setTimeout(() => {
+      $slider.current.update()
+    }, 300)
+  }, [])
   return (
     <StaticQuery
       query={graphql`
