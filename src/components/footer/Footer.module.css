@@ -7,7 +7,7 @@
 .grid {
   padding: calc(var(--base-spacing) * 3);
   max-width: 300px;
-  height: 200px;
+  height: 230px;
   margin: 0 auto;
   display: grid;
   grid-template-rows: auto auto;
@@ -87,7 +87,7 @@
     height: 40px;
     position: relative;
     top: 150px;
-    right: 10px;
+    right: -40px;
   }
 }
 
