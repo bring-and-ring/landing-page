@@ -7,7 +7,7 @@ Nutzungsbedingungen für die App „Bring & Ring“
 
 § 1 Allgemeine Regelungen
 
-1. Betreiber der App „Bring & Ring“ ist die Bringandring UG i.G., St. Cajetan Str. 5, 81669 München (nachfolgendend „Bring & Ring“ genannt), vertreten durch den Geschäftsführer Zarah Bruhn Knöchel, eingetragen im Handelsregister beim Amtsgericht München (in Gründung), E-Mail: support@bringandring.de, Website: https://www.bringandring.de.
+1. Betreiber der App „Bring & Ring“ ist die Bringandring UG i.G., St. Cajetan Str. 5, 81669 München (nachfolgendend „Bring & Ring“ genannt), vertreten durch den Geschäftsführer Zarah Bruhn, eingetragen im Handelsregister beim Amtsgericht München (in Gründung), E-Mail: support@bringandring.de, Website: https://www.bringandring.de.
 
 2. Die App richtet sich ausschließlich an Personen, welche die von Bring & Ring angebotenen Leistungen als Verbraucher in Anspruch nehmen und das 18. Lebensjahr vollendet haben (nachfolgendend „Nutzer“ genannt). Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB).
 
