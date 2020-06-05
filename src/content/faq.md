@@ -9,7 +9,7 @@ Bring&Ring bringt Helfer und Hilfesuchende zusammen gerade in Zeiten von Corona 
 
 ##Ist Bring&Ring noch eine weitere Nachbarschaftsplattform?
 
-Nein, Bring&Ring kann bestehende Netzwerke ergänzen und ermöglicht kontaktloses Einkaufen für Risikogruppen inklusive der gesamten Organisation und Abwicklung der Bestellvorgänge. Einerseits ist Bring&Ring eine Web-App, andererseits eine Community und Solidaritätskampagne, um zur Bekämpfung des Corona-Virus sicher füreinander da zu sein.
+Nein, Bring&Ring kann bestehende Netzwerke ergänzen und ermöglicht kontaktloses Einkaufen für Risikogruppen inklusive der gesamten Organisation und Abwicklung der Bestellvorgänge. Sie soll ein Tool für Organisationen und Privatleute sein, um Einkaufshilfe leichter zu koordinieren. Einerseits ist Bring&Ring eine App, andererseits eine Community und Solidaritätskampagne, um zur Bekämpfung des Corona-Virus sicher füreinander da zu sein. 
 
 ##Wer ist Bringer, wer ist Ringer?
 
@@ -17,18 +17,19 @@ Freiwillige, die spontan einen Einkauf oder einen Gang zu Apotheken übernehmen,
 
 ##Wer ist die Zielgruppe der Ringer?
 
-Grundsätzlich kann jeder einen Einkaufszettel aufgeben, der selbst gerade nicht aus dem Haus kann oder sollte. Jeder zusammengelegte Einkauf vermeidet Kontakte. Dennoch richtet sich Bring&Ring primär an Risikogruppen, Alleinerziehende, Corona-Infizierte oder Menschen unter Quarantäne, Menschen in systemrelevanten Berufen (z.B. Krankenpflegern) und vielen mehr. Wir möchten einen Beitrag zur Corona Krise leisten.
-
-##Wo gibt es Bring&Ring?
-Die Plattform funktioniert deutschlandweit. Melde dich an und schau nach, wer in deinem Ort schon dabei ist. Du kennst Initiativen, die Bring&Ring nutzen können? Dann lade sie ein, die App zu nutzen und mitzumachen. Dann gibt es sie bald überall!
+Grundsätzlich kann jeder einen Einkaufszettel aufgeben, der selbst gerade nicht aus dem Haus kann oder sollte. Jeder zusammengelegte Einkauf schützt den Einzelnen, vermeidet Kontakte und entlastet Supermärkte und unser System. Dennoch richtet sich Bring&Ring primär an Risikogruppen, Alleinerziehende, Corona-Infizierte oder Menschen unter Quarantäne, Menschen in systemrelevanten Berufen (z.B. Krankenpflegern), Alleinerziehende und vielen mehr. Wir möchten einen Beitrag zur Corona Krise leisten.
 
 ##Was bedeutet spontan helfen?
 
 Jede Anfrage von einem Ringer hat ein Ablaufdatum, das bedeutet, es sind nur aktuelle Hilfegesuche online. Das bedeutet, dass #Bringer einfach in der App sehen, wer gerade im Umfeld etwas benötigt. Das lässt sich auf viele Alltagssituationen anwenden. Bist du gerade im Supermarkt, im Drogeriemarkt in der Apotheke und willst helfen? Einfach einloggen und schauen, wem du etwas mitbringen kannst.
 
+##Wo gibt es Bring&Ring?
+
+Die Plattform funktioniert deutschlandweit. Melde dich an und schau nach, wer in deinem Ort schon dabei ist. Du kennst Initiativen, die Bring&Ring nutzen können? Dann lade sie ein, die App zu nutzen und mitzumachen. Dann gibt es sie bald überall!
+
 ##Wie läuft die Bezahlung des Einkaufs?
 
-Bring&Ring bietet die gängigen Bezahlfunktionen. Die Summe des Einkaufs und ein kleines Trinkgeld werden vorab vom Ringer an den Geldbeutel in der App überwiesen. Das Geld bleibt blockiert bis nach der Übergabe. Nach dem Hochladen des Einkaufszettels und Bestätigung vom Ringer wird der Betrag für den Bringer freigeschaltet.
+Bring&Ring bietet zu Beginn nur Barzahlung und Paypal-Zahlung. Die App soll um gängige Zahlfunktionen erweitert werden, Kreditkarte, Sepa uvm. 
 
 ##Wie gebe ich eine Bestellung auf?
 
@@ -44,7 +45,7 @@ Nach dem Matching werden Telefonnummern ausgetauscht, um eventuelle Rückfragen 
 
 ##Entstehen mir Kosten durch die Nutzung?
 
-Bei einer Einkaufshilfe wird für den Ringer ein kleines Trinkgeld fällig, dessen Höhe variabel ist (je nach Wahl 2, 3 oder 5 Euro). Dieser Betrag kann der Bringer auch spenden, um bedürftige Nutzer zu unterstützen. Bring&Ring selbst arbeitet ohne Gewinn, allerdings fallen je nach Zahlungsanbieter die gängigen Kreditkarten- oder Transaktionsgebühren an. Daher sind wir verpflichtet, mind. 25 Cent pro Einkauf zzgl. 2% als Gebühr abzurechnen, die wir an den Anbieter abtreten müssen.
+Bei einer Einkaufshilfe kann der Bringer sich mit einem kleinen Trinkgeld beim Ringer bedanken, dessen Höhe variabel ist (je nach Wahl 1, 3 oder 5 Euro). Unsere Organisation nimmt keine Gebühr, die Vereinbarung kommt nur zwischen Bringer und Ringer zu Stande.
 
 ##Was mache ich bei Problemen?
 
@@ -52,4 +53,5 @@ Sollte es ein Problem geben, kümmern wir vom Team uns um eine gemeinschaftliche
 
 ##Wie finanziert sich die Plattform?
 
-Ein Team aus Ehrenamtlichen hat mit der Unterstützung privater Spender diese Plattform ins Leben gerufen, um einen Beitrag zur Coronakrise zu leisten. Die Plattform ist nicht gewinnorientiert, sondern möchte lediglich einen Beitrag leisten.
+Wir sind ein Team an Freiwilligen und Unternehmens-Partnern, die Pro-Bono, also kostenlos an dem Projekt arbeiten. Kleinere Unkostenbeiträge werden durch Spenden gedeckt, die u.a. von der Arvantis Group und Privatspendern ermöglicht werden.
+Ein Team aus Ehrenamtlichen hat mit Anschubfinanzierung privater Spender und Stiftungen Bring&Ring ins Leben gerufen, um freiwillige Nachbarschaftshilfe zu unterstützen.

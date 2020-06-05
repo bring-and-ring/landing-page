@@ -66,6 +66,18 @@
   width: 100%;
 }
 
+.alignCenter {
+  display: inline-block;
+  text-align: center;
+}
+
+.halfSpace {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  padding-right: 2%;
+}
+
 @media (min-width: 767px) {
   .content {
     max-width: 600px;

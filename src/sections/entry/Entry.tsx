@@ -46,11 +46,17 @@ export const Entry: React.FC<EntryProps> = ({
           {body}
         </Typography>
         <div className={styles.alignCenter}>
-          <IonButton {...btnProps}>{btnText}</IonButton>
-          <Spacer multiply={2} />
-          <IonRouterLink className={styles.link} {...linkProps}>
-            {linkText}
-          </IonRouterLink>
+          <Typography size="h5">{btnText}</Typography>
+          <div className={styles.halfSpace}>
+            <IonRouterLink href="https://apps.apple.com/de/app/bring-ring/id1506568739?l=de&ls=1" target="_blank">
+              <img src="/appleappstore.png" height="46px" alt="Apple Store" />
+            </IonRouterLink>
+          </div>
+          <div className={styles.halfSpace}>
+            <IonRouterLink href="https://play.google.com/store/apps/details?id=com.bringandring.app" target="_blank">
+              <img src="/googleplaystore.png" height="46px" alt="Google Play Store" />
+            </IonRouterLink>
+          </div>
         </div>
       </div>
       <div className={styles.visual}>

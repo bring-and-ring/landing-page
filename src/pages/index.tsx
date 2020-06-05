@@ -7,8 +7,9 @@ import appDescriptionData from '../content/home/sections/app-description.yaml'
 import entryData from '../content/home/sections/entry.yaml'
 import instaData from '../content/home/sections/insta.yaml'
 import ourMission from '../content/home/sections/our-mission.yaml'
+import ourTeam from '../content/home/sections/our-team.yaml'
 import IndexLayout from '../layouts'
-import { Entry, Insta, OurMission } from '../sections'
+import { Entry, Insta, OurMission, OurTeam } from '../sections'
 import AppDescription from '../sections/app-description/AppDescription'
 
 const IndexPage = () => {

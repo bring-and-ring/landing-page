@@ -1,21 +1,21 @@
 ---
-title: Kämpfe mit uns gegen Corona!
-btnText: Werde Beta-Tester
+title: Wir vernetzen Nachbarn!
+btnText: Bestellung jetzt aufgeben
 faqText: zu den FAQs
 slides:
   - src: /slides/slide1.json
     alt: Schritt 1
     title: Schritt 1
-    description: '#Ring ring - Schreibe deinen Einkaufszettel, wenn du gerade selbst nicht einkaufen kannst.'
+    description: '#RingRing Schreib deinen Online-Einkaufszettel und bestelle per App.'
   - src: /slides/slide2.json
     alt: Schritt 2
     title: Schritt 2
-    description: 'Kein Problem! Ein freiwilliger #Bringer ist spontan in der Nähe, bestätigt deinen Auftrag und bringt dir alles mit.'
+    description: 'Bestellung angenommen! Ein Nachbar geht eh einkaufen und wird dein #Bringer.'
   - src: /slides/slide3.json
     alt: Schritt 3
     title: Schritt 3
-    description: 'Der #Bringer stellt den Einkauf bei dir ab – kontaktlos.'
+    description: 'Der Bringer stellt den Einkauf bei dir ab und klingelt.'
   - src: /slides/slide4.json
     alt: Schritt 4
     title: Schritt 4
-    description: 'Alles da? Bestätige & die Zahlung wird freigegeben. Bedanke dich mit einem Trinkgeld, das der #Bringer auch spenden kann.'
+    description: 'Alles da? Bestätige und gib die Zahlung über die App frei. Bedanke dich mit einem kleinen Trinkgeld.'

@@ -34,6 +34,14 @@
   border-radius: calc(var(--base-spacing) * 5);
 }
 
+.halfSpace {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  padding-right: 2%;
+  vertical-align: middle;
+}
+
 @media (min-width: 767px) {
   .wrap {
     display: grid;
@@ -53,6 +61,12 @@
   .content {
     max-width: 100%;
   }
+  .wirfuereuch {
+    height: 50px;
+  }
+  .allefueralle {
+    height: 150px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -62,7 +76,7 @@
     padding-right: 0;
   }
   .visualDeco {
-    top: 50px;
+    top: -50px;
     width: 1000px;
     height: 360px;
   }
@@ -71,7 +85,7 @@
 @media (min-width: 1430px) {
   .wrap {
     display: grid;
-    padding: calc(var(--base-spacing) * 20);
+    padding: 0 calc(var(--base-spacing) * 20);
     padding-right: 0;
   }
 

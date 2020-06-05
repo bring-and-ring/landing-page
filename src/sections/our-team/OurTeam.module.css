@@ -1,0 +1,135 @@
+/* GENERAL */
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  grid-column-gap: calc(var(--base-spacing) * 10);
+}
+
+@media (min-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-column-gap: calc(var(--base-spacing) * 6);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    padding: calc(var(--base-spacing) * 20) 0;
+    //height: 450px;
+  }
+}
+
+@media (min-width: 1430px) {
+  .grid {
+    //height: 500px;
+  }
+}
+
+/* LEFT SECTION */
+
+.gridItemLeft {
+  justify-self: center;
+}
+
+.right {
+  background: var(--color-background);
+  padding: calc(var(--base-spacing) * 3);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media (min-width: 767px) {
+  .gridItemLeft {
+    justify-self: start;
+    align-self: start;
+  }
+
+  .right {
+    padding: calc(var(--base-spacing) * 10);
+    max-width: 900px;
+    background-color: white;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right {
+    padding-left: calc(var(--base-spacing) * 15);
+  }
+}
+
+@media (min-width: 1430px) {
+  .right {
+    padding-left: calc(var(--base-spacing) * 20);
+  }
+  .titleLeft {
+    font-size: 70px;
+  }
+}
+
+/* RIGHT SECTION */
+
+.gridItemRight {
+  justify-self: center;
+}
+
+.left {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: calc(var(--base-spacing) * 3);
+}
+
+.sponsorGrid {
+  display: grid;
+  //height: 120px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: calc(var(--base-spacing) * 3);
+  align-items: center;
+}
+
+@media (min-width: 767px) {
+  .gridItemRight {
+    align-self: center;
+  }
+
+  .left {
+    padding-right: calc(var(--base-spacing) * 10);
+    max-width: 400px;
+  }
+
+  .sponsorGrid {
+    //height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridItemRight {
+    justify-self: end;
+    align-self: end;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left {
+    padding-right: calc(var(--base-spacing) * 15);
+    max-width: 450px;
+  }
+  .sponsorGrid {
+    //height: 150px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+
+@media (min-width: 1430px) {
+  .left {
+    padding-right: calc(var(--base-spacing) * 20);
+    max-width: 90%;
+  }
+}

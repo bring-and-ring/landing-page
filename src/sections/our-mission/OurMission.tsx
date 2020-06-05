@@ -1,6 +1,12 @@
 import { Typography } from '@bring-n-ring/components'
 import * as React from 'react'
 import styles from './OurMission.module.css'
+import { IonSlides, IonSlide, IonContent, IonImg } from '@ionic/react';
+
+const slideOpts = {
+  initialSlide: 1,
+  speed: 400
+};
 
 type Props = {
   left: {
@@ -46,6 +52,7 @@ export const OurMission: React.FC<Props> = ({ left, right }) => {
               </div>
             ))}
           </div>
+          <Typography size="p">{right.body}</Typography>
         </div>
       </div>
     </div>

@@ -49,6 +49,18 @@
   display: none;
 }
 
+.alignCenter {
+  display: inline-block;
+  text-align: center;
+}
+
+.halfSpace {
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  padding-right: 2%;
+}
+
 @media (min-width: 767px) {
   .grid {
     padding-left: calc(var(--base-spacing) * 10);
@@ -97,6 +109,6 @@
   }
 
   .headline {
-    margin-top: 110px;
+    margin-top: 70px;
   }
 }

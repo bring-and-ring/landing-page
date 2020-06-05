@@ -1,0 +1,33 @@
+left:
+  title: Jetzt erst recht
+  body: 'Durch erste Lockerungen werden die Straßen und Supermärkte wieder voller – das gefährdet Risikogruppen mehr denn je. Durch unsere Plattform ermöglichen wir europaweit spontane und einfache Einkaufshilfe und verstehen uns als Hilfsmittel für Menschen, die gerade nicht einkaufen können, Freiwillige und auch bestehende Organisationen. Jeder Einkauf, den wir zum Zweikauf machen, schützt Individuen, spart Kontakte und entlastet die Supermärkte. Gemeinsam gegen Corona – jetzt erst recht!'
+right:
+  title: Wir sagen Danke
+  body: 'Wir entstanden Ende März, zeitgleich zum WirvsVirus Hackathon. Innerhalb kurzer Zeit formierten sich eine zweistellige Zahl an Ehrenamtlichen und auch engagierten Partnerunternehmen. Wir alle haben das Ziel, schnell, professionell und nachhaltig einen europaweiten Beitrag zu leisten.'
+  sponsors:
+    - src: /partner/netrocks.png
+      alt: netrocks
+    - src: /partner/jung-v-matt.png
+      alt: jung-v-matt
+    - src: /partner/heimat-active.png
+      alt: heimat
+    - src: /partner/fischer-appelt.png
+      alt: fischer-appelt
+    - src: /partner/knodel.png
+      alt: knodel
+    - src: /partner/netlight.png
+      alt: netlight
+    - src: /partner/arvantis.png
+      alt: arvantis
+    - src: /partner/lambus.png
+      alt: lambus
+    - src: /partner/one-hamburg.png
+      alt: one hamburg
+    - src: /partner/stroeer.png
+      alt: ströer
+    - src: /partner/christopherkoch.jpg
+      alt: christopher koch photography
+    - src: /partner/lisahantke.png
+      alt: lisa hantke photography
+    - src: /partner/malt.png
+      alt: malt

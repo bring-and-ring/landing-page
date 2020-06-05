@@ -11,4 +11,7 @@
 }
 
 .sozial-links {
+  display: block;
+  text-align: center;
+  padding: 20px;
 }

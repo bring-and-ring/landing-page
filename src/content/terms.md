@@ -3,136 +3,194 @@ layout: page
 title: 'AGBs'
 ---
 
-Nutzungsbedingungen für die App „Bring & Ring“
+#Nutzungsbedingungen für die von der Bringandring gemeinnützige UG i.G. betriebenen BringAndRing App
 
-§ 1 Allgemeine Regelungen
+##A.	Allgemeine Bestimmungen
+###I.	Allgemeines
+<ol>
+<li>Diese Nutzungsbedingungen gelten für die Nutzung der von Bring & Ring Digital UG, Elisabethplatz 2, 80796 München (im Folgenden „BringAndRing“ und/oder „Wir“) betriebenen BringAndRing App (im Folgenden „App“). Die App ist eine mobile Ap-plikation, die speziell zur Organisation und Abwicklung von kontaktlosen Einkäufen entwickelt wurde und deren Produkte und Dienste nach Maßgabe der nachfolgen-den Nutzungsbedingungen genutzt werden kann.</li>
+<li>Diese Nutzungsbedingungen finden auch dann Anwendung, wenn der Zugriff auf die App von außerhalb der Bundesrepublik Deutschland erfolgt oder der Zugang zu den Produkten und Diensten der App vollständig oder teilweise von Webseiten oder von anderen Softwareapplikationen für mobile Endgeräte ermöglicht wird.</li>
+<li>Bitte lies dir diese Nutzungsbedingungen sorgfältig durch, bevor du die App nutzt. Durch die Nutzung der App erklärst du dich mit diesen Nutzungsbedingungen ein-verstanden. Solltest du nicht zustimmen, darfst du die App nicht verwenden.</li>
+<li>Bitte beachte, dass du bei der Nutzung der App über ein mobiles Endgerät alle an-wendbaren Gesetze (insbesondere das Straßenverkehrsrecht) einhältst.</li>
+</ol>
 
-1. Betreiber der App „Bring & Ring“ ist die Bringandring UG i.G., St. Cajetan Str. 5, 81669 München (nachfolgendend „Bring & Ring“ genannt), vertreten durch den Geschäftsführer Zarah Bruhn, eingetragen im Handelsregister beim Amtsgericht München (in Gründung), E-Mail: support@bringandring.de, Website: https://www.bringandring.de.
+###II.	Betreiber und Vertragspartner
+<p>Betreiber der App und dein Vertragspartner für die Nutzung der App ist die<br />Bring & Ring Digital UG<br />Elisabethplatz 2<br />80796 München<br />Tel.: +49 17664750430<br />E-Mail: info@bringandring.de.</p>
 
-2. Die App richtet sich ausschließlich an Personen, welche die von Bring & Ring angebotenen Leistungen als Verbraucher in Anspruch nehmen und das 18. Lebensjahr vollendet haben (nachfolgendend „Nutzer“ genannt). Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB).
+###III.	Änderung der Nutzungsbedingungen
+<p>Von Zeit zu Zeit kann es erforderlich sein, dass wir diese Nutzungsbedingungen än-dern oder ergänzen müssen. BringAndRing behält sich daher vor, diese Nutzungsbe-dingungen für die Zukunft anzupassen, soweit die Änderungen oder Ergänzungen notwendig erscheinen, für dich zumutbar sind und du durch diese nicht wider Treu und Glauben benachteiligt wirst. Notwendige Verbesserungen können insbesondere die Verbesserung bestehender Funktionen oder Merkmale oder das Hinzufügen neuer Funktionen oder Merkmale oder die Umsetzung wissenschaftlicher und tech-nischer Fortschritte oder angemessene technische Anpassungen zur Sicherstellung der Funktionsfähigkeit oder Sicherheit der Services sowie die Umsetzung rechtlicher oder regulatorischer Anforderungen sein. Sei jedoch versichert, dass Änderungen nicht rückwirkend in Kraft treten und wir dir Änderungen und Ergänzungen rechtzei-tig durch eine Benachrichtigung in Textform (z. B. per E-Mail) mitteilen. Etwaige Änderungen und Ergänzungen der Nutzungsbedingungen gelten als genehmigt, wenn du nach Zugang der Benachrichtigung die Nutzung der App fortsetzt oder wenn du ihnen nicht innerhalb von dreißig (30) Tagen nach Zugang der Benachrich-tigung in Textform widersprichst. In der Benachrichtigung werden wir auf dein Wi-derspruchsrecht und auf die Folgen hinweisen.</p>   
 
-3. Für den zwischen Bring & Ring und dem Nutzer geltenden Vertrag zur Inanspruchnahme der Leistungen der App gelten ausschließlich die nachfolgenden Nutzungsbedingungen. Von diesen Nutzungsbedingungen abweichende Regelungen werden nicht anerkannt, es sei denn, Bring & Ring stimmt ihrer Geltung schriftlich zu.
+##B.	Besondere Bestimmungen
+###I.	Vertragsschluss
+<ol>
+<li>Mit der Registrierung und dem Eröffnen eines Nutzerkontos kommt zwischen BringAndRing und dir ein Nutzungsvertrag über die App-Nutzung zustande (im Fol-genden „App-Nutzungsvertrag“) und du akzeptierst diese Nutzungsbedingungen.</li>
+<li>Zur Nutzung berechtigt sind ausschließlich unbeschränkt geschäftsfähige natürliche Personen sowie beschränkt geschäftsfähige natürliche Personen, die das 16. Lebens-jahr vollendet haben. Beschränkt geschäftsfähigen natürlichen Personen ist eine Nutzung der App nur erlaubt, wenn die beschränkt geschäftsfähige natürliche Per-son und deren gesetzliche Vertreter die Nutzungsbedingungen gemeinsam durchse-hen und auch verstehen und die gesetzlichen Vertreter den Nutzungsbedingungen zustimmen.</li> 
+<li>Unsere Erklärung auf Abschluss eines App-Nutzungsvertrages im Rahmen der Re-gistrierung und Eröffnung des Nutzerkontos nach Ziffer B.I.1 richtet sich daher aus-schließlich an unbeschränkt geschäftsfähige natürliche Personen sowie beschränkt geschäftsfähige natürliche Personen, die das 16. Lebensjahr vollendet haben.</li> 
+</ol>
 
-4. Die App wird in deutscher Sprache angeboten. Die Vertragssprache ist damit deutsch. Bring & Ring speichert den Vertragstext nach Vertragsabschluss unter Wahrung des Datenschutzes. Diese Nutzungsbedingungen können jederzeit auf der Website https://www.bringandring.de in ausdruckbarer Version abgerufen werden. Darüber hinaus sind sie in der App unter „Einstellungen > Rechtliches > AGB“ einsehbar.
+###II.	Vertragsgegenstand und Funktionsweise
+<ol>
+<li>Vertragsgegenstand ist die Bereitstellung der App in ihrer jeweils zur Verfügung ge-stellten Form. Die Nutzung der App ist kostenlos.</li> 
+<li>Die App ist eine Einkaufshilfe, welche dich bei der Organisation und Abwicklung kontaktloser Einkäufe unterstützt. Hierzu bringt die App Einkaufshelfer und Hilfesu-chende zusammen, erleichtert die Weiterleitung von Einkaufslisten des Hilfesu-chenden und ermöglicht die Bestimmung eines Abgabeorts beim Hilfesuchenden. Im Rahmen des kontaktlosen Einkaufs übernehmen Einkaufshelfer spontan Einkäufe oder Gänge zur Apotheke für Hilfesuchende (im Folgenden „Bringer“). Bei Hilfesu-chenden handelt es insbesondere um Personen, die einer Risikogruppen angehören oder aus sonstigen Gründen ihre Wohnung nicht verlassen sollen oder dürfen (z. B. Personen in Quarantäne) und Unterstützung beim Einkauf in Zeiten von Corona bzw. COVID-19 benötigen sowie um Alleinerziehende, Corona-Infizierte oder Personen in systemrelevanten Berufen (z. B. Krankenpfleger/innen) (im Folgenden „Ringer“).</li>
+<li>Nachdem du dich in der App mit deinem Nutzerkonto angemeldet hast, wählst du zunächst aus, ob du die App als Ringer oder Bringer nutzt.</li>
+<ol>    
+<li>Wenn du die App als Ringer nutzt, erstellst du zunächst deine Einkaufsliste. In deiner Einkaufsliste gibst deine gewünschten Produkte (mit z. B. Menge, Mar-ke, Sorte, Gewicht und den ungefähren Preis), deinen Budgetrahmen, die ge-wünschte Lieferzeit und deinen Standort an. Nachdem du deine Einkaufsliste fertiggestellt hast, schickst du diese ab. Solange noch kein Bringer deine Ein-kaufsliste angenommen hat, kannst du deine Einkaufsliste löschen oder bear-beiten (z. B. indem du Produkte ergänzt oder löschst). Wurde deine Einkaufs-liste von einem Bringer angenommen, kannst du diese nicht mehr löschen o-der bearbeiten.<br />BringAndRing sucht nach Versendung deiner Einkaufsliste einen Bringer für dich und benachrichtigt sich, sobald ein Bringer deinen Einkauf übernommen hat. Du hast die Möglichkeit den Bringer anzurufen und weitere Details zum Einkauf mit diesem zu klären. Sobald der Bringer deinen Einkauf zu deinem Standort gebracht hat, wirst du darüber informiert. Im nächsten Schritt kannst du den Kassenbon einsehen und dir wird der Einkaufswert in der App ange-zeigt. Optional kannst du dich bei dem Bringer mit einem Trinkgeld bedanken. Dann wirst du zur Zahlung aufgefordert. Nach Prüfung des Kassenbons und des Einkaufswerts bestätigst du in der App die Zahlung des Einkaufs.<br /> Eine Prüfung der Zahlung erfolgt nicht über die App.<br />Um die App als Ringer nutzen zu können, musst du beim Anlegen deiner Ein-kaufsliste eine Einwilligung in die Verarbeitung gegebenenfalls anfallender Gesundheitsdaten zum Zwecke der Erbringung der Leistungen der App ertei-len. Aus deiner Teilnahme als Ringer könnte man ggf. Rückschlüsse auf deine Gesundheit ziehen, z. B. wenn ein Bringer für dich den Einkauf bei einer Apo-theke übernehmen soll oder du Angaben zu deiner Gesundheit machst. Wir ziehen derartige Rückschlüsse nicht und verlangen auch nicht die Angabe von Gesundheitsdaten. Wenn du diese Einwilligung widerrufst ist die Vermittlung deiner Einkaufsliste an einen Bringer nicht möglich, soweit darin Gesund-heitsdaten enthalten sein könnten.</li>
+<li>Wenn du die App als Bringer nutzt, suchst du dir einen passenden Einkauf ei-nes Ringers in der App aus. Hierzu werden dir Details zum jeweiligen Einkauf angezeigt. Die Annahme des Einkaufs bestätigst du durch Anklicken des But-tons „Einkauf Annehmen“. Nach Annahme des Einkaufs wählst du aus, wie du bezahlt werden möchtest.<br />Hast du den Einkauf abgeschlossen, begibst du dich zum angegebenen Stand-ort des Ringers. Nachdem du den angegebenen Standort erreicht hast, klin-gest du bei Ringer und stellst den Einkauf am gewünschten Abgabeort ab. Im letzten Schritt forderst du die Zahlung durch den Ringer an. Sobald der Ringer die Zahlung bestätigt hat, erhältst du eine Nachricht.<br />Eine Prüfung der Zahlung erfolgt nicht über die App.</li>
+</ol>
+<li>Für den Abschluss und die Durchführung des jeweiligen Einkaufs der gewünschten Produkte (d.h. insbesondere für die Erfüllung der Pflichten aus dem Kaufvertrag wie u. a. die vollständige und richtige Lieferung der gewünschten Produkte oder die vollständige Zahlung der Rechnung) sind ausschließlich der Bringer und Ringer ver-antwortlich. Die App dient lediglich als Unterstützung bei der Organisation und Ab-wicklung der Einkäufe.</li>
+<li>BringAndRing obliegt keinerlei Verpflichtung zum Upgrade oder zur Aktualisierung der App. BringAndRing ist jedoch berechtigt, zur Behebung von Mängeln oder zur Verbesserung der App, nach eigenem Ermessen Updates der App bereitzustellen.</li> 
+<li>Da es sich um ein unentgeltliches Angebot handelt, kann BringAndRing die App und deren Funktionen und Funktionalitäten jederzeit anpassen, ändern oder einstellen.</li>
+</ol>
 
-§ 2 Änderungen der Nutzungsbedingungen
+###III.	Verfügbarkeit
+<ol>
+<li>Du hast keinen Anspruch auf eine ständige und/oder störungsfreie Verfügbarkeit der App. Eine bestimmte Verfügbarkeit der App wird nicht zugesagt. Dies beinhaltet insbesondere auch die Frage, auf welchen Betriebssystemen und/oder Typen von Endgeräten die App verfügbar ist.</li>
+<li>Von Zeit zu Zeit wird die App möglicherweise zeitweise nicht verfügbar sein, insbe-sondere im Falle von Wartungsarbeiten sowie bei Auftreten von Sicherheitsproble-men oder Kapazitätsüberschreitungen sowie bei Ereignissen, die nicht im Machtbe-reich von BringAndRing stehen (wie z. B. Streik, Unruhen, Naturkatastrophen, Epi-demien, Störungen von öffentlichen Kommunikationsnetzen, Stromausfälle etc.).</li>
+</ol>
 
-Bring & Ring behält sich vor, diese Nutzungsbedingungen zu ändern, wenn die Änderung lediglich vorteilhaft für den Nutzer ist, Änderungsbedarf aufgrund bestimmter gesetzlicher Vorgaben oder höchstrichterlicher Rechtsprechung, eines Gerichtsurteils oder einer Behördenentscheidung gegen Bring & Ring sowie im Falle technischer Überarbeitungen der App oder Produkterweiterungen besteht, die einer Änderung der Nutzungsbedingungen bedürfen und dem Nutzer zumutbar sind. Auf eine von Bring & Ring beabsichtigte Änderung dieser Nutzungsbedingungen wird der Nutzer mindestens sechs Wochen vor dem geplanten Änderungszeitpunkt in Textform (z.B. per E-Mail) hingewiesen. Die Zustimmung des Nutzers gilt als erteilt, wenn er ihrer Geltung nicht bis zum geplanten Änderungszeitpunkt gegenüber Bring & Ring widersprochen hat. Nutzer, die mit den Änderungen nicht einverstanden sind, können den Vertrag jederzeit – nicht nur vor dem geplanten Änderungszeitpunkt, sondern auch danach – gegenüber Bring & Ring kündigen. Der Nutzer wird vom Bring & Ring mit der Nachricht zu den beabsichtigten Änderungen nochmals gesondert darauf hingewiesen, dass sein Schweigen als Zustimmung zur Änderung fingiert wird und dass er den Nutzungsvertrag jederzeit kündigen kann. Bring & Ring wird über die Änderung der Nutzungsbedingungen auch auf der Website und in der App informieren.
+###IV.	Nutzung der App
+<ol>
+<li>BringAndRing stellt dir die App kostenlos zum Download auf verschiedenen Platt-formen zur Verfügung. Für die Installation und Nutzung der App benötigst du ein in-ternetfähiges mobiles Endgerät.</li> 
+<li>Der Zugang und die Verbindung mit dem Internet sind nicht Leistungsgegenstand der vorliegenden Vereinbarung. Hierfür können gesonderte Kosten gegenüber dei-nem Internetanbieter entstehen.</li>
+</ol>
 
-§ 3 Gegenstand und Funktionalitäten der App „Bring & Ring“
+###V.	Registrierung und Nutzerkonto
+<ol>
+<li>Die Nutzung der App und die Inanspruchnahme der über die App angebotenen Pro-dukte und Dienste setzen deine erfolgreiche Registrierung als App-Nutzer voraus. Die Registrierung ist kostenlos.</li> 
+<li>Deine Registrierung erfolgt über die App unter Angabe deines Vor- und Nachna-mens, deiner Adresse, E-Mail-Adresse und Telefonnummer. Im Rahmen der Regist-rierung wählst du die von die akzeptierten und von BringAndRing in der App ange-botenen Zahlungsmittel aus. Während deiner Registrierung wird deine Telefon-nummer verifiziert. Hierfür erhältst du einen sechsstelligen Bestätigungscode per SMS an die von dir angegebene Telefonnummer. Den Bestätigungscode musst du nach entsprechender Aufforderung eingeben. Um deine Registrierung abzuschlie-ßen, musst du dich mit den Nutzungsbedingungen einverstanden erklären.</li> 
+<li>Die Registrierung als App-Nutzer ist unbeschränkt geschäftsfähigen natürlichen Per-sonen sowie beschränkt geschäftsfähigen natürlichen Personen, die das 16. Lebens-jahr vollendet haben, erlaubt. Beschränkt geschäftsfähigen natürlichen Personen ist eine Registrierung jedoch nur dann erlaubt, wenn sich die beschränkt geschäftsfä-hige natürliche Person und deren gesetzliche Vertreter die Nutzungsbedingungen gemeinsam durchsehen und auch verstehen und die gesetzlichen Vertreter den Nut-zungsbedingungen zustimmen.</li>
+<li>Du darfst dich nur einmal registrieren und nur ein Nutzerkonto haben. Du darfst dein Nutzerkonto nicht mit einem Dritten gemeinsam nutzen oder einem Dritten Zugang zu deinem Nutzerkonto gewähren. Du trägst Sorge dafür, dass dein mobiles Endgerät und die App nicht durch unberechtigte Personen genutzt werden können. Du haftest für alle über dein Nutzerkonto vorgenommenen Aktivitäten, sofern du nicht nachweisen kannst, dass die betreffenden Aktivitäten nicht von dir autorisiert wurden und du die unautorisierte Nutzung auch nicht zu vertreten hast. Solltest du Kenntnis über eine unberechtigte und/oder missbräuchliche Nutzung deines Nutzer-kontos durch Dritte erhalten, musst du uns unverzüglich schriftlich in Kenntnis set-zen. Nach jeder Nutzung ist der durch das Passwort geschützte Bereich per Log-out zu verlassen.</li>
+<li>Bei der Registrierung als App-Nutzer hast du alle notwendigen Angaben wahrheits-getreu und vollständig zu machen. Änderungen im Hinblick auf die bei der Regist-rierung gemachten Angaben hast du BringAndRing unverzüglich und unaufgefordert mitzuteilen, indem du die entsprechenden Angaben in deinem Nutzerkonto änderst. Ziffer B.XII.2 und B.XII.3 bleiben unberührt.</li>
+<li>Über die App kannst du auf dein Nutzerkonto zugreifen. Für die Richtigkeit, Beschaf-fenheit, Integrität und Rechtmäßigkeit der von dir übermittelten Daten und Inhalte bist du allein verantwortlich. BringAndRing ist nicht zu einer Überprüfung der von dir übermittelten Daten oder Inhalte verantwortlich.</li>
+<li>Das Nutzerkonto ist persönlich, nicht übertragbar und nicht vererblich.</li>
+<li>Wir behalten uns eine Freischaltung deines Nutzerkontos auf Basis einer Prüfung der Registrierungsvoraussetzungen vor. Ein Anspruch auf Abschluss des App-Nutzungsvertrages besteht insoweit nicht.</li>
+</ol>
 
-Die App bietet den registrierten Nutzern die Möglichkeit, entweder für andere Leute einzukaufen oder andere Leute für einen Einkauf zu gewinnen.
+###VI.	Einräumung von Rechten
+<ol>
+<li>Für die Laufzeit des App-Nutzungsvertrags erhältst du das kostenfreie, einfache, nicht übertragbare Recht, die App nach Maßgabe dieser Nutzungsbedingungen zu nutzen.</li>
+<li>Die App darfst du nur für deine eigenen, privaten und nicht-kommerziellen Zwecke nutzen. Es ist dir untersagt, die technischen Zugangsvoraussetzungen zur und/oder Sicherheitsvorkehrungen der App zu umgehen.</li>
+<li>Die Bearbeitung, Vervielfältigung, öffentliche Darstellung oder jede andere Form der Nutzung der Inhalte und der Funktionsweise der App zu gewerblichen Zwecken ist ohne vorherige Zustimmung von BringAndRing untersagt.</li>
+<li>Du bist verpflichtet, bei der App die anwendbaren gesetzlichen Bestimmungen ein-zuhalten. Zudem bist du selbst dafür verantwortlich, dass du bei der Nutzung der App keine Rechte Dritter verletzt und dass die von dir übermittelten Daten und In-formationen rechtmäßig sind.</li>
+<li>Es ist dir untersagt,</li>
+<ol>
+<li>die App zur Speicherung oder Übertragung von gesetzeswidrigen, rechtsver-letzenden, jugendgefährdenden, beleidigenden oder anderweitig rechtswidri-gen oder unrechtmäßigen Inhalten oder zur Speicherung oder Übertragung von Inhalten unter Verstoß gegen Datenschutzbestimmungen, gewerbliche Schutzrechte, Urheberrechte, Leistungsschutzrechte, Persönlichkeitsrechte und/oder sonstige Rechte Dritter zu nutzen,</li> 
+<li>die App zur Speicherung oder Übertragung von Schadcode zu nutzen,</li> 
+<li>in die Integrität oder die Leistung der App und/oder von darin enthaltenen Da-ten Dritter einzugreifen oder</li> 
+<li>den Versuch zu unternehmen, unbefugten Zugriff auf die App und/oder die damit verbundenen Systeme oder Netzwerke zu erlangen.</li>
+</ol>
+<li>Im Falle eines Verstoßes durch dich gegen die Pflichten aus Ziffer B.VI.4 und B.VI.5, ist BringAndRing berechtigt, unter Berücksichtigung auch deiner berechtigten Inte-ressen, deinen Zugang zur App und zum Service ganz oder teilweise mit sofortiger Wirkung vorübergehend einzustellen. BringAndRing wird dich über diese Maßnah-me unverzüglich informieren.</li>
+<li>Es ist dir untersagt, die App in missbräuchlicher Weise zu gebrauchen; missbräuch-lich ist der Gebrauch insbesondere, wenn du</li>
+<ol>   
+<li>die App benutzt, um andere App-Nutzer zu belästigen, zu bedrohen oder die Rechte (einschließlich der Persönlichkeitsrechte) Dritter zu verletzen;</li>
+<li>über die App diffamierenden, anstößigen, pornografischen, rassistischen, Volks verhetzenden, Jugend gefährdenden, Gewalt verherrlichenden, ver-leumderischen oder sonst gegen geltende Gesetze oder gegen die guten Sit-ten verstoßende Inhalte oder Materialien verbreitest;</li>    
+<li>die App zur Verbreitung politischer oder weltanschaulicher Inhalte, Symbole oder Meinungen nutzt;</li>    
+<li>die App zum Anpreisen oder Anbieten von Waren oder Dienstleistungen nutzt oder Inhalte in der App veröffentlichst, die geschäftlichen Zwecken (insbeson-dere Werbezwecken) dienen, oder du dafür die Daten Dritter nutzt;</li>    
+<li>Daten in das System der App einbringst, die urheber-, marken-, namens- und kennzeichenrechtlich geschütztes Material enthalten, es sei denn, du hast die Rechte daran oder die erforderlichen Zustimmungen dafür;</li>    
+<li>Daten in das System der App einbringst, die Viren, Würmer, Trojaner oder andere Programme oder anderes schädliches Material enthalten;</li>    
+<li>E-Mails oder sonstigen Nachrichten für andere App-Nutzer abfängst oder dies versuchst und/oder</li>    
+<li>die App in einer Art und Weise benutzt, welche die Verfügbarkeit der Produk-te und Dienste der App für andere App-Nutzer negativ beeinflusst.</li>
+</ol>
+<li>Wenn du deine Pflichten aus dem App-Nutzungsvertrag bzw. diesen Nutzungsbedin-gungen verletzt, insbesondere durch einen Verstoß gegen deine Pflichten gemäß Ziffer B.VI.2, B.VI.4, B.VI.5 und/oder B.VI.7, ist BringAndRing unbeschadet seiner ge-setzlichen Rechte berechtigt,</li> 
+<ol>    
+<li>dich abzumahnen, dabei gibt dir BringAndRing die Möglichkeit ein noch be-stehendes Fehlverhalten einzustellen,</li>     
+<li>dich vorläufig von dem Zugang zur App und allen oder einzelnen Services zu sperren, oder</li>     
+<li>den App-Nutzungsvertrag außerordentlich zu kündigen und dein Nutzerkonto zu löschen.<br />Grundsätzlich wird BringAndRing dich zunächst verwarnen und dir die Möglichkeit geben, ein bestehendes Fehlverhalten einzustellen, bevor die oben genannten Maß-nahmen ergriffen werden.</li>
+</ol>
+<li>Die Anwendung der vorgenannten Maßnahmen steht im billigen Ermessen von BringAndRing. BringAndRing wird jedoch deine berechtigten Interessen angemes-sen berücksichtigen. Namentlich wird BringAndRing bei der Abwägung der beider-seitigen Interessen berücksichtigen, inwiefern dir mit Blick auf einen etwaigen Ver-stoß ein Verschuldensvorwurf zu machen ist.</li>
+<li>Wenn du außerordentlich gekündigt wurdest oder vorläufig gesperrt wurdest, bist du nicht berechtigt, dich mit einem anderen Nutzerkonto unter z. B. Nutzung einer anderen E-Mail-Adresse und/oder Telefonnummer erneut anzumelden.</li> 
+</ol>
 
-§ 4 Vertragsschluss: Registrierung mit Nutzerkonto
+###VII.	Schutzrechte
+<ol>
+<li>Die in der App veröffentlichten Inhalte sind rechtlich unter anderem durch das Ur-heberrecht geschützt. Sämtliche Urheberrechte, Datenbankrechte, Markenrechte und sonstige Rechte zum Schutz des geistigen Eigentums an den Inhalten und der Struktur der App einschließlich der Bilder und Illustrationen, des Designs und der zugrunde liegenden Software (im Folgenden zusammen „Inhalte“) stehen BringAn-dRing, ihren verbundenen Unternehmen oder ihren Lizenzgebern zu.</li>
+<li>Das Herunterladen und Abrufen der Inhalte ist nur zu privaten, nicht-kommerziellen Zwecken gestattet. Jede andere Verwendung, Änderung, Vervielfältigung, Verbrei-tung oder sonstige Nutzung der Inhalte, insbesondere die Verwendung von Texten, Textteilen oder Bildmaterial, bedürfen der vorherigen schriftlichen Zustimmung von BringAndRing.</li>
+</ol>
 
-2. Registrierung mit vollumfänglicher Nutzung
+###VIII.	Anwendungen Dritter und Links zu anderen Webseiten
+<ol>
+<li>Die App kann Anwendungen, Webseiten und Dienste Dritter (im Folgenden „An-wendungen Dritter“) enthalten, um dir Inhalte, Produkte und/oder Dienste zur Ver-fügung zu stellen. BringAndRing hat keinen Einfluss auf die Gestaltung und den In-halt der Anwendungen Dritter, die in der App enthalten sind. BringAndRing über-nimmt daher keine Haftung für das Verhalten, die Funktionen oder die Aktualität, Richtigkeit, Vollständigkeit bzw. Qualität der Inhalte der Anwendungen Dritter und distanziert sich ausdrücklich von allen Inhalten der Anwendungen Dritter. Das gilt für alle in der App verfügbaren Links zu Anwendungen Dritter und die dort verfüg-baren Inhalte.</li> 
+<li>Beachte bitte auch, dass die Anwendungen Dritter eigenen Nutzungsbedingungen und Datenschutzbestimmungen unterliegen können, die deren Nutzung regeln. Aus diesem Grund solltest du die Nutzungsbedingungen und Datenschutzbestimmungen der Anwendungen Dritter stets sorgfältig lesen und einhalten.</li>
+<li>Wir behalten uns vor, die Verlinkung der App mit Anwendungen Dritter von unserer ausdrücklichen schriftlichen Zustimmung abhängig zu machen und unsere Zustim-mung zu einer Verlinkung jederzeit zurückzunehmen.</li>
+</ol>
 
-Die vollumfängliche Nutzung der App ist grundsätzlich nur registrierten Nutzern mit einem persönlichen Nutzerkonto möglich. Hierzu muss sich der Nutzer entweder beim ersten Start der App über den Reiter „Registrieren“ und unter Angabe eines frei zu wählenden Nutzernamens, seines Vor- und Nachnamens, seiner E-Mail-Adresse sowie eines von ihm zu wählenden Passwortes registrieren.
+###IX.	Nutzergenerierte Inhalte und Freistellung
+<ol>
+<li>Über Nutzerkonten können App-Nutzern Inhalte (wie beispielsweise Texte, Mittei-lungen, Informationen, Budgets und/oder andere Inhalte) in der App veröffentli-chen, hochladen, übermitteln, speichern und/oder auf andere Weise anderen App-Nutzern bzw. der Öffentlichkeit zugänglich machen (im Folgenden „nutzergenerier-te Inhalte“). Hinsichtlich nutzergenerierter Inhalte, die über ein Nutzerkonto in der App von einem App-Nutzer veröffentlicht, hochgeladen, übermittelt, gespeichert und/oder auf andere Weise anderen App-Nutzern oder der Öffentlichkeit zugänglich gemacht werden, gibt BringAndRing ausschließlich Informationen und Inhalte von den jeweiligen App-Nutzern wieder. BringAndRing kann nutzergenerierte Inhalte überwachen, prüfen oder bearbeiten, ist jedoch nicht dazu verpflichtet. Für nutzer-generierte Inhalte ist BringAndRing weder verantwortlich noch befürwortet Bring-AndRing etwaige in nutzergenerierten Inhalten geäußerte Meinungen. BringAn-dRing haftet für vom BringAndRing verursachte Schäden nach Maßgabe der Ziffer B.XII.</li> 
+<li>Du versicherst in Bezug auf alle von dir in der App veröffentlichen, hochladen, übermittelt, gespeichert und/oder auf andere Weise anderen App-Nutzern bzw. der Öffentlichkeit zugänglich machen nutzergenerierten Inhalte, dass (1) die nutzerge-nerierten Inhalte dir gehören bzw. du berechtigt bist, diese zu veröffentlichen, hochzuladen und/oder zugänglich zu machen und (2) die nutzergenerierten Inhalte oder die nach den Vereinbarungen vorgesehene Nutzung dieser durch BringAndRing weder gegen die Vereinbarungen verstoßen bzw. verstößt noch andere in den Nut-zungsbedingungen dargelegten Rechte, geltende gesetzliche Bestimmungen oder Rechte an geistigem Eigentum, Veröffentlichungsrechte, Persönlichkeitsrechte oder sonstige Rechte Dritter verletzen bzw. verletzt und durch diese Inhalte bzw. Nutzung keine Zugehörigkeit zu BringAndRing impliziert wird.</li>
+<li>Du darfst in der App keine nutzergenerierten Inhalte veröffentlichen, hochladen übermittelt, gespeichert und/oder auf andere Weise anderen App-Nutzern bzw. der Öffentlichkeit zugänglich machen, die</li> 
+<ol>    
+<li>Personen, insbesondere Minderjährigen, Schaden zufügen oder deren Persön-lichkeitsrechte oder sonstige Rechte Dritter verletzen;</li>    
+<li>gegen strafrechtliche oder sonstige gesetzliche Bestimmungen verstoßen;</li>    
+<li>gegen die guten Sitten verstoßen;</li>    
+<li>pornographischer, jugendgefährdender, rassistischer und/oder diskriminie-render Natur sind;</li>    
+<li>gewerbliche Schutzrechte, Urheberrechte oder sonstige (geistige) Eigentums-rechte verletzen;</li>    
+<li>Viren, sog. Trojaner, Würmer oder sonstige schädliche Programmierungen enthalten und/oder</li>    
+<li>gegen Geheimhaltungsverpflichtungen verstoßen.</li>
+</ol>
+<li>BringAndRing behält sich vor, deine nutzergenerierten Inhalte, die gegen die Best-immungen der Ziffer B.IX.2 oder B.IX.3 verstoßen, aus der App zu entfernen oder den Zugriff auf diese Inhalte vorrübergehend oder dauerhaft zu sperren. Soweit für BringAndRing rechtlich und tatsächlich zumutbar, wird BringAndRing dich vor einer Entfernung bzw. Sperrung deiner betroffenen Inhalte informieren und dir Gelegen-heit geben, dich zu den Gründen für die beabsichtigte Entfernung bzw. Sperrung zu äußern. Verstößt du schwerwiegend und/oder wiederholt gegen die Bestimmungen der Ziffer B.IX.2 oder B.IX.3, kann BringAndRing deinen Zugang zur App dauerhaft zu sperren und dein Nutzerkonto zu löschen.</li>
+<li>Im Verhältnis zwischen dir und BringAndRing haftet BringAndRing nicht für die Ent-fernung nutzergenerierter Inhalte anderer App-Nutzer aus der App.</li> 
+<li>Für den Fall, dass Dritte gegenüber BringAndRing Ansprüche geltend gemachen, die sich auf die von dir veröffentlichten, hochgeladen, übermittelten, gespeicherten und/oder auf andere Weise anderen App-Nutzern bzw. der Öffentlichkeit zugänglich gemachten nutzergenerierten Inhalte beziehen und/oder auf einer Verletzung ge-gen die Bestimmungen der Ziffer B.IX.2 oder B.IX.3 durch dich beruhen, erklärst du dich damit einverstanden, dass du BringAndRing auf erstes Anfordern von jedwe-dem Schaden (einschließlich angemessener Rechtsberatungskosten) freistellst. Dies gilt nicht, wenn du die Pflichtverletzung nicht zu vertreten hast.</li> 
+</ol>
 
-Darüber hinaus muss der Nutzer diesen Nutzungsbedingungen zustimmen.
+###X. Nutzung nutzergenerierter Inhalte
+<p>Du gewährst BringAndRing eine nicht exklusive, übertragbare, unterlizenzierbare, gebührenfreie, unbefristete, unwiderrufliche, bereits vollständig vergütete, welt-weit gültige Lizenz zur Nutzung, Vervielfältigung, Verbreitung, öffentlichen Wieder-gabe (einschließlich öffentlicher Zugänglichmachung, Veröffentlichung), Überset-zung, Veränderung und Bearbeitung deiner nutzergenerierten Inhalte in Verbindung mit den Diensten über jedwedes Medium, gleich, ob allein oder in Verbindung mit anderen Inhalten oder Materialien, in jeder Weise und mithilfe jedweder Mittel, Verfahren oder Technologien, unabhängig davon, ob diese heute bereits bekannt sind oder zu einem späteren Zeitpunkt entwickelt werden. Abgesehen von den hier-in konkret eingeräumten Rechten behältst du alle Rechte, einschließlich der Rechte an geistigem Eigentum, an den nutzergenerierten Inhalten. Du verpflichtest dich außerdem, (i) dein Recht auf Anerkennung der Urheberschaft an nutzergenerierten Inhalten, (ii) das Recht, die an den nutzergenerierten Inhalten gewährten Rechte wegen geänderter Überzeugung zu entziehen und (iii) das Recht, einer herabwürdi-genden Behandlungen der nutzergenerierten Inhalte zu widersprechen, nicht gel-tend zu machen.</p>
 
-Der Nutzer hat die Möglichkeit, seine Angaben im Rahmen des Registrierungsprozesses jederzeit zu korrigieren, bevor er auf den Button „Registrieren“ klickt. Hiermit gibt der Nutzer ein Angebot zum Abschluss des Nutzungsvertrages mit vollumfänglicher Nutzungsmöglichkeit der App ab. Bring & Ring nimmt das Angebot erst durch Bereitstellung des Nutzerkontos an.
+###XI. Besondere Regelungen für die Zusendung von Dateianhängen
+<ol>
+<li>Bitte stelle sicher, dass du uns keine Dateianhänge mit Viren oder Würmern zusen-dest. Beachte bitte auch, dass du uns keine Informationen oder Dateianhänge übermittelst, die besondere Arten von persönlichen Daten enthalten, insbesondere Informationen über rassische und ethnische Herkunft, politische, religiöse oder phi-losophische Überzeugungen, Gewerkschaftszugehörigkeit, Gesundheit und sexuelle Ausrichtung.</li>
+<li>Die Informationen, die du uns übermittelst, müssen der Wahrheit entsprechen, und dürfen keine Urheber- oder Markenrechte oder andere Rechte des geistigen Eigen-tums, das Presserecht, allgemeine Rechte Dritter oder ethische Grundsätze verlet-zen (im Folgenden „illegale Inhalte“). Beachte bitte auch, dass du uns gegen sämt-liche Forderungen schadlos hältst, die uns aufgrund von Dateianhängen mit illega-len Inhalten durch dein Verschulden entstehen.</li>
+</ol>
 
-Bring & Ring sendet dem Nutzer nach dessen Angebot an die von ihm angegeben E-Mail-Adresse einen Link mit der Bitte um Bestätigung seiner E-Mail-Adresse zu. Der Registrierungsvorgang und der Vertrag sind erst mit der Bestätigung des Nutzers abgeschlossen.
+###XII.	Haftung 
+<ol>
+<li>Im Zusammenhang mit der Bereitstellung der App haftet BringAndRing dir gegen-über auf Schadensersatz nur nach Maßgabe der nachfolgenden Bestimmungen.</li>
+<li>BringAndRing haftet bei Pflichtverletzungen – gleich aus welchem Rechtsgrund – für Vorsatz und grobe Fahrlässigkeit. Vorbehaltlich eines milderen Haftungsmaß-stabs nach gesetzlichen Vorschriften haftet BringAndRing bei einfacher Fahrlässig-keit nur:</li> 
+<ol>
+<li>für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit und</li>
+<li>für Schäden aus der Verletzung einer wesentlichen Vertragspflicht (Verpflich-tung, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags über-haupt erst ermöglicht und auf deren Einhaltung du regelmäßig vertraust und vertrauen darfst; z.B. die Nutzung der App); in diesem Fall ist die Haftung je-doch auf den Ersatz des vorhersehbaren, typischerweise eintretenden Scha-dens begrenzt.</li>
+</ol>
+<li>Die vorstehenden Haftungsbeschränkungen gelten auch bei Pflichtverletzungen durch gesetzliche Vertreter oder Erfüllungsgehilfen von BringAndRing.</li> 
+<li>Bei Verlust von Daten ist die Haftung von BringAndRing auf den Schaden begrenzt, der bei ordnungsgemäßer und regelmäßiger Datensicherung durch dich entstanden wäre.</li>
+<li>BringAndRing haftet nicht für Verlust, Verzögerung, Veränderung, Manipulation und/oder Fehlleitung von E-Mails und/oder Daten bei der Eingabe, Erhebung und/oder Übermittlung von Daten, die durch andere Datennetzwerke, insbesondere das Internet, Telefonverbindungen und/oder Hardware oder Software von dir und/oder Dritten verursacht worden sind.</li>
+<li>Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. Bring-AndRing haftet insoweit nicht für die ständige und ununterbrochene Verfügbarkeit der App.</li>
+<li>Die vorstehenden Haftungsbeschränkungen gelten nicht, soweit Garantien über-nommen wurden. Gleiches gilt beim Fehlen einer zugesicherten Eigenschaft.</li>
+<li>Ansprüche nach dem Produkthaftungsgesetz bleiben in allen Fällen unberührt.
+</ol>
 
-Der Nutzername und das Passwort dienen als Zugangsdaten. Die Anmeldung und der vollumfängliche Zugriff auf die App erfolgen nach Eingabe der Zugangsdaten.
+###XIII.	Mitwirkungsobliegenheiten
+<ol>
+<li>Um ein einwandfreies Funktionieren der App zu ermöglichen, kann es erforderlich sein, die von BringAndRing bereitgestellten Updates für die App zu installieren. Du solltest daher sicherstellen, dass du Updates zeitnah installierest.</li>
+<li>Mit dem Anlegen deines Nutzerkontos wählst du ein Passwort. Du bist verpflichtet, dein Passwort geheim zu halten, dieses Dritten keinesfalls mitzuteilen und so aufzu-bewahren, dass Dritte keinen Zugriff darauf haben.</li> 
+<li>Im Übrigen bist du für die Schaffung der zur Nutzung der App notwendigen techni-schen Voraussetzungen in deinem Einflussbereich (insbesondere Hardware, Web-Browser und Internetzugang) selbst verantwortlich.</li>
+<li>Mit Vertragsende hast du die App auf deinen Endgeräten zu deinstallieren und sämtliche Kopien der App zu löschen.</li>
+</ol>
 
-Neben der Registrierung mit Nutzername und Passwort kann eine Registrierung mittels der vom Nutzer bei Facebook oder Google hinterlegten Zugangsdaten erfolgen, sofern der Nutzer über einen Facebook-Account oder ein Google-Konto verfügt.
+###XIV.	Vertragslaufzeit und Beendigung
+<ol>
+<li>Der App-Nutzungsvertrag wird auf unbestimmte Zeit geschlossen.</li>
+<li>Der App-Nutzungsvertrag kann von dir jederzeit und von BringAndRing mit einer Frist von zwei (2) Wochen ordentlich gekündigt werden. Du kannst dein Nutzerkonto jederzeit in der App in dem Menüpunkt „Mein Profil“ durch Anklicken des Buttons „Profil löschen“ löschen. Die Löschung gilt als ordentliche Kündigung deines App-Nutzungsvertrages.</li>
+<li>Die Kündigung aus wichtigem Grund bleibt jeder Partei vorbehalten.</li>
+<li>Im Falle der Kündigung aus wichtigem Grund durch BringAndRing kann BringAn-dRing dein Nutzerkonto unverzüglich sperren und dich auch für die Zukunft von der Nutzung der App ausschließen.</li>
+<li>Nach Vertragsende wird dein Nutzerkonto deaktiviert.</li> 
+</ol>
 
-3. Kostenfreie Nutzung der App
+##C.	Schlussbestimmungen
+###I.	Anwendbares Recht
+<ol>
+<li>Für die Nutzungsbedingungen und die Rechtsverhältnisse zwischen BringAndRing und dir gilt das Recht der Bundesrepublik Deutschland, wenn</li>
+<ol>    
+<li>du deinen gewöhnlichen Aufenthalt in Deutschland hast, oder</li>    
+<li>dein gewöhnlicher Aufenthalt in einem Staat ist der nicht Mitglied der Euro-päischen Union ist.</li>
+</ol>
+<li>Für den Fall dass du deinen gewöhnlichen Aufenthalt in einem Mitgliedsland der Eu-ropäischen Union hast, gilt ebenfalls die Anwendbarkeit des Rechts der Bundesre-publik Deutschland, wobei zwingende Bestimmungen des Staates, in dem du deinen gewöhnlichen Aufenthalt hast, unberührt bleiben.</li>
+</ol>
 
-Die Nutzung der App wird von Bring & Ring kostenfrei zur Verfügung gestellt.
+###II.	Gerichtsstand
+<p>Sofern es sich bei dir um einen Kaufmann, eine juristische Person des öffentlichen Rechts oder um ein öffentlich-rechtliches Sondervermögen handelt, ist Gerichts-stand für alle Streitigkeiten aus Vertragsverhältnissen zwischen BringAndRing und dir der Sitz von BringAndRing.
 
-4. Änderung der Profildaten
-
-Ist der Nutzer angemeldet, kann er unter „Einstellungen“ – „Profil bearbeiten“ die unter Abs. 2 angegebenen Daten einsehen und ändern. Darüber hinaus kann der Nutzer ein Profilbild hinterlegen, sein Geschlecht benennen sowie seine bei PayPal hinterlegte E-Mail-Adresse und den PayPal-Benutzernamen hinterlegen.
-
-§ 5 Nutzerservice
-
-Bei Fragen zur App ist Bring & Ring unter den unter § 1 Abs. 1 genannten Kontaktdaten sowie unter der E-Mail-Adresse support@bringandring.de von Montag bis Freitag in der Zeit von 9:00 bis 17:00 (bundeseinheitliche und Feiertage des Landes Niedersachsen ausgeschlossen) erreichbar. Allgemeine Fragen werden zudem in der App unter „Hilfe & FAQ“ beantwortet.
-
-§ 6 Nutzung von PayPal zum Ausgleich der Einkäufe
-
-1. Bring & Ring bindet auf der App den Zahlungsdienstleister PayPal ein. PayPal wird betrieben von der PayPal (Europe) S. à r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg. Sofern die Nutzer über ein PayPal-Kundenkonto verfügen, können sie die von anderen Nutzern getätigten Einkäufe gegenseitig mittels PayPal ausgleichen.
-
-2. Die Nutzer sind für die Angabe der in der App getätigten Einkäufe und deren Ausgleich untereinander selbst verantwortlich. Bring & Ring hat weder Einfluss auf die Richtigkeit der getätigten Angaben noch die erfolgreiche Durchführung des Zahlungsausgleichs.
-
-§ 7 Haftung von Bring & Ring
-
-1. Ansprüche des Nutzers auf Schadensersatz sind ausgeschlossen. Hiervon ausgenommen sind Schadensersatzansprüche des Nutzers aus der Verletzung des Lebens, des Körpers, der Gesundheit oder aus der Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) sowie die Haftung für sonstige Schäden, die auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung von Bring & Ring, seiner gesetzlichen Vertreter oder Erfüllungsgehilfen beruhen. Wesentliche Vertragspflichten sind solche, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertraut und vertrauen darf.
-
-2. Bei der Verletzung wesentlicher Vertragspflichten haftet Bring & Ring nur für den vertragstypischen, vorhersehbaren Schaden, wenn dieser fahrlässig verursacht wurde, es sei denn, es handelt sich um Schadensersatzansprüche des Nutzers aus einer Verletzung des Lebens, des Körpers oder der Gesundheit oder aufgrund sonstiger Schäden, die auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung von Bring & Ring, seiner gesetzlichen Vertreter oder Erfüllungsgehilfen beruhen.
-
-3. Die Einschränkungen der Abs. 1 und 2 gelten auch zugunsten der gesetzlichen Vertreter und Erfüllungsgehilfen von Bring & Ring, wenn Ansprüche direkt gegen diese geltend gemacht werden.
-
-4. Die Vorschriften des Produkthaftungsgesetzes bleiben unberührt. Gleiches gilt im Falle der Arglist von Bring & Ring oder bei Fehlen einer von Bring & Ring garantierten Beschaffenheit der Leistungen.
-
-§ 8 Verhaltenspflichten des Nutzers
-
-1. Der Nutzer ist verpflichtet, die während der Registrierung getätigten Angaben während der Laufzeit des Vertrages aktuell zu halten und Änderungen unverzüglich zu aktualisieren.
-
-2. Der Nutzer ist verpflichtet, seine Zugangsdaten vertraulich zu behandeln. Sofern der Nutzer Dritten den Zugriff auf sein Nutzerkonto vorsätzlich oder fahrlässig ermöglicht, haftet er für das Verhalten dieser Dritten und somit gegebenenfalls auch für aus dieser Nutzung entstehende Ansprüche, insbesondere Schadens- und Aufwendungsersatz.
-
-3. Für jegliche Information und Inhalte, die der Nutzer über sich veröffentlicht, ist der Nutzer zunächst selbst verantwortlich. Dem Nutzer ist bewusst, dass die von ihm eingestellten Inhalte Rückschlüsse auf seine Lebensumstände, wie insbesondere seinen Aufenthaltsort geben.
-
-4. Bei der Nutzung der App und insbesondere der Bereitstellung von Inhalten durch den Nutzer ist die Beachtung geltenden Rechts wesentliche Pflicht des Nutzers. Daher gilt bei der Nutzung das Folgende:
-
-a. Es ist dem Nutzer ausdrücklich verboten und der Nutzer verpflichtet sich, eine Nutzung zu unterlassen, die
-
-gegen geltendes Recht verstößt,
-Rechte Dritter verletzt, insbesondere gewerbliche Schutzrechte (Marken, Designs, etc.), Urheber- und Leistungsschutzrechte oder Persönlichkeitsrechte. Dies betrifft insbesondere Rechte an vom Nutzer eingestellten Inhalten jeglicher nde und rassistische Inhalte jeglicher Art.
-c. Der Nutzer verpflichtet sich, folgende Aktivitäten auf oder Mittels der App zu unterlassen:
-
-jegliche Nutzung zu eigenen gewerblichen oder beruflichen Zwecken,
-jegliche werbliche Ansprache von Nutzern, insbesondere die massenweise Versendung von Nachrichten,
-objektiv belästigende private Nachrichten oder Beiträge,
-Maßnahmen, die geeignet sind, den Betrieb der App einzuschränken oder zu unterbrechen, oder eine unverhältnismäßige Belastung der Infrastruktur bewirken können,
-Austausch oder Bekanntgabe von Passwörtern oder anderen geheimhaltungsbedürftigen Informationen sowie Links zu offensichtlich unrechtmäßig angebotenen Inhalten jeglicher Art,
-automatisiertes oder manuelles Erfassen von Daten (data scraping, data mining),
-Umgehen von Sicherheitsmaßnahmen, Unterdrücken, Verändern oder Abfangen fremder Daten,
-Verbreiten von Viren und anderer Schadsoftware.
-§ 9 Rechte von Bring & Ring bei Verstößen des Nutzers
-
-1. Der Nutzer verpflichtet sich, Bring & Ring von jeglichen Ansprüchen Dritter aufgrund einer rechtsverletzenden Nutzung der App durch den Nutzer freizustellen. Hierzu zählen jegliche Schäden sowie angemessenen Kosten und Aufwendungen, insbesondere die notwendigen Kosten der Rechtsverteidigung. Der Nutzer verpflichtet sich, Bring & Ring unverzüglich von jeglicher Inanspruchnahme Dritter aufgrund einer widerrechtlichen Nutzung der App oder seines Nutzerkontos zu informieren.
-
-2. Unbeschadet weitergehender Rechte (insbesondere der fristlosen außerordentlichen Kündigung und der Geltendmachung von Schadensersatzansprüchen) kann Bring & Ring bei einem Verstoß des Nutzers gegen diese Nutzungsbedingungen auch durch angemessene und geeignete Maßnahmen wie das zeitweise oder vollständige Löschen von Inhalten, eine Verwarnung, Sperrung oder andere Beschränkungen der Nutzungsmöglichkeiten der App sanktionieren. Bring & Ring wählt die Maßnahme unter angemessener Berücksichtigung aller relevanten Belange, insbesondere der Schwere des Verstoßes und Verschuldensgrad, Haftungsrisiken, etc. Der Nutzer wird selbst unverzüglich jegliche Inhalte entfernen, bei denen der begründete Verdacht einer Rechtsverletzung besteht, ist jedoch hierzu auch verpflichtet, wenn Bring & Ring ihn dazu auffordert. Der Nutzer wird Bring & Ring zudem von Inhalten in Kenntnis setzen, die rechtsverletzend sein könnten und bei der Aufklärung von Angriffen Dritter auf die App mitwirken, soweit diese Mitwirkung durch den Nutzer erkennbar und erforderlich ist.
-
-§ 10 Nutzungserlaubnis und Rechteeinräumung durch den Nutzer
-sowie Freistellung
-
-1. Die App bietet den Nutzern die Möglichkeit, eigene Informationen und Inhalte, insbes. Einkaufszettel einzustellen. Der Nutzer ist mit der Nutzung solcher Inhalte im Rahmen der App und der dort angebotenen Funktionalitäten nach § 3, insbesondere im Hinblick auf den Zugriff der anderen Teilnehmer auf einen Einkaufszette, einverstanden.
-
-2. Der Nutzer räumt Bring & Ring hinsichtlich der von ihm eingestellten Informationen und Inhalte das Recht ein, diese unentgeltlich, zeitlich und räumlich für die Dauer des Nutzungsvertrages beschränkt und inhaltlich nur im Zusammenhang mit den von der App angebotenen Funktionalitäten, in körperlicher und unkörperlicher Form innerhalb der App zu vervielfältigen, zu veröffentlichen und öffentlich zugänglich zu machen, einschließlich des Rechts zur Bearbeitung, soweit dies technisch erforderlich ist, und diese Informationen und Inhalte an Dritte in Gestalt der anderen Nutzer in gleicher Form zu lizenzieren.
-
-3. Hinsichtlich etwaiger Ansprüche von Bring & Ring im Zusammenhang mit von Dritten geltend gemachten Ansprüchen gilt § 9 Abs. 1 und 2 entsprechend.
-
-§ 11 Verfügbarkeit und
-Änderungsbefugnis des technischen Systems
-
-1. Bring & Ring strebt eine hohe durchschnittliche Verfügbarkeit der App an. Der Nutzer erkennt jedoch an, dass eine ununterbrochene Verfügbarkeit technisch nicht realisierbar ist. Von Bring & Ring nicht zu beeinflussende Störungen des Internets oder sonstige, von Bring & Ring nicht zu vertretende Umstände, insbesondere solche, die auf höherer Gewalt beruhen, sowie regelmäßige sowie außerplanmäßige Wartungsarbeiten am Datenbanksystem zur Beseitigung von Störungen, können zu einer vorübergehenden Unterbrechung oder Störung der App führen.
-
-2. Darüber hinaus bemüht sich Bring & Ring, die App kontinuierlich an die aktuellen technischen Anforderungen anzupassen. Bring & Ring behält sich deshalb vor, die Änderungen zur Anpassung des Systems an den Stand der Technik, Änderung zur Optimierung des Systems, insbesondere eine Verbesserung der Nutzerfreundlichkeit sowie Änderung von Inhalten vor, sofern letztere zur Korrektur von Fehlern, zur Aktualisierung und Vervollständigung oder zur programmtechnischen Optimierung erforderlich sind. Sofern sich hieraus notwendige Änderungen der Nutzungsbedingungen ergeben, gilt § 2.
-
-§ 12 Vertragsdauer und Kündigung
-
-1. Der diesen Nutzungsbedingungen zugrunde liegende Vertrag mit der Registrierung des Nutzers wird auf unbestimmte Zeit geschlossen. Der Vertrag über die Testversion endet 30 Tage nach dem Download der App ohne dass es einer Kündigung bedarf.
-
-2. Der Vertrag kann durch den Nutzer jederzeit durch eine dementsprechende Nachricht an byebye@bringandring.de oder durch eine formlose Mitteilung an eine unserer unter § 1 genannten Kontaktdaten von Bring & Ring gekündigt werden.
-
-3. Bring & Ring kann den Vertrag mit einer Frist von zwei Wochen gegenüber dem Nutzer kündigen.
-
-4. Das Recht zur außerordentlichen Kündigung bleibt für beide Parteien unberührt.
-
-5. Kündigungen bedürfen zur Wirksamkeit der Textform (z.B. per E-Mail).
-
-6. Bring & Ring behält sich das Recht vor, das Nutzerkonto nach Ablauf von 5 Jahren kontinuierlicher Inaktivität mit einer Kündigungsfrist von einem Monat zum Monatsende zu kündigen.
-
-§ 14 Hinweis zur Streitbeilegung
-
-Die europäische Online-Streitbeilegungsplattform ist unter der URL http://ec.europa.eu/consumers/odr erreichbar. Bring & Ring ist nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Schlichtungsstelle nach dem Verbraucherstreitbeilegungsgesetz (VSBG) teilzunehmen. Bring & Ring wird sich jedoch nach besten Kräften bemühen, einen Streitfall mit dem Nutzer zu klären und damit gerichtliche Maßnahmen zu vermeiden.
-
-§ 15 Anwendbares Recht
-
-1. Es gilt das Recht der Bundesrepublik Deutschland.
-
-2. Sofern der Nutzer in seiner Eigenschaft als Verbraucher zum Zeitpunkt des Vertragsschlusses seinen gewöhnlichen Aufenthalt in einem anderen Staat als der Bundesrepublik Deutschland hat, wird ebenfalls das deutsche Recht angewandt, wobei die zwingenden Bestimmungen des Staates, in dem er seinen gewöhnlichen Aufenthalt hat, unberührt bleiben.
+###III.	Streitbeilegungsverfahren
+<ol> 
+<li>BringAndRing ist nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbrau-cherschlichtungsstelle teilzunehmen. Zudem nehmen wir daran mangels Relevanz für dich auch nicht freiwillig teil.
+Die Europäische Kommission hat unter http://www.ec.europa.eu/consumers/odr ei-ne Europäische Online-Streitbeilegungsplattform errichtet. Die Online-Streitbeilegungsplattform können Verbraucher für die außergerichtliche Beilegung von Streitigkeiten aus online geschlossenen Kauf- oder Dienstleistungsverträgen nutzen.
+</ol>

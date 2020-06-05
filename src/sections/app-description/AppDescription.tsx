@@ -1,5 +1,5 @@
 import { Typography } from '@bring-n-ring/components'
-import { IonButton, IonContent, IonIcon, IonSlide, IonSlides } from '@ionic/react'
+import { IonButton, IonContent, IonIcon, IonSlide, IonSlides, IonRouterLink } from '@ionic/react'
 import { arrowBack, arrowForward } from 'ionicons/icons'
 import * as lottie from 'lottie-web'
 import * as React from 'react'
@@ -107,7 +107,17 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
             {body}
           </Typography>
           <div className={styles.alignCenter}>
-            <IonButton {...btnProps}>{btnText}</IonButton>
+            <Typography size="h5">{btnText}</Typography>
+            <div className={styles.halfSpace}>
+              <IonRouterLink href="https://apps.apple.com/de/app/bring-ring/id1506568739?l=de&ls=1" target="_blank">
+                <img src="/appleappstore.png" height="46px" alt="Apple Store" />
+              </IonRouterLink>
+            </div>
+            <div className={styles.halfSpace}>
+              <IonRouterLink href="https://play.google.com/store/apps/details?id=com.bringandring.app" target="_blank">
+                <img src="/googleplaystore.png" height="46px" alt="Google Play Store" />
+              </IonRouterLink>
+            </div>
           </div>
         </div>
         <div className={styles.contentDeco} />

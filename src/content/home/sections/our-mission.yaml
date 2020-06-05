@@ -1,8 +1,9 @@
 left:
-  title: Unsere Mission
-  body: 'Jeder Kontakt ist ein Risiko – ob vorerkrankt oder nicht. In dieser kritischen Situation wollen wir europaweit sichere Einkaufshilfe ermöglichen. Wir ergänzen die freiwillige Nachbarschaftshilfe um eine Plattform, die den Prozess zwischen #Ringer und #Bringer in die Hand nimmt. So wollen wir gemeinsam mit euch Corona niederringen! '
+  title: Für ein neues Miteinander!
+  body: 'Die Plattform ermöglicht spontanes und einfaches Mitbringen - von Nachbar zu Nachbar. Ohne Kosten, aber mit einem Trinkgeld als Dankeschön. Die Caretaker-Funktion lässt dich auch Lieblingsmenschen in der Ferne beim Einkauf unterstützen. Entstanden als akute Hilfe in der Corona-Krise hat Bring & Ring die Vision eines nachbarschaftlichen Bring- und Abholservice: lokal, sozial und klimafreundlich. Heute starten und einen Einkauf zum Zweikauf machen!'
 right:
   title: Wir sagen Danke
+  body: ''
   sponsors:
     - src: /partner/netrocks.png
       alt: netrocks
@@ -12,11 +13,28 @@ right:
       alt: heimat
     - src: /partner/fischer-appelt.png
       alt: fischer-appelt
-    - src: /partner/knodel.png
-      alt: knodel
-    - src: /partner/flixtech.png
-      alt: flix-tech
+    - src: /partner/stroeer.png
+      alt: ströer
     - src: /partner/arvantis.png
       alt: arvantis
     - src: /partner/lambus.png
       alt: lambus
+    - src: /partner/noerr.jpg
+      alt: noerr
+    - src: /partner/ideedialog.png
+      alt: idee dialog
+    - src: /partner/maxthrelfall.png
+      alt: max threlfall photo
+    - src: /partner/christopherkoch.jpg
+      alt: christopher koch photography
+    - src: /partner/malt.png
+      alt: malt
+    - src: /partner/netlight.png
+      alt: netlight      
+    - src: /partner/knodel.png
+      alt: knodel
+    - src: /partner/lisahantke.png
+      alt: lisa hantke photography
+    - src: /partner/burdaforward.png
+      alt: burda forward
+    

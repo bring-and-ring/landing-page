@@ -8,3 +8,34 @@
 ion-content {
   --ion-background-color: var(--color-background);
 }
+
+ol li {display:block;}
+ol > li:first-child {counter-reset: item;}
+ol > li {counter-increment: item; position: relative;}
+ol > li:before {content:counters(item, ".") ". "; position: absolute; margin-right: 100%; right: 10px;}
+
+ol.index {
+    list-style-type: none;
+}
+
+table.tableImprint{border:1px solid #ccc;}
+table.tableImprint th{vertical-align: top;text-align: left;padding:8px;border:1px solid #ccc;background-color:#eee;width:20%;}
+table.tableImprint td{vertical-align: top;text-align: left;padding:8px;border:1px solid #ccc;}
+ul.romanic{list-style-type: upper-roman !important;}
+ul.romanic.startSeven{counter-increment: start 3;}
+
+.btnBlack {
+background-color:#000;
+color: #fff;
+padding:2px 4px;
+border-radius: 4px;
+}
+.noClick{
+color: currentColor;
+cursor: not-allowed;
+opacity: 0.5;
+text-decoration: none;
+}
+.footerHead {
+  margin: 0 0 10px 0;  
+}
