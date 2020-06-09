@@ -45,7 +45,13 @@ export const Insta: React.FC<InstaProps> = ({ title, subTitle, body }) => {
         <div>
           <ion-view view-title="title">
             <ion-content scroll="true">
-              <iframe src="https://onedrive.live.com/embed?cid=252C811ECE22C595&resid=252C811ECE22C595%21107521&authkey=AOlmdY10tDZTEAA" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+              <iframe
+                src="https://onedrive.live.com/embed?cid=252C811ECE22C595&resid=252C811ECE22C595%21107521&authkey=AOlmdY10tDZTEAA"
+                width="165"
+                height="128"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
             </ion-content>
           </ion-view>
         </div>
