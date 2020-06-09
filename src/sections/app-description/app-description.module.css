@@ -4,10 +4,13 @@
 
 .wrap {
   background: var(--ion-background-color);
+  display: flex;
+  flex-direction: column;
 }
 .phone {
   max-width: 300px;
   margin: 0 auto;
+  order: 2;
 }
 .content {
   position: relative;
@@ -26,7 +29,7 @@
   width: 200%;
   left: -100%;
   top: -10px;
-  height: 400px;
+  height: calc(400px + 30vh);
   border-radius: calc(var(--base-spacing) * 5);
 }
 
@@ -46,6 +49,10 @@
   max-width: 300px;
   margin: 0 auto;
   padding: calc(var(--base-spacing) * 10);
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: -30px;
+  order: 1;
 }
 
 .icon-left,
@@ -63,7 +70,10 @@
 }
 
 .slider-control {
-  width: 100%;
+  width: calc(100% + 100px);
+  position: relative;
+  top: 30vh;
+  left: -50px;
 }
 
 .alignCenter {
@@ -76,6 +86,31 @@
   display: inline-block;
   text-align: center;
   padding-right: 2%;
+}
+
+.phone > figure {
+  height: 66.6vh;
+  max-height: 440px;
+}
+
+.description ion-slides {
+  height: 33.3vh;
+  max-height: 220px;
+}
+
+.halfSpace img {
+  max-width: unset;
+  height: 41px;
+}
+
+@media (min-height: 660px) {
+  .slider-control {
+    width: calc(100% + 100px);
+    position: relative;
+    top: 204px;
+    left: -50px;
+  }
+
 }
 
 @media (min-width: 767px) {
@@ -93,7 +128,25 @@
     width: 50%;
     vertical-align: middle;
     margin-top: -50px;
+    order: 0;
   }
+  .slider-control {
+    width: 100%;
+    position: static;
+  }
+  .wrap {
+    display: block;
+  }
+  .phone > figure {
+    height: auto;
+    max-height: unset;
+  }
+
+  .halfSpace img {
+    max-width: 100%;
+    height: auto;
+  }
+
 }
 
 @media (min-width: 1023px) {

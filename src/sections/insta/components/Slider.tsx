@@ -55,10 +55,10 @@ export const Slider: React.FC = () => {
           <div className={styles.wrap}>
             <IonSlides ref={$slider} className={styles.slider} options={slideOpts}>
               <IonSlide className={styles.slide}>
-                <img src="/story/200421_BringRing_300x250px_150Dpi_1.gif" alt="" />
+                <img className={styles.slideImage} width="300" src="/story/insta-slide-1.jpg" alt="" />
               </IonSlide>
               <IonSlide className={styles.slide}>
-                <img src="/story/200421_BringRing_300x250px_150Dpi_2.gif" alt="" />
+                <img className={styles.slideImage} src="/story/insta-slide-2.jpg" alt="" />
               </IonSlide>
             </IonSlides>
             <IonIcon onClick={onPrev} className={styles.iconLeft} color="primary" icon={arrowBack} />

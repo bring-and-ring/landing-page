@@ -123,6 +123,13 @@
   }
 }
 
+@media (max-width: 1023px) {
+  .halfSpace img {
+    max-width: unset;
+    height: 41px;
+  }
+}
+
 @media (min-width: 1024px) {
   .wrap {
     min-height: 700px;
@@ -130,6 +137,13 @@
   }
   .content {
     margin: 0;
+  }
+  [alt="#allefüralle"] {
+    height: 150px !important;
+  }
+
+  [alt="Aktion #wirfüreuch"] {
+    height: 50px !important;
   }
 }
 @media (min-width: 1200px) {

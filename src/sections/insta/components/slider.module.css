@@ -33,11 +33,21 @@
   opacity: 1;
 }
 
+.slideImage {
+  height: 200px !important;
+}
+
 @media (min-width: 767px) {
   .iconLeft {
     left: 40px;
   }
   .iconRight {
     right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slideImage {
+    height: 240px !important;
   }
 }
