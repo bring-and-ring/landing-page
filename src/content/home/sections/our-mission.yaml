@@ -33,14 +33,14 @@ right:
       alt: burda forward
     - src: /partner/malt.png
       alt: malt
-    - src: /partner/lisahantke.png
-      alt: lisa hantke photography
+    - src: /partner/stroeer.png
+      alt: ströer
     - src: /partner/christopherkoch.jpg
       alt: christopher koch photography
     - src: /partner/maxthrelfall.png
       alt: max threlfall photo
-    - src: /partner/stroeer.png
-      alt: ströer
+    - src: /partner/lisahantke.png
+      alt: lisa hantke photography
   supporters:
     - src: /partner/arvantis.png
       alt: arvantis
