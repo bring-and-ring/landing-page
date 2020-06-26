@@ -7,6 +7,7 @@ import appDescriptionData from '../content/home/sections/app-description.yaml'
 import entryData from '../content/home/sections/entry.yaml'
 import instaData from '../content/home/sections/insta.yaml'
 import ourMission from '../content/home/sections/our-mission.yaml'
+import knownFrom from "../content/home/sections/known-from.yaml";
 import ourTeam from '../content/home/sections/our-team.yaml'
 import IndexLayout from '../layouts'
 import { Entry, Insta, OurMission, OurTeam } from '../sections'
@@ -30,7 +31,7 @@ const IndexPage = () => {
     <IndexLayout>
       <Page>
         <Fab />
-        <Entry linkProps={{ onclick: scrollToSecond }} btnProps={{ onclick: onClickShowForm }} {...entryData} />
+        <Entry linkProps={{ onclick: scrollToSecond }} btnProps={{ onclick: onClickShowForm }} knownFrom={knownFrom} {...entryData} />
         <div ref={$second}>
           <AppDescription {...appDescriptionData} btnProps={{ onclick: onClickShowForm }} />
         </div>

@@ -1,0 +1,18 @@
+---
+content:
+  title: Bekannt aus
+  logos:
+    - src: /knownFrom/allefueralle.png
+      alt: "alle für alle"
+    - src: /knownFrom/wirfuereuch.png
+      alt: "wir für euch"
+    - src: /knownFrom/brandeins.png
+      alt: brandeins
+    - src: /knownFrom/faz.png
+      alt: faz
+    - src: /knownFrom/focus.jpeg
+      alt: focus
+    - src: /knownFrom/handelsblatt.png
+      alt: handelsblatt
+    - src: /knownFrom/ntv.png
+      alt: ntv

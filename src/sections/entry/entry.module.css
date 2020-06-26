@@ -125,6 +125,9 @@
     width: 80px;
     margin-right: calc(var(--base-spacing) * 4);
   }
+  .content h1 {
+    font-size: calc(var(--base-spacing)*8) !important;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -144,6 +147,11 @@
   }
   [alt="#allefüralle"] {
     height: 150px !important;
+  }
+
+  .content h1 {
+    font-size: calc(var(--base-spacing)*12) !important;
+    margin-top: 180px;
   }
 
   [alt="Aktion #wirfüreuch"] {
