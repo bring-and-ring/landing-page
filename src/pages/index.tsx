@@ -10,7 +10,7 @@ import ourMission from '../content/home/sections/our-mission.yaml'
 import knownFrom from '../content/home/sections/known-from.yaml'
 import ourTeam from '../content/home/sections/our-team.yaml'
 import IndexLayout from '../layouts'
-import { Entry, Insta, OurMission, OurTeam } from '../sections'
+import { Entry, OurMission, OurTeam } from '../sections'
 import AppDescription from '../sections/app-description/AppDescription'
 
 const IndexPage = () => {
@@ -35,8 +35,6 @@ const IndexPage = () => {
         <div ref={$second}>
           <AppDescription {...appDescriptionData} btnProps={{ onclick: onClickShowForm }} />
         </div>
-        {/* @nvon: Removed instagram binding */}
-        {/* <Insta {...instaData} /> */}
         <OurMission {...ourMission} />
         <HubspotForm onClose={onClickHideForm} visible={formVisible} />
         <Footer btnProps={{ onclick: onClickShowForm }} />
