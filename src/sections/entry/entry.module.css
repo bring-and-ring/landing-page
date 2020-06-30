@@ -34,6 +34,10 @@
   margin-bottom: calc(var(--base-spacing) * 10);
 }
 
+.content h1 {
+  font-size: calc(var(--base-spacing)*5) !important;
+}
+
 .body {
   margin-bottom: calc(var(--base-spacing) * 4);
 }
@@ -121,6 +125,16 @@
     width: 80px;
     margin-right: calc(var(--base-spacing) * 4);
   }
+  .content h1 {
+    font-size: calc(var(--base-spacing)*8) !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .halfSpace img {
+    max-width: unset;
+    height: 41px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -130,6 +144,18 @@
   }
   .content {
     margin: 0;
+  }
+  [alt="#allefüralle"] {
+    height: 150px !important;
+  }
+
+  .content h1 {
+    font-size: calc(var(--base-spacing)*12) !important;
+    margin-top: 180px;
+  }
+
+  [alt="Aktion #wirfüreuch"] {
+    height: 50px !important;
   }
 }
 @media (min-width: 1200px) {

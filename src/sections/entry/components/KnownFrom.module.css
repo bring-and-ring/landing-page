@@ -1,0 +1,25 @@
+
+.container {
+  display:none;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: block;
+    margin-top: 80px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    width: 326px;
+    height: 200px;
+    grid-gap: 12px
+  }
+
+  .gridItem {
+    align-self: center;
+  }
+}

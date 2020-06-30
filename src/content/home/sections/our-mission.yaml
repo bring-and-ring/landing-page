@@ -4,37 +4,47 @@ left:
 right:
   title: Wir sagen Danke
   body: ''
-  sponsors:
+  partnerIntroduction: Partner
+  sponsorIntroduction: Kampagnenpartner
+  supporterIntroduction: Unterstützer
+  partners:
     - src: /partner/netrocks.png
       alt: netrocks
-    - src: /partner/jung-v-matt.png
-      alt: jung-v-matt
-    - src: /partner/heimat-active.png
-      alt: heimat
-    - src: /partner/fischer-appelt.png
-      alt: fischer-appelt
-    - src: /partner/stroeer.png
-      alt: ströer
-    - src: /partner/arvantis.png
-      alt: arvantis
+    - src: /partner/netlight.png
+      alt: netlight
     - src: /partner/lambus.png
       alt: lambus
-    - src: /partner/noerr.jpg
-      alt: noerr
+    - src: /partner/flixtech_logo.png
+      alt: flixtech
+  sponsors:
+    - src: /partner/akima.jpg
+      alt: akima
+    - src: /partner/fischer-appelt.png
+      alt: fischer-appelt
+    - src: /partner/heimat-active.png
+      alt: heimat
     - src: /partner/ideedialog.png
       alt: idee dialog
-    - src: /partner/maxthrelfall.png
-      alt: max threlfall photo
-    - src: /partner/christopherkoch.jpg
-      alt: christopher koch photography
-    - src: /partner/malt.png
-      alt: malt
-    - src: /partner/netlight.png
-      alt: netlight      
-    - src: /partner/knodel.png
-      alt: knodel
-    - src: /partner/lisahantke.png
-      alt: lisa hantke photography
+    - src: /partner/jung-v-matt.png
+      alt: jung-v-matt
+    - src: /partner/autoscout.png
+      alt: autoscout24
     - src: /partner/burdaforward.png
       alt: burda forward
-    
+    - src: /partner/malt.png
+      alt: malt
+    - src: /partner/stroeer.png
+      alt: ströer
+    - src: /partner/christopherkoch.jpg
+      alt: christopher koch photography
+    - src: /partner/maxthrelfall.png
+      alt: max threlfall photo
+    - src: /partner/lisahantke.png
+      alt: lisa hantke photography
+  supporters:
+    - src: /partner/arvantis.png
+      alt: arvantis
+    - src: /partner/knodel.png
+      alt: knodel
+    - src: /partner/noerr.jpg
+      alt: noerr

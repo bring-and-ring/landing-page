@@ -5,6 +5,8 @@ import '@bring-n-ring/components/css/typography.css'
 import { IonRouterLink } from '@ionic/react'
 import styles from './entry.module.css'
 import { SideImage } from './components'
+import { KnownFrom } from './components';
+import { KnownFromProps } from './components/KnownFrom'
 import { MainImage } from '../../components/MainImage'
 import { Head } from '../../components/head/Head'
 
@@ -21,6 +23,7 @@ export type EntryProps = {
     src: string
     alt: string
   }>
+  knownFrom: KnownFromProps
 }
 
 export const Entry: React.FC<EntryProps> = ({
@@ -32,7 +35,8 @@ export const Entry: React.FC<EntryProps> = ({
   sponsorsTitle,
   sponsors = [],
   btnProps,
-  linkProps
+  linkProps,
+  knownFrom
 }) => {
   return (
     <div className={`${styles.wrap} md`}>
@@ -57,6 +61,9 @@ export const Entry: React.FC<EntryProps> = ({
               <img src="/googleplaystore.png" height="46px" alt="Google Play Store" />
             </IonRouterLink>
           </div>
+        </div>
+        <div className={styles.visualKnownFrom}>
+          <KnownFrom {...knownFrom} />
         </div>
       </div>
       <div className={styles.visual}>

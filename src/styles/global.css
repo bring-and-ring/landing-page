@@ -3,6 +3,7 @@
   --media-size-lg: 1023px;
   --media-size-xl: 1200px;
   --media-size-xxl: 1430px;
+  --font-family-text: "Baloo Tamma 2", sans-serif;
 }
 
 ion-content {
@@ -37,5 +38,5 @@ opacity: 0.5;
 text-decoration: none;
 }
 .footerHead {
-  margin: 0 0 10px 0;  
+  margin: 0 0 10px 0;
 }
