@@ -1,0 +1,174 @@
+/* .wrap .grid .secondary .primary .title .body .wrap > .visualDeco .primary > .visualDeco*/
+
+.wrap {
+  height: 680px;
+  position: relative;
+  --slider-width: 70vw;
+}
+
+/* Fix for unsized elements heaving a width of 4000 for some reason */
+.wrap div {
+  height: 100%;
+  width: 100%;
+}
+
+.wrap div:not(.visualDeco) {
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: .6fr 4fr .8fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "Title Title" "Primary Primary" "Secondary Secondary" "SocialLinks SocialLinks";
+}
+
+.grid > div:not(.primary) {
+  padding: 24px;
+}
+
+.titleContainer {
+  grid-area: Title;
+}
+
+.wrap > .grid > .titleContainer > h2.title {
+  font-size: calc(var(--base-spacing)*6);
+}
+
+.socialLinksContainer {
+  grid-area: SocialLinks;
+}
+
+.secondary {
+  grid-area: Secondary;
+  padding-bottom: 0;
+}
+
+.primary {
+  grid-area: Primary;
+  position: relative;
+}
+
+.wrap > .grid > .primary {
+  width: var(--slider-width);
+  margin-left: calc((100vw - var(--slider-width)) / 2);
+}
+
+.visualDeco {
+  position: absolute;
+  background-color: var(--ion-color-secondary);
+  z-index: -1;
+}
+
+.primary > .visualDeco.decoBox {
+  width: 100vw;
+  height: auto;
+  bottom: -20px;
+  top: 0;
+  left: -36vw;
+}
+
+.primary > .visualDeco.decoCircle {
+  --deco-circle-radius: 360px;
+  bottom: -520px;
+  left: calc(100vw - 30vw);
+}
+
+.visualDeco.decoBox {
+  border-radius: 45px;
+}
+
+.visualDeco.decoCircle {
+  border-radius: 50%;
+  width: var(--deco-circle-radius, 20px);
+  height: var(--deco-circle-radius, 20px);
+}
+
+@media (min-width: 540px) {
+
+  .wrap {
+    height: 800px;
+  }
+
+  .primary > .visualDeco.decoCircle {
+    bottom: -450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    height: 1200px;
+  }
+}
+
+
+@media (min-width: 960px) {
+
+  .wrap {
+    height: 800px;
+  }
+
+  .grid {
+    grid-template-rows: .6fr 1fr 1fr 2fr;
+    grid-template-columns: 3fr 7fr;
+    grid-template-areas: "- Primary" "Title Primary" "Secondary Primary" "SocialLinks Primary";
+  }
+
+  .wrap {
+    padding-left: calc(var(--base-spacing)*20);
+    width: 100vw;
+  }
+
+  .wrap > .grid > .primary {
+    width: 42vw;
+    --slider-icon-spacing: 90%;
+    margin-left: 30px;
+    padding: 0 40px;
+    z-index: 0;
+  }
+
+  .grid > div:not(.primary) {
+    padding: 0 24px 0 24px;
+  }
+
+  .wrap div:not(.visualDeco) {
+    z-index: 1;
+  }
+
+  .wrap > .grid > .titleContainer > h2.title {
+    font-size: calc(var(--base-spacing)*10);
+  }
+
+  .wrap > .grid > .socialLinksContainer > h3.title {
+    font-size: calc(var(--base-spacing)*4);
+  }
+
+  .socialLinksContainer {
+     --social-icon-size: 50px;
+  }
+
+  .primary > .visualDeco.decoBox {
+    width: auto;
+    height: auto;
+    bottom: 70px;
+    top: 200px;
+    left: -27px;
+    right: -150px;
+  }
+
+  .primary > .visualDeco.decoCircle {
+    top: -12vw;
+    left: calc(100% + 240px);
+  }
+}
+
+@media (min-width: 1330px) {
+  .wrap > .grid > .socialLinksContainer a {
+    margin: calc(var(--base-spacing)*4);
+  }
+
+  .wrap {
+    margin-top: 5%;
+  }
+}

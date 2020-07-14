@@ -23,7 +23,7 @@
   position: absolute;
   top: calc(var(--base-spacing) * 3);
   background: var(--color-primary);
-  width: 400px;
+  width: 800px;
   height: 400px;
   border-radius: calc(var(--base-spacing) * 5);
 }
@@ -154,6 +154,10 @@
     margin-top: 180px;
   }
 
+  .visualSide {
+    left: 80%;
+  }
+
   [alt="Aktion #wirfüreuch"] {
     height: 50px !important;
   }
@@ -175,7 +179,6 @@
   .visualDeco {
     position: absolute;
     top: calc(var(--base-spacing) * 5 * -1);
-    width: 700px;
     height: 600px;
     border-radius: calc(var(--base-spacing) * 5);
   }

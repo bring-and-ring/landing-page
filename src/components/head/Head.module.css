@@ -1,6 +1,10 @@
+:root {
+  --head-circle-size: 340px
+}
+
 .head {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   padding: calc(var(--base-spacing) * 2) calc(var(--base-spacing) * 3);
@@ -10,10 +14,10 @@
   position: absolute;
   background: var(--ion-color-secondary);
   border-radius: 50%;
-  top: -70%;
-  width: 120px;
-  height: 120px;
-  left: -41%;
+  top: -128%;
+  width: 155px;
+  height: 155px;
+  left: -110%;
   /*display: none;*/
 }
 
@@ -30,9 +34,10 @@
   }
   .headCircle {
     display: block;
-    width: 250px;
-    height: 250px;
-    left: -70%;
+    width: var(--head-circle-size);
+    height: var(--head-circle-size);
+    left: calc(var(--head-circle-size) / -2);
+    top: calc(var(--head-circle-size) / -2);
   }
   .headLogo {
     width: 50px;

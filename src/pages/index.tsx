@@ -5,12 +5,12 @@ import { HubspotForm } from '../components/hubspot-form/HubspotForm'
 import Page from '../components/Page'
 import appDescriptionData from '../content/home/sections/app-description.yaml'
 import entryData from '../content/home/sections/entry.yaml'
-import instaData from '../content/home/sections/insta.yaml'
+import SocialMediaData from '../content/home/sections/social-media.yaml'
 import ourMission from '../content/home/sections/our-mission.yaml'
 import knownFrom from '../content/home/sections/known-from.yaml'
 import ourTeam from '../content/home/sections/our-team.yaml'
 import IndexLayout from '../layouts'
-import { Entry, OurMission, OurTeam } from '../sections'
+import { Entry, OurMission, SocialMedia } from '../sections'
 import AppDescription from '../sections/app-description/AppDescription'
 
 const IndexPage = () => {
@@ -35,6 +35,7 @@ const IndexPage = () => {
         <div ref={$second}>
           <AppDescription {...appDescriptionData} btnProps={{ onclick: onClickShowForm }} />
         </div>
+        <SocialMedia {...SocialMediaData} />
         <OurMission {...ourMission} />
         <HubspotForm onClose={onClickHideForm} visible={formVisible} />
         <Footer btnProps={{ onclick: onClickShowForm }} />
