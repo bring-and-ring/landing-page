@@ -1,4 +1,5 @@
 .icon {
+  font-size: var(--social-icon-size, 32px);
 }
 
 .link {

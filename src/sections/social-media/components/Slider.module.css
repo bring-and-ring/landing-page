@@ -1,0 +1,44 @@
+/* .wrap .slider .slide .slide > figure .slider .iconLeft .iconRight .icon */
+
+.wrap {
+  --icon-size: 40px;
+  height: 100%;
+  position: relative;
+}
+
+/* Fix for unsized elements heaving a width of 4000 for some reason */
+.wrap div {
+  height: 100%;
+  width: 100%;
+}
+
+.slider {
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide {
+
+}
+
+.slide > figure > img {
+  width: var(--slider-width);
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: absolute;
+  bottom: calc(50% - (var(--icon-size) / 2));
+  cursor: pointer;
+  z-index: 1;
+}
+
+.iconLeft {
+  left: calc(var(--slider-icon-spacing, 50%) - var(--icon-size) - var(--slider-width)/2);
+}
+
+.iconRight {
+  right: calc(var(--slider-icon-spacing, 50%) - var(--icon-size) - var(--slider-width)/2);
+}

@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1px 1px;
-    width: 326px;
+    width: 400px;
     height: 200px;
     grid-gap: 12px
   }
