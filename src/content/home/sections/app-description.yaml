@@ -1,6 +1,7 @@
 ---
-title: Wir vernetzen Nachbarn!
-btnText: Bestellung jetzt aufgeben
+title: Einkauf zum Zweikauf machen!
+body: 'Einfach die App runterladen, anmelden, Gleichgesinnte finden und Corona im Alltag bekämpfen. Entweder selbst bestellen oder ein offenes Gesuch annehmen. Kostenlos, bis auf ein kleines Trinkgeld!'
+btnText: Jetzt Bestellung aufgeben
 faqText: zu den FAQs
 slides:
   - src: /slides/slide1.json

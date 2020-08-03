@@ -10,13 +10,13 @@ export type SozialProps = {
 const Sozial: React.FC<SozialProps> = ({ color }) => (
   <div className={styles.sozialLinks}>
     <a href="https://www.instagram.com/bringandring/" className={styles.link}>
-      <IonIcon className={styles.icon} color={color} icon={logoInstagram} size="large" />
+      <IonIcon className={styles.icon} color={color} icon={logoInstagram} />
     </a>
     <a href="https://www.facebook.com/BringandRing-104577077864229" className={styles.link}>
-      <IonIcon className={styles.icon} color={color} icon={logoFacebook} size="large" />
+      <IonIcon className={styles.icon} color={color} icon={logoFacebook} />
     </a>
     <a href="https://www.linkedin.com/company/bring-ring" className={styles.link}>
-      <IonIcon className={styles.icon} color={color} icon={logoLinkedin} size="large" />
+      <IonIcon className={styles.icon} color={color} icon={logoLinkedin} />
     </a>
   </div>
 )
