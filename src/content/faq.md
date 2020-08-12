@@ -9,7 +9,7 @@ Bring&Ring bringt Helfer und Hilfesuchende zusammen gerade in Zeiten von Corona 
 
 ##Ist Bring&Ring noch eine weitere Nachbarschaftsplattform?
 
-Nein, Bring&Ring kann bestehende Netzwerke ergänzen und ermöglicht kontaktloses Einkaufen für Risikogruppen inklusive der gesamten Organisation und Abwicklung der Bestellvorgänge. Sie soll ein Tool für Organisationen und Privatleute sein, um Einkaufshilfe leichter zu koordinieren. Einerseits ist Bring&Ring eine App, andererseits eine Community und Solidaritätskampagne, um zur Bekämpfung des Corona-Virus sicher füreinander da zu sein. 
+Nein, Bring&Ring kann bestehende Netzwerke ergänzen und ermöglicht kontaktloses Einkaufen für Risikogruppen inklusive der gesamten Organisation und Abwicklung der Bestellvorgänge. Sie soll ein Tool für Organisationen und Privatleute sein, um Einkaufshilfe leichter zu koordinieren. Einerseits ist Bring&Ring eine App, andererseits eine Community und Solidaritätskampagne, um zur Bekämpfung des Corona-Virus sicher füreinander da zu sein.
 
 ##Wer ist Bringer, wer ist Ringer?
 
@@ -18,6 +18,10 @@ Freiwillige, die spontan einen Einkauf oder einen Gang zu Apotheken übernehmen,
 ##Wer ist die Zielgruppe der Ringer?
 
 Grundsätzlich kann jeder einen Einkaufszettel aufgeben, der selbst gerade nicht aus dem Haus kann oder sollte. Jeder zusammengelegte Einkauf schützt den Einzelnen, vermeidet Kontakte und entlastet Supermärkte und unser System. Dennoch richtet sich Bring&Ring primär an Risikogruppen, Alleinerziehende, Corona-Infizierte oder Menschen unter Quarantäne, Menschen in systemrelevanten Berufen (z.B. Krankenpflegern), Alleinerziehende und vielen mehr. Wir möchten einen Beitrag zur Corona Krise leisten.
+
+##Was kann die Caretaker-Funktion?
+
+Sie ermöglicht Bestellungen für Verwandte oder Freunde, die nicht in der Nähe wohnen. Mit der Caretaker-Funktion kannst du Gesuche für Dritte in anderen Nachbarschaften aufgeben. Diese Besorgungen können Freiwillige in der Nähe der Hilfesuchenden übernehmen.
 
 ##Was bedeutet spontan helfen?
 
@@ -29,7 +33,7 @@ Die Plattform funktioniert deutschlandweit. Melde dich an und schau nach, wer in
 
 ##Wie läuft die Bezahlung des Einkaufs?
 
-Bring&Ring bietet zu Beginn nur Barzahlung und Paypal-Zahlung. Die App soll um gängige Zahlfunktionen erweitert werden, Kreditkarte, Sepa uvm. 
+Bring&Ring bietet zu Beginn nur Barzahlung und Paypal-Zahlung. Die App soll um gängige Zahlfunktionen erweitert werden, Kreditkarte, Sepa uvm.
 
 ##Wie gebe ich eine Bestellung auf?
 

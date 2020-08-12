@@ -16,6 +16,10 @@ const slideOpts = {
   initialSlide: 0,
   speed: 400
 }
+const slideOptsApp = {
+  initialSlide: 0,
+  speed: 400,
+}
 
 export type AppDescriptionProps = {
   title: string
@@ -28,6 +32,8 @@ export type AppDescriptionProps = {
       alt: string
       title: string
       description: string
+      screen: string
+      screen_alt: string
     }
   ]
   btnProps: HTMLDivElement
@@ -36,6 +42,7 @@ export type AppDescriptionProps = {
 const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, slides, faqText, btnProps }) => {
   const sliderPhone = React.createRef<HTMLIonSlidesElement>()
   const sliderDescription = React.createRef<HTMLIonSlidesElement>()
+  const sliderApp = React.createRef<HTMLIonSlidesElement>();
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let animations: any[] = []
 
@@ -58,13 +65,12 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
     })
   }
 
-  // hotfix for slider not starting on page load
-  // FIX ME
   React.useEffect(() => {
-    setTimeout(() => {
-      sliderPhone.current.update()
-      sliderDescription.current.update()
-    }, 300)
+    setInterval(() => {
+      sliderPhone.current?.update()
+      sliderDescription.current?.update()
+      sliderApp.current?.update();
+    }, 2000)
   }, [])
 
   const onNext = () => {
@@ -74,6 +80,9 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
     if (sliderDescription.current) {
       sliderDescription.current.slideNext()
     }
+    if (sliderApp.current) {
+      sliderApp.current.slideNext();
+    }
   }
   const onPrev = () => {
     if (sliderPhone.current) {
@@ -82,17 +91,29 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
     if (sliderDescription.current) {
       sliderDescription.current.slidePrev()
     }
+    if (sliderApp.current) {
+      sliderApp.current.slidePrev();
+    }
   }
   const phoneSlideChanged = async () => {
-    if (sliderDescription.current && sliderPhone.current) {
+    if (sliderDescription.current && sliderPhone.current && sliderApp.current) {
       sliderDescription.current.slideTo(await sliderPhone.current.getActiveIndex())
+      sliderApp.current.slideTo(await sliderPhone.current.getActiveIndex());
     }
     playAnimations()
   }
 
   const descriptionSlideChanged = async () => {
-    if (sliderPhone.current && sliderDescription.current) {
+    if (sliderPhone.current && sliderDescription.current && sliderApp.current) {
       sliderPhone.current.slideTo(await sliderDescription.current.getActiveIndex())
+      sliderApp.current.slideTo(await sliderDescription.current.getActiveIndex());
+    }
+  }
+
+  const appSlideChanged = async () => {
+    if (sliderPhone.current && sliderDescription.current && sliderApp.current) {
+      sliderDescription.current.slideTo(await sliderApp.current.getActiveIndex())
+      sliderPhone.current.slideTo(await sliderApp.current.getActiveIndex());
     }
   }
 
@@ -122,28 +143,45 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
         </div>
         <div className={styles.contentDeco} />
       </div>
-      <div className={styles.phone}>
+      <div className={`${styles.visualDeco} ${styles.decoBox}`} />
+      <div className={`${styles.visualDeco} ${styles.circle}`} />
+      <div className={styles.screenshots}>
         <Phone>
           <IonContent>
-            <IonSlides options={slideOptsPhone} key="demo-phone" ref={sliderPhone} onIonSlideDidChange={phoneSlideChanged}>
-              {slides.map((slide, index) => {
-                animations = []
-                return (
-                  <IonSlide className={styles.phoneSlide} key={slide.src}>
-                    <div
-                      className={styles.phoneSlide}
-                      ref={(element) => {
-                        if (element) animations[index] = createAnimation(element, slide.src)
-                      }}
-                    />
-                  </IonSlide>
-                )
-              })}
-            </IonSlides>
+            <div className={`${styles.app}`}>
+              <IonSlides pager={false} options={slideOptsApp} ref={sliderApp} onIonSlideDidChange={appSlideChanged}>
+                {slides.map((slide, index) => {
+                  return (
+                    <IonSlide className={styles.appSlide}>
+                      <div className={`${styles.screenContainer} `} >
+                        <img className={`${styles.screen}`} src={slide.screen} alt={slide.screen_alt} />
+                      </div>
+                    </IonSlide>
+                  )
+                })}
+              </IonSlides>
+            </div>
           </IonContent>
         </Phone>
       </div>
       <div className={styles.description}>
+        <div className={styles.phone}>
+          <IonSlides pager={true} options={slideOptsPhone} key="demo-phone" ref={sliderPhone} onIonSlideDidChange={phoneSlideChanged}>
+            {slides.map((slide, index) => {
+              animations = []
+              return (
+                <IonSlide className={styles.phoneSlide} key={slide.src}>
+                  <div
+                    className={styles.phoneSlide}
+                    ref={(element) => {
+                      if (element) animations[index] = createAnimation(element, slide.src)
+                    }}
+                  />
+                </IonSlide>
+              )
+            })}
+          </IonSlides>
+        </div>
         <IonSlides options={slideOpts} key="demo-decription" ref={sliderDescription} onIonSlideDidChange={descriptionSlideChanged}>
           {slides.map((slide) => (
             <IonSlide key={slide.title}>

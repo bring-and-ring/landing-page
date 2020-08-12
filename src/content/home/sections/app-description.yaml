@@ -8,15 +8,23 @@ slides:
     alt: Schritt 1
     title: Schritt 1
     description: '#RingRing Schreib deinen Online-Einkaufszettel und bestelle per App.'
+    screen: /slide_screens/1.png
+    screen_alt: test
   - src: /slides/slide2.json
     alt: Schritt 2
     title: Schritt 2
     description: 'Bestellung angenommen! Ein Nachbar geht eh einkaufen und wird dein #Bringer.'
+    screen: /slide_screens/2.png
+    screen_alt: test
   - src: /slides/slide3.json
     alt: Schritt 3
     title: Schritt 3
     description: 'Der Bringer stellt den Einkauf bei dir ab und klingelt.'
+    screen: /slide_screens/3_4.png
+    screen_alt: test
   - src: /slides/slide4.json
     alt: Schritt 4
     title: Schritt 4
     description: 'Alles da? Bestätige und gib die Zahlung über die App frei. Bedanke dich mit einem kleinen Trinkgeld.'
+    screen: /slide_screens/3_4.png
+    screen_alt: test
