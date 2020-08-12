@@ -3,26 +3,35 @@
 }
 
 .wrap {
+  --deco-circle-radius: 340px;
   background: var(--ion-background-color);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .phone {
   max-width: 300px;
   margin: 0 auto;
   order: 2;
 }
+
+.phone > figure > svg {
+  visibility: hidden;
+}
+
 .content {
   position: relative;
   max-width: 300px;
   margin: 0 auto;
+  margin-bottom: -145px;
 }
 .contentText {
   position: relative;
   z-index: 10;
-  margin-bottom: calc(var(--base-spacing) * 10);
+  /* margin-bottom: calc(var(--base-spacing) * 10); */
 }
 .contentDeco {
+  display: none;
   background: white;
   position: absolute;
   top: calc(var(--base-spacing) * 3);
@@ -43,12 +52,22 @@
 .title {
   font-size: 40px;
   margin-bottom: -12px;
+  text-align: left;
+}
+
+.body {
+  text-align: left;
+}
+
+div[class~="swiper-pagination"] span {
+  width: 12px;
+  height: 12px;
 }
 
 .description {
   max-width: 300px;
   margin: 0 auto;
-  padding: calc(var(--base-spacing) * 10);
+  /* padding: calc(var(--base-spacing) * 10); */
   padding-bottom: 0;
   padding-top: 0;
   margin-bottom: -30px;
@@ -70,14 +89,17 @@
 }
 
 .slider-control {
-  width: calc(100% + 100px);
-  position: relative;
-  top: 30vh;
-  left: -50px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
 
 .alignCenter {
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   text-align: center;
 }
 
@@ -94,8 +116,8 @@
 }
 
 .description ion-slides {
-  height: 33.3vh;
-  max-height: 280px;
+  /* height: 33.3vh; */
+  /* max-height: 280px; */
 }
 
 .halfSpace img {
@@ -103,14 +125,48 @@
   height: 41px;
 }
 
-@media (min-height: 660px) {
+/* @media (min-height: 660px) {
   .slider-control {
-    width: calc(100% + 100px);
     position: relative;
     top: 204px;
     left: -50px;
   }
 
+} */
+
+.visualDeco {
+  position: absolute;
+  background-color: var(--ion-color-secondary);
+  z-index: 0;
+  display: none;
+}
+
+.visualDeco.circle {
+  border-radius: 50%;
+  width: var(--deco-circle-radius, 120px);
+  height: var(--deco-circle-radius, 120px);
+  left: calc(50% - var(--deco-circle-radius,120px)/2);
+  top: calc(var(--deco-circle-radius,120px)/-3);
+}
+
+.visualDeco.decoBox {
+  border-radius: 0 20px 20px 0;
+  width: 38vw;
+  height: 500px;
+  background-color: white;
+}
+.screenshots {
+  display: none;
+}
+.screenContainer {
+  width:100%;
+}
+
+.screenContainer img.screen {
+  height: auto;
+  max-height: inherit;
+  margin-top: 15px;
+  margin-left: 3%;
 }
 
 @media (min-width: 767px) {
@@ -124,10 +180,9 @@
   }
   .description,
   .phone {
-    display: inline-block;
-    width: 50%;
-    vertical-align: middle;
-    margin-top: -50px;
+    display: block;
+    width: 100%;
+    margin-top: -150px;
     order: 0;
   }
   .slider-control {
@@ -146,20 +201,27 @@
     max-width: 100%;
     height: auto;
   }
-
+  .slider-control {
+    transform: translateY(-20px);
+  }
 }
 
 @media (min-width: 1023px) {
+  .screenshots {
+    display: inherit;
+  }
   .wrap {
     display: grid;
     padding: calc(var(--base-spacing) * 5) calc(var(--base-spacing) * 15);
-    grid-template-columns: 1.5fr 1.5fr 0.8fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: calc(var(--base-spacing) * 5);
     background: var(--ion-background-color);
     align-items: center;
+    margin-top: 60px;
   }
   .content {
     margin: 0;
+    margin-left: -5%;
   }
   .contentDeco {
     height: 100%;
@@ -172,13 +234,34 @@
     padding: 0;
     display: block;
     width: 100%;
-    margin: 0px;
+    margin-top: -100px;
+  }
+  div[class~="swiper-pagination"] span {
+    display: none;
+  }
+  .visualDeco {
+    display: block;
+  }
+  .slider-control {
+    transform: translateY(-440px);
   }
 }
-
-@media (min-width: 1023px) {
+@media (min-width: 1500px) {
   .wrap {
-    padding: calc(var(--base-spacing) * 5) calc(var(--base-spacing) * 15);
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.25fr 1fr 1.25fr;
+    margin-top: 0;
+  }
+  .circle {
+    --deco-circle-radius: 470px;
+  }
+  .description {
+    max-width: 450px;
+  }
+  .description,
+  .phone {
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin-top: -150px;
   }
 }

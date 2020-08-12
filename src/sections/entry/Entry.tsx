@@ -67,6 +67,7 @@ export const Entry: React.FC<EntryProps> = ({
             <KnownFrom {...knownFrom} />
           </div>
         </div>
+<<<<<<< Updated upstream
         <div className={styles.visual}>
           <div className={styles.visualDeco} />
           <div className={styles.visualSide}>
@@ -75,6 +76,20 @@ export const Entry: React.FC<EntryProps> = ({
           <div className={styles.visualMain}>
             <MainImage />
           </div>
+=======
+        <div className={styles.visualKnownFrom}>
+          <KnownFrom {...knownFrom} />
+        </div>
+      </div>
+      <div className={styles.visual}>
+        <div className={styles.visualDeco} />
+        <div className={styles.visualBanner} />
+        <div className={styles.visualSide}>
+          <SideImage />
+        </div>
+        <div className={styles.visualMain}>
+          <MainImage />
+>>>>>>> Stashed changes
         </div>
         <div className={styles.sponsors}>
           {sponsors.length >= 1 && (
