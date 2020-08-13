@@ -67,18 +67,14 @@ export const Entry: React.FC<EntryProps> = ({
             <KnownFrom {...knownFrom} />
           </div>
         </div>
-        <div className={styles.visualKnownFrom}>
-          <KnownFrom {...knownFrom} />
-        </div>
-      </div>
-      <div className={styles.visual}>
-        <div className={styles.visualDeco} />
-        <div className={styles.visualBanner} />
-        <div className={styles.visualSide}>
-          <SideImage />
-        </div>
-        <div className={styles.visualMain}>
-          <MainImage />
+        <div className={styles.visual}>
+          <div className={styles.visualDeco} />
+          <div className={styles.visualSide}>
+            <SideImage />
+          </div>
+          <div className={styles.visualMain}>
+            <MainImage />
+          </div>
         </div>
         <div className={styles.sponsors}>
           {sponsors.length >= 1 && (
