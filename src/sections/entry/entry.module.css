@@ -161,6 +161,10 @@
   [alt="Aktion #wirfüreuch"] {
     height: 50px !important;
   }
+
+  .halfSpace {
+    text-align: left;
+  }
 }
 @media (min-width: 1200px) {
   .wrap {
