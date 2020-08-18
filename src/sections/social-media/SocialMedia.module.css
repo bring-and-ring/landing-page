@@ -159,7 +159,7 @@
 
   .primary > .visualDeco.decoCircle {
     top: -12vw;
-    left: calc(100% + 240px);
+    left: calc(100% + 160px);
   }
 }
 
