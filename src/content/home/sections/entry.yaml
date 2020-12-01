@@ -1,22 +1,8 @@
 ---
 title: Einkaufshilfe in Corona-Hotspots.
-slug: Spontan. Bargeldlos. Sicher.
-body: 'Du kannst freiwillige Einkaufshilfe gebrauchen? Oder gehst gerade einkaufen und kannst jemandem was mitbringen? Unsere App vernetzt Nachbarn in Corona-Hotspots, verringert Ansteckungsrisiken und erleichtert das Einkaufen füreinander. Dank der Kraft der Community!'
-btnText: Jetzt App downloaden und bestellen
-#linkText: mehr erfahren
-#sponsorsTitle: 'Bekannt aus:'
-#sponsors:
-#   - src: https://i.ibb.co/YX9Wffc/stroer.png
-#     alt: stroer
-#   - src: https://i.ibb.co/fDssVDb/jung-v-matt.png
-#     alt: jung-v-matt
-#   - src: https://i.ibb.co/cXV07fJ/heimat.png
-#     alt: heimat
-#   - src: https://i.ibb.co/z2W1KqM/fischer-appelt.png
-#     alt: fischer-appelt
-#   - src: https://i.ibb.co/hY3cZzY/knodel.png
-#     alt: knodel
-#   - src: https://i.ibb.co/xDStVsB/flix-mobility.png
-#     alt: flix-mobility
-#   - src: https://i.ibb.co/85jfsLd/arvantis.png
-#     alt: arvantis
+slug: Einkauf zum Zweikauf machen
+#body: 'Du kannst freiwillige Einkaufshilfe gebrauchen? Oder gehst gerade einkaufen und kannst jemandem was mitbringen? Unsere App vernetzt Nachbarn in Corona-Hotspots, verringert Ansteckungsrisiken und erleichtert das Einkaufen füreinander. Dank der Kraft der Community!'
+body: 'Die kostenlose App vernetzt Nachbarn in Corona-Hotspots, verringert Ansteckungsrisiken und erleichtert Einkaufen füreinander. Jetzt selbst bestellen oder für ein kleines Trinkgeld jemandem etwas mitbringen.'
+btnText: |
+  Du willst helfen oder brauchst Hilfe?
+  Melde dich unkompliziert an und nutze unsere App.

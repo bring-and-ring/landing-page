@@ -44,7 +44,7 @@ export const OurMission: React.FC<Props> = ({ left, right }) => {
           <Typography color="primary" size="h1">
             {left.title}
           </Typography>
-          <Typography color="primary" size="h5">
+          <Typography color="primary" size="p">
             {left.subTitle}
           </Typography>
           <Typography size="p">{left.body}</Typography>

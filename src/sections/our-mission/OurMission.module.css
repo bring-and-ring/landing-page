@@ -29,10 +29,15 @@
   }
 }
 
+h5 {
+  color: #324e4d;
+}
+
 /* LEFT SECTION */
 
 .gridItemLeft {
   justify-self: center;
+  margin-top: -40px;
 }
 
 .left {
@@ -106,6 +111,7 @@
 
 .gridItemRight {
   justify-self: center;
+  margin-top: 40px;
 }
 
 .right {

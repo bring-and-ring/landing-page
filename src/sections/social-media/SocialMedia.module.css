@@ -69,6 +69,10 @@
   left: -36vw;
 }
 
+.title {
+  color: #324e4d;
+}
+
 .primary > .visualDeco.decoCircle {
   --deco-circle-radius: 360px;
   bottom: -520px;
@@ -166,6 +170,10 @@
 @media (min-width: 1330px) {
   .wrap > .grid > .socialLinksContainer a {
     margin: calc(var(--base-spacing)*4);
+  }
+
+  .wrap > .grid > .socialLinksContainer a:first-of-type {
+    margin-left: 0;
   }
 
   .wrap {

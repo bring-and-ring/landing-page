@@ -4,7 +4,7 @@ subTitle: '#ichgeheh'
 body: 'Gemeinsam mit Influencern und Prominenten zeigen wir Solidarität und unterstützen einander in der Corona-Krise.'
 slider:
   images:
-    - src: /story/insta-slide-3.jpg
-      alt: 'Instagram Bild'
     - src: /story/insta-slide-4.jpg
+      alt: 'Instagram Bild'
+    - src: /story/insta-slide-3.jpg
       alt: 'Instagram Bild'

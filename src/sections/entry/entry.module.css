@@ -11,12 +11,14 @@
   padding: calc(var(--base-spacing) * 8) calc(var(--base-spacing) * 3) calc(var(--base-spacing) * 3);
   max-width: 300px;
   margin: 0 auto;
+  margin-left: 30px;
 }
 
 .visual,
 .content {
   max-width: 300px;
   margin: 0 auto;
+  margin-left: 30px;
 }
 
 .visualDeco {
@@ -38,6 +40,14 @@
   font-size: calc(var(--base-spacing)*5) !important;
 }
 
+.buttonText {
+  color: #324e4d;
+}
+
+.buttonText {
+  max-width: 490px;
+}
+
 .body {
   margin-bottom: calc(var(--base-spacing) * 4);
 }
@@ -57,7 +67,7 @@
 
 .halfSpace {
   width: 48%;
-  display: inline-block;
+  display: block;
   text-align: center;
   padding-right: 2%;
 }
@@ -95,7 +105,7 @@
 @media (min-width: 767px) {
   .wrap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     padding: 0 calc(var(--base-spacing) * 10);
     max-width: 1800px;
     min-height: 700px;
@@ -128,6 +138,9 @@
   .content h1 {
     font-size: calc(var(--base-spacing)*8) !important;
   }
+  .halfSpace {
+    display: inline-block;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -144,6 +157,7 @@
   }
   .content {
     margin: 0;
+    margin-left: 90px;
   }
   [alt="#allefüralle"] {
     height: 150px !important;
@@ -212,7 +226,7 @@
     top: calc(var(--base-spacing) * 5 * -1);
     width: 800px;
     height: 700px;
-    border-radius: calc(var(--base-spacing) * 5);
+    border-radius: calc(var(--base-spacing)*10);
   }
 
   .visual {

@@ -2,6 +2,11 @@
   min-width: 400px;
 }
 
+.app {
+  height: 800px;
+  width: 470px;
+}
+
 .wrap {
   --deco-circle-radius: 340px;
   background: var(--ion-background-color);
@@ -54,10 +59,12 @@
   font-size: 40px;
   margin-bottom: -12px;
   text-align: left;
+  color: #324e4d;
 }
 
 .body {
   text-align: left;
+  color: #324e4d;
 }
 
 div[class~="swiper-pagination"] span {
@@ -147,12 +154,12 @@ div[class~="swiper-pagination"] span {
   width: var(--deco-circle-radius, 120px);
   height: var(--deco-circle-radius, 120px);
   left: calc(50% - var(--deco-circle-radius,120px)/2);
-  top: calc(var(--deco-circle-radius,120px)/-3);
+  top: calc(var(--deco-circle-radius,120px)/-5);
 }
 
 .visualDeco.decoBox {
   border-radius: 0 20px 20px 0;
-  width: 38vw;
+  width: 41vw;
   height: 500px;
   background-color: white;
 }
@@ -216,14 +223,15 @@ div[class~="swiper-pagination"] span {
     display: grid;
     padding: calc(var(--base-spacing) * 5) calc(var(--base-spacing) * 15);
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: calc(var(--base-spacing) * 5);
+    /*column-gap: calc(var(--base-spacing) * 5);*/
     background: var(--ion-background-color);
     align-items: center;
     margin-top: 60px;
   }
   .content {
     margin: 0;
-    margin-left: -5%;
+    margin-right: -8px;
+    margin-left: 55px;
   }
   .contentDeco {
     height: 100%;
@@ -250,7 +258,7 @@ div[class~="swiper-pagination"] span {
 }
 @media (min-width: 1500px) {
   .wrap {
-    grid-template-columns: 1.25fr 1fr 1.25fr;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
     margin-top: 0;
   }
   .circle {
@@ -265,5 +273,12 @@ div[class~="swiper-pagination"] span {
     display: block;
     width: 100%;
     margin-top: -150px;
+  }
+}
+
+@media (min-width: 2400px) {
+  .screenContainer img.screen {
+    max-width: 95%;
+    margin-left: 0;
   }
 }

@@ -18,7 +18,7 @@ export const KnownFrom: React.FC<KnownFromProps> = ({ content }) => {
       {/* <Typography className={styles.title} color="primary" size="h1">
         {content.title}
       </Typography> */}
-      <Typography size="h5">{content.title}</Typography>
+      <Typography className={`${styles.title}`} size="h5">{content.title}</Typography>
       <div className={styles.grid}>
         {content.logos.map((logo: any) => (
           <div key={logo.src} className={styles.gridItem}>

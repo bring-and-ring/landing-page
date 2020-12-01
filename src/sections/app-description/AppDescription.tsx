@@ -146,23 +146,21 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
       <div className={`${styles.visualDeco} ${styles.decoBox}`} />
       <div className={`${styles.visualDeco} ${styles.circle}`} />
       <div className={styles.screenshots}>
-        <Phone>
-          <IonContent>
-            <div className={`${styles.app}`}>
-              <IonSlides pager={false} options={slideOptsApp} ref={sliderApp} onIonSlideDidChange={appSlideChanged}>
-                {slides.map((slide, index) => {
-                  return (
-                    <IonSlide className={styles.appSlide}>
-                      <div className={`${styles.screenContainer} `} >
-                        <img className={`${styles.screen}`} src={slide.screen} alt={slide.screen_alt} />
-                      </div>
-                    </IonSlide>
-                  )
-                })}
-              </IonSlides>
-            </div>
-          </IonContent>
-        </Phone>
+        <div>
+          <div className={`${styles.app}`}>
+            <IonSlides pager={false} options={slideOptsApp} ref={sliderApp} onIonSlideDidChange={appSlideChanged}>
+              {slides.map((slide, index) => {
+                return (
+                  <IonSlide className={styles.appSlide}>
+                    <div className={`${styles.screenContainer} `} >
+                      <img className={`${styles.screen}`} src={slide.screen} alt={slide.screen_alt} />
+                    </div>
+                  </IonSlide>
+                )
+              })}
+            </IonSlides>
+          </div>
+        </div>
       </div>
       <div className={styles.description}>
         <div className={styles.phone}>
@@ -192,10 +190,6 @@ const AppDescription: React.FC<AppDescriptionProps> = ({ title, body, btnText, s
                 <Typography className={styles.body} size="p">
                   {slide.description}
                 </Typography>
-                <br />
-                <a className={styles.faqLink} href="/faq">
-                  {faqText}
-                </a>
               </div>
             </IonSlide>
           ))}

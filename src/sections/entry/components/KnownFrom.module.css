@@ -3,10 +3,15 @@
   display:none;
 }
 
+.title {
+  color: #324e4d;
+}
+
 @media (min-width: 1024px) {
   .container {
     display: block;
     margin-top: 80px;
+    margin-left: -90px;
   }
 
   .grid {
@@ -14,12 +19,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1px 1px;
-    width: 680px;
+    width: 520px;
     height: 200px;
     grid-gap: 12px
   }
 
   .gridItem {
     align-self: center;
+  }
+}
+
+@media (min-width: 1760px) {
+  .grid {
+    width: 650px;
   }
 }
